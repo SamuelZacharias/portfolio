@@ -1,0 +1,92 @@
+$toxicgreen: #39FF14;
+$purple: #9747FF;
+$dark: #141D2F;
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    display: flex;
+    background-color: $dark;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+    height: 109.03px;
+    padding: 0px 100px;
+
+    .hero {
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+        width: 150px;
+        font-size: 34px;
+        color: white; // Grundfarbe für den gesamten Text
+        position: relative;
+        max-width: 1440px;
+    
+        &::first-letter {
+            color: $toxicgreen; // Färbt den ersten Buchstaben in grün
+            position: relative;
+            z-index: 1;
+        }
+    
+        &::before {
+            content: 'S'; // Der erste Buchstabe
+            position: absolute;
+            top: 0;
+            left: 0;
+            color: white; // Rechte Hälfte in Weiß
+            width: 50%;
+            clip-path: inset(0 0 0 50%); // Überdeckt nur die rechte Hälfte
+            z-index: 2;
+        }
+    }
+    
+
+    .menu {
+        display: flex;
+        gap: 29px;
+        align-items: center;
+        width: 326px;
+        height: 32px;
+        color: white;
+        margin-left: 300px;
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+            font-size: 23px;
+            line-height: 27.6px;
+            font-weight: 400;
+            position: relative;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            &:hover {
+                color: $toxicgreen;
+            }
+
+            &.active {
+                color: $toxicgreen;
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    bottom: -3px;
+                    left: -2px;
+                    width: 53px;
+                    height: 3px;
+                    background-color: $purple;
+                    border-top-right-radius: 2px;
+                    border-bottom-right-radius: 2px;
+                }
+            }
+        }
+    }
+}
+
+a {
+    text-decoration: none;
+}

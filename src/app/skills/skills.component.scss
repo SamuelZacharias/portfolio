@@ -1,0 +1,215 @@
+@import '../../styles.scss';
+
+.my-skills {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    gap: 105px;
+    background-color: $dark;
+    height: 60vh;
+}
+
+.section {
+    position: relative;
+    padding-top: 120px;
+    margin-top: -120px;
+}
+
+.headline-my-skills {
+    width: 495px;
+    height: 108px;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 108px;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    color: white;
+    margin-left: 80px;
+}
+
+.line-in-skills {
+    width: 68px;
+    height: 4px;
+    background-color: $purple;
+}
+
+.icon-skills {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 664px;
+    height: 404px;
+    gap: 20px;
+    margin-left: 67px;
+    margin-right: 44px;
+    color: white;
+    justify-items: center;
+}
+
+.icons {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 88px;
+    height: 101px;
+    padding-top: 12px;
+    color: white;
+
+    img {
+        width: auto;
+        height: 60px;
+        margin-bottom: 10px;
+        transition: transform 0.125s ease;
+    }
+
+    // Normaler Hover-Effekt für alle Icons außer der `.continually-learning`-Div
+    &:not(.continually-learning):hover img {
+        transform: translateY(-10px);
+    }
+
+    &.continually-learning {
+        color: $purple; // Standardfarbe des Textes
+
+        // Textfarbe bei Hover in Weiß ändern
+        &:hover {
+            color: white;
+        }
+
+        .main-icon {
+            transition: opacity 0.125s ease;
+        }
+
+        .overlay-icon {
+            position: absolute;
+            top: -107px; // Passt die vertikale Position des Overlay-Icons an
+            left: 0px; // Passt die horizontale Position des Overlay-Icons an
+            opacity: 0;
+            width: 188px;
+            height: auto;
+            transition: opacity 0.125s ease;
+            pointer-events: none; // Verhindert, dass das Overlay-Icon Hover-Ereignisse auslöst
+        }
+
+        &:hover .main-icon {
+            content: url('../../assets/icons/property.png'); // Haupticon ändert sich bei Hover
+        }
+
+        &:hover .overlay-icon {
+            opacity: 1; // Overlay-Icon wird sichtbar bei Hover
+        }
+    }
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    border-radius: 10px;
+    border-width: 0px;
+    height: 58px;
+    background-color: $neongreen;
+    margin: 0;
+    padding: 0;
+    transition: transform 125ms ease, background-color 125ms ease;
+    color: white;
+    margin-top: 20px;
+    transform-origin: top right; // Ursprung für Transformation festlegen
+
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.1); // Vergrößert den Button um 10% nach unten und links
+        background-color: $purple;
+    }
+}
+
+
+
+.button-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 162px;
+    height: 28px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 27.6px;
+    color: white;
+}
+
+.text-skills {
+    width: 571px;
+}
+
+.under-text-skills {
+    display: flex;
+    flex-direction: column;
+    width: 471px;
+    height: 252px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    margin-right: 100px;
+}
+
+.first-under-text-skills {
+    margin-bottom: 24px;
+    width: 471px;
+    text-align: right;
+}
+
+.second-under-text-skills {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38.4px;
+    margin-bottom: 16px;
+}
+
+.third-under-text-skills {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    text-align: right;
+}
+
+.highlight {
+    color: $purple;
+}
+
+.under-text-skills-smaller {
+    align-self: flex-end;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 410px;
+    gap: 16px;
+}
+
+.my-skills-icons {
+    display: flex;
+    gap: 20px;
+
+    img {
+        transition: transform 0.125s ease;
+
+        &:hover {
+            transform: translateY(-10px);
+        }
+    }
+}

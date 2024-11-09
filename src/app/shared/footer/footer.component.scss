@@ -1,0 +1,106 @@
+$toxicgreen: #39FF14;
+$purple: #9747FF;
+$dark: #141D2F;
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 4px solid $toxicgreen;
+    width: 1440px;
+    height: 291px;
+}
+
+.hero {
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    width: 216px;
+    height: 40.14px;
+    font-size: 40.14px;
+    color: white;
+    position: relative;
+    max-width: 1440px;
+    margin-left: 100px;
+    margin-bottom: 12px;
+    &::first-letter {
+        color: $toxicgreen;
+        position: relative;
+        z-index: 1;
+    }
+}
+
+.brand {
+    width: auto;
+    height: 28px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 27.6px;
+    color: white;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 174px;
+    height: 40px;
+    margin-right: 100px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.2s ease;
+    transform-origin: top left;
+
+    &:hover {
+        transform: scale(1.4, 1.4);
+    }
+}
+
+.legal {
+    width: 98px;
+    height: 19px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    margin-left: 100px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.legal a {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    cursor: default;
+
+    &::after {
+        content: "";
+        position: absolute;
+        left: -1px;
+        bottom: -2px;
+        width: 57px;
+        height: 2px;
+        background-color: $toxicgreen;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+
+    &:hover::after {
+        opacity: 1;
+    }
+}
+
+.links a{
+    cursor: default;
+}
+
+

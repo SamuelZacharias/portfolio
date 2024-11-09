@@ -1,0 +1,9 @@
+<div class="header">
+    <a href="#"><div class="hero">Samuel</div></a>
+    <div class="menu">
+      <a href="#about" (click)="setActive('about')" [ngClass]="{'active': activeSection === 'about'}">About me</a>
+      <a href="#skills" (click)="setActive('skills')" [ngClass]="{'active': activeSection === 'skills'}">Skills</a>
+      <a href="#portfolio" (click)="setActive('portfolio')" [ngClass]="{'active': activeSection === 'portfolio'}">Portfolio</a>
+    </div>
+  </div>
+  

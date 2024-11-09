@@ -1,0 +1,268 @@
+@import '../../styles.scss';
+
+.contact {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    height: 90vh;
+
+    .position-headline {
+        width: 943px;
+        height: 108px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        margin-bottom: 40px;
+
+        .contact-line {
+            height: 4px;
+            width: 535px;
+            background-color: $purple;
+            margin-right: 32px;
+        }
+
+        .contact-headline {
+            font-size: 90px;
+            font-weight: 700;
+            line-height: 108px;
+        }
+    }
+
+    .under-headline-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 32px;
+        padding: 0 24px;
+
+        .under-headline {
+            display: flex;
+            flex-direction: column;
+            width: 474px;
+            height: 154px;
+            margin-left: 100px;
+
+            .position-under-headline {
+                .problem {
+                    width: 474px;
+                    height: 38px;
+                    font-weight: 700;
+                    font-size: 32px;
+                    line-height: 38.4px;
+                    margin-bottom: 16px;
+                }
+
+                div {
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .under-problem {
+            margin-bottom: 12px;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 16px;
+            width: 595px;
+            margin: auto;
+
+            .name,
+            .email,
+            .message {
+                position: relative;
+
+                input,
+                textarea {
+                    width: 595px;
+                    height: 40px;
+                    border: 1px solid $purple;
+                    border-radius: 10px;
+                    padding: 10px;
+                    background-color: $dark;
+                    color: white;
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19.2px;
+                    transition: border-color 0.125s ease;
+
+                    &::placeholder {
+                        color: white;
+                        opacity: 1;
+                        font-family: 'Poppins', sans-serif;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 19.2px;
+                    }
+
+                    &:hover {
+                        border-color: $toxicgreen;
+                        cursor: pointer;
+                    }
+
+                    &:focus {
+                        border-color: $toxicgreen;
+                        outline: none;
+                    }
+                }
+
+                .valid-icon {
+                    position: absolute;
+                    top: 10px;
+                    right: 10px;
+                    width: 18px;
+                    height: 18px;
+                    display: inline;
+                }
+
+                .ng-invalid.ng-touched {
+                    border-color: $red !important;
+                }
+
+                textarea {
+                    height: 180px;
+                    resize: both;
+                }
+            }
+
+            .error {
+                color: $red;
+                font-size: 14px;
+                margin-top: 5px;
+            }
+
+            .consent-container {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                width: 100%;
+                gap: 4px;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 16.8px;
+                margin-bottom: 20px;
+                margin-right: 24px;
+
+                .checkbox-label {
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+
+                    input[type="checkbox"] {
+                        appearance: none;
+                        width: 18px;
+                        height: 18px;
+                        border: 2px solid $toxicgreen;
+                        background-color: transparent;
+                        cursor: pointer;
+                        position: relative;
+
+                        &:checked {
+                            background-color: $dark;
+                        }
+
+                        &:checked::after {
+                            content: '';
+                            position: absolute;
+                            top: -1.5px;
+                            left: 4px;
+                            width: 4px;
+                            height: 10px;
+                            border: solid $toxicgreen;
+                            border-width: 0 2px 2px 0;
+                            transform: rotate(45deg);
+                        }
+                    }
+
+                    label {
+                        color: white;
+                        font-size: 14px;
+                        line-height: 16.8px;
+                    }
+
+                    a {
+                        color: $purple;
+                        text-decoration: none;
+                    }
+                }
+
+                .error {
+                    margin-top: 0;
+                    font-size: 14px;
+                    color: $red;
+                }
+            }
+
+            button#submitButton {
+                width: 253px;
+                height: 58px;
+                background-color: $gray;
+                border: none;
+                border-radius: 10px;
+                color: white;
+                font-weight: 700;
+                font-size: 16px;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                line-height: 27.6px;
+                font-size: 23px;
+                font-weight: 400;
+                font-family: 'Poppins', sans-serif;
+                cursor: not-allowed;
+                transition: background-color 0.125s ease;
+
+                &.active {
+                    background-color: $toxicgreen;
+                    cursor: pointer;
+
+                    &:hover {
+                        background-color: $purple;
+                        transform: scale(1.15, 1.11);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.arrow-up {
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    left: 1522px;
+    top: 5326px;
+
+    img {
+        width: 39px;
+        height: 39px;
+        transition: opacity 0.125s ease;
+
+        &:hover {
+            cursor: pointer;
+            content: url('../../assets/icons/arrow_up_green.png');
+        }
+    }
+}
+
+.contact-form .name input,
+.contact-form .email input,
+.contact-form .message input {
+    height: 28px !important;
+    width: 595px !important;
+}
+
+.contact-form .valid-icon {
+    margin-top: 1px;
+    margin-right: 12px;
+    width: 25px !important;
+    height: 25px !important;
+}
+
+.valid-border {
+    border-color: $toxicgreen !important;
+}
