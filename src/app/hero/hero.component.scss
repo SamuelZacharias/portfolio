@@ -208,18 +208,18 @@ button {
 .icons {
     display: inline-flex;
     align-items: center;
-    transition: width 0.3s ease; /* Übergang für die Breite */
+    transition: width 0.125s ease;
 }
 
 .icons img {
-    width: 32px; /* Standardbreite */
-    height: 32px; /* Standardhöhe */
-    transition: transform 0.3s ease;
+    width: 32px;
+    height: 32px;
+    transition: transform 0.125s ease;
     transform-origin: left center;
 }
 
 .icons:hover img {
-    transform: scale(1.2); /* Vergrößert das Icon nach rechts */
+    transform: scale(1.4);
 }
 
 

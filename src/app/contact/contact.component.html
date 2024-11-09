@@ -1,4 +1,4 @@
-<div class="contact">
+<div class="contact" id="contact">
     <div class="position-headline">
         <div class="contact-line"></div>
         <div class="contact-headline">Contact</div>
@@ -14,15 +14,11 @@
                 <div>Need a Frontend developer? Contact me!</div>
             </div>
         </div>
-
-        <!-- Formular mit formGroup -->
         <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" class="contact-form">
-            <!-- Name Field -->
             <div class="name">
                 <input type="text" placeholder="Your Name" formControlName="name"
                        [ngClass]="{'valid-border': name?.valid && name?.touched, 'error-border': name?.invalid && name?.touched}"
                        [ngStyle]="{'border-color': name?.invalid && name?.touched ? 'red' : null}">
-                <!-- Zeigt das 'check.png' Bild, wenn das Feld gültig ist, sonst 'error.png' -->
                 <img *ngIf="name?.touched" 
                      [src]="name?.valid ? '../../assets/icons/check.png' : '../../assets/icons/error.png'" 
                      alt="Validation Icon" 
@@ -73,7 +69,6 @@
                     <small>You must agree to the privacy policy.</small>
                 </div>
             </div>
-            <!-- Submit Button -->
             <button id="submitButton" [disabled]="contactForm.invalid" [ngClass]="{'active': contactForm.valid}">
                 Send Message :)
             </button>

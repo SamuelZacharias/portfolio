@@ -19,24 +19,24 @@ $dark: #141D2F;
         font-family: 'Poppins', sans-serif;
         width: 150px;
         font-size: 34px;
-        color: white; // Grundfarbe für den gesamten Text
+        color: white;
         position: relative;
         max-width: 1440px;
     
         &::first-letter {
-            color: $toxicgreen; // Färbt den ersten Buchstaben in grün
+            color: $toxicgreen;
             position: relative;
             z-index: 1;
         }
     
         &::before {
-            content: 'S'; // Der erste Buchstabe
+            content: 'S';
             position: absolute;
             top: 0;
             left: 0;
-            color: white; // Rechte Hälfte in Weiß
+            color: white;
             width: 50%;
-            clip-path: inset(0 0 0 50%); // Überdeckt nur die rechte Hälfte
+            clip-path: inset(0 0 0 50%);
             z-index: 2;
         }
     }

@@ -65,15 +65,13 @@
         transition: transform 0.125s ease;
     }
 
-    // Normaler Hover-Effekt für alle Icons außer der `.continually-learning`-Div
     &:not(.continually-learning):hover img {
         transform: translateY(-10px);
     }
 
     &.continually-learning {
-        color: $purple; // Standardfarbe des Textes
+        color: $purple;
 
-        // Textfarbe bei Hover in Weiß ändern
         &:hover {
             color: white;
         }
@@ -84,21 +82,21 @@
 
         .overlay-icon {
             position: absolute;
-            top: -107px; // Passt die vertikale Position des Overlay-Icons an
-            left: 0px; // Passt die horizontale Position des Overlay-Icons an
+            top: -107px;
+            left: 0px;
             opacity: 0;
             width: 188px;
             height: auto;
             transition: opacity 0.125s ease;
-            pointer-events: none; // Verhindert, dass das Overlay-Icon Hover-Ereignisse auslöst
+            pointer-events: none;
         }
 
         &:hover .main-icon {
-            content: url('../../assets/icons/property.png'); // Haupticon ändert sich bei Hover
+            content: url('../../assets/icons/property.png');
         }
 
         &:hover .overlay-icon {
-            opacity: 1; // Overlay-Icon wird sichtbar bei Hover
+            opacity: 1;
         }
     }
 }
@@ -124,11 +122,11 @@ button {
     transition: transform 125ms ease, background-color 125ms ease;
     color: white;
     margin-top: 20px;
-    transform-origin: top right; // Ursprung für Transformation festlegen
+    transform-origin: top right;
 
     &:hover {
         cursor: pointer;
-        transform: scale(1.1); // Vergrößert den Button um 10% nach unten und links
+        transform: scale(1.1);
         background-color: $purple;
     }
 }
