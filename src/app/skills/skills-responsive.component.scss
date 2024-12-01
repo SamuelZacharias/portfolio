@@ -1,0 +1,241 @@
+@import '../../styles.scss';
+
+@media only screen and (min-width: 4096px) and (min-height: 2304px) {
+    .my-skills {
+        height: 27vh;
+        padding-top: 10%;
+    }
+
+    .shadow {
+        top: -7vh;
+    }
+}
+
+@media only screen and (min-width: 3840px) and (min-height: 2160px) {
+    .my-skills {
+        height: 27vh;
+    }
+}
+
+@media only screen and (min-width: 2560px) and (min-height: 1440px) {
+    .my-skills {
+        height: 40vh;
+    }
+
+    .shadow {
+        top: -10vh;
+    }
+}
+
+@media only screen and (min-width: 1920px) and (min-height: 1200px) {
+    .shadow {
+        top: -113vh;
+    }
+
+    .my-skills {
+        height: 48vh;
+    }
+}
+
+@media only screen and (min-width: 1366px) and (min-height: 768px) {
+    .shadow {
+        top: -13vh;
+    }
+}
+
+@media (max-width: 1150px) {
+
+    .line-in-skills {
+        display: none;
+    }
+
+    .headline-my-skills {
+        margin-right: 100px;
+        font-size: clamp(2.5rem, 5vw, 90px);
+        line-height: clamp(3rem, 6vw, 108px);
+    }
+
+    .first-under-text-skills {
+        font-size: clamp(14px, 1.5vw, 16px);
+        line-height: clamp(18px, 2vw, 19.2px);
+    }
+
+    .second-under-text-skills {
+        font-size: clamp(28px, 2.4vw, 32px);
+        line-height: clamp(34px, 3vw, 38.4px);
+    }
+
+    .icon-skills {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .under-text-skills-smaller {
+        max-width: 410px;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (max-height: 600px) {
+    .my-skills {
+        height: 100vh;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .my-skills {
+        height: calc(100vh - 109.03px);
+    }
+
+    .icon-skills {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr) auto;
+        max-width: 664px;
+        width: 100%;
+        height: auto;
+        gap: 20px;
+        margin-left: 67px;
+        margin-right: 44px;
+        color: white;
+        justify-items: center;
+    }
+    
+    .icon-skills > :last-child {
+        grid-column: 3 / 4;
+        justify-self: center;
+    }
+    
+    .icon-skills {
+        place-items: center;
+    }
+    
+
+    .headline-my-skills {
+        margin-right: 32px;
+    }
+
+    .my-skills {
+        flex-direction: column;
+    }
+
+    .row {
+        order: 2;
+    }
+
+    .second-under-text-skills {
+        font-size: clamp(28px, 2.4vw, 24px);
+        line-height: clamp(34px, 3vw, 28.8px);
+    }
+
+    .under-text-skills-smaller {
+        align-self: none;
+        align-items: center;
+        margin-bottom: 10%;
+        max-width: 800px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .line-in-skills {
+        display: flex;
+    }
+
+    .icon-skills {
+        order: 1;
+        margin: 0;
+    }
+
+    .under-text-skills {
+        order: 3;
+        display: flex;
+        align-items: center;
+        margin: 0;
+        width: 100vw;
+        max-width: 800px;
+    }
+
+    .responsive-container {
+        display: flex;
+        width: 100vw;
+        margin-right: 10%;
+        flex-direction: row;
+        text-align: right;
+    }
+
+    .responsive-text {
+        text-align: right;
+        color: white;
+        width: 70%;
+        margin-left: auto;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19.2px;
+    }
+
+    .responsive-line {
+        margin-top: 38%;
+        height: 4px;
+        width: 68px;
+        background-color: $purple;
+    }
+
+    .responsive-column {
+        margin-left: auto;
+        margin-right: 3%;
+        margin-bottom: 5%;
+    }
+
+    .responsive-headline {
+        color: white;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 54px;
+        margin-bottom: 32px;
+    }
+
+    .row {
+        display: none;
+    }
+
+    .first-under-text-skills {
+        display: none;
+        width: auto;
+        height: auto;
+    }
+
+    .text-skills {
+        margin: 0;
+        width: auto;
+        margin-right: 0;
+    }
+
+    .third-under-text-skills {
+        width: 90%;
+        margin-left: auto;
+    }
+
+    .responsive-lower {
+        margin-right: 10%;
+        margin-top: 5%;
+    }
+}
+
+@media (max-width: 480px) {
+    .my-skills {
+        height: calc(100vh + 332.03px);
+    }
+}
+
+@media (max-width: 430px) {
+    .my-skills {
+        height: calc(100vh + 132.03px);
+    }
+}
+
+@media (max-width: 360px) {
+    .my-skills {
+        height: calc(100vh + 3%);
+    }
+}

@@ -6,3 +6,22 @@
 <app-references></app-references>
 <app-contact></app-contact>
 <app-footer></app-footer>
+
+<div class="language-switcher">
+    <button (click)="toggleLanguageMenu()" class="language-switcher-button">
+        🌐
+    </button>
+    <ul *ngIf="isLanguageMenuOpen" class="language-menu">
+        <li (click)="switchLanguage('en')">English</li>
+        <li (click)="switchLanguage('de')">Deutsch</li>
+        <li (click)="switchLanguage('fr')">Français</li>
+        <li (click)="switchLanguage('es')">Español</li>
+        <li (click)="switchLanguage('pt')">Português</li>
+        <li (click)="switchLanguage('ar')">العربية</li>
+        <li (click)="switchLanguage('ru')">Русский</li>
+        <li (click)="switchLanguage('it')">Italiano</li>
+        <li (click)="switchLanguage('ko')">한국어</li>
+        <li (click)="switchLanguage('zh')">中文</li>
+        <li (click)="switchLanguage('ja')">日本語</li>
+    </ul>
+</div>

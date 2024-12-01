@@ -1,0 +1,280 @@
+@import '../../styles.scss';
+
+@media only screen and (min-width: 4096px) and (min-height: 2304px) {
+    .frame {
+        top: -22vh;
+    }
+}
+
+@media only screen and (min-width: 3840px) and (min-height: 2160px) {
+    .frame {
+        top: -22vh;
+    }
+}
+
+@media only screen and (min-width: 2550px) and (min-height: 1440px) {
+    .frame {
+        top: -34vh;
+    }
+}
+
+@media only screen and (min-width: 1920px) and (min-height: 1200px) {
+    .frame {
+        top: -42vh;
+    }
+}
+
+@media only screen and (min-width: 1680px) and (min-height: 1050px) {
+    .frame {
+        top: -47vh;
+    }
+}
+
+@media only screen and (min-width: 1440px) and (min-height: 900px) {
+    .frame {
+        top: -56vh;
+    }
+}
+
+@media (max-width: 1375px) {
+    .ref-frame {
+        width: 100%;
+        padding-bottom: 1%;
+    }
+}
+
+@media only screen and (max-width: 1366px) and (max-height: 768px) {
+    .frame {
+        top: -66vh;
+    }
+}
+
+@media only screen and (max-width: 1280px) and (max-height: 800px) {
+    .frame {
+        top: -64vh;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .frame {
+        left: 5%;
+    }
+
+    .ref-up {
+        font-size: 16px;
+        margin-bottom: auto;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .partner {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (max-height: 600px) {
+    .frame {
+        top: -86vh;
+    }
+}
+
+@media (max-width: 1024px) {
+    .frame {
+        top: -67vh;
+    }
+}
+
+@media (max-width: 1000px) {
+    .frame {
+        left: 2.3%;
+    }
+
+    .line-ref {
+        width: 10%;
+        min-width: 0;
+        margin-top: 12px;
+    }
+
+    .ref-down {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .partner {
+        margin-top: 12px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .div-image-line {
+        order: 1;
+        width: 100%;
+        margin-left: 65%;
+    }
+
+    .reference-with-icon {
+        margin-top: 50px;
+        height: 57vh;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .reference-with-image {
+        flex-direction: column;
+    }
+
+    .ref-frame {
+        order: 2;
+        margin-top: 50px;
+    }
+
+    .frame {
+        top: -421px;
+        left: 1.3%;
+    }
+
+    .line-to-image {
+        width: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    .ref-frame {
+        height: auto;
+        margin-bottom: 25px;
+    }
+
+    .ref-down {
+        width: 90%;
+    }
+
+    .div-image-line {
+        margin-left: 60%;
+    }
+
+    .frame {
+        top: -578px;
+    }
+
+    .ref-up {
+        margin-bottom: 25px;
+    }
+
+    .shadow-reference {
+        top: -24vh;
+        left: 66%;
+    }
+}
+
+@media (max-width: 700px) {
+    .div-image-line {
+        margin-left: 55%;
+    }
+}
+
+@media (max-width: 580px) {
+    .div-image-line {
+        margin-left: 40%;
+    }
+
+    .reference-with-image {
+        height: auto;
+    }
+
+    .frame {
+        top: -499px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .shadow-reference {
+        top: -138px;
+        left: 59%;
+    }
+
+    .frame {
+        top: -555px;
+    }
+
+    .line-ref {
+        width: 25%;
+    }
+
+    .ref-image {
+        width: 250px;
+        height: 150px;
+        top: 5px;
+    }
+
+    .div-image-line {
+        margin-left: 60%;
+    }
+}
+
+@media (max-width: 430px) {
+    .frame {
+        top: -76vh;
+    }
+
+    .reference-with-icon {
+        height: 62vh;
+    }
+
+    .reference {
+        height: 90vh;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .frame {
+        top: -84vh;
+    }
+
+    .reference {
+        height: 93vh;
+    }
+}
+
+@media (max-width: 380px) {
+
+    .frame {
+        top: -76vh;
+    }
+
+    .ref-up {
+        position: relative;
+        z-index: 3;
+    }
+
+    .reference-with-image {
+        justify-content: center;
+    }
+
+    .reference-with-icon {
+        height: 100vh;
+    }
+}
+
+@media (max-width: 375px) {
+    .reference-with-icon {
+        height: 81vh;
+    }
+
+    .frame {
+        top: -84vh;
+    }
+}
+
+@media (max-width: 360px) {
+    .reference {
+        height: 88vh;
+    }
+
+    .frame {
+        top: -76vh;
+    }
+}

@@ -4,14 +4,19 @@
     font-family: 'Poppins', sans-serif;
     color: white;
     height: 90vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
 
     .position-headline {
-        width: 943px;
+        max-width: 1043px;
         height: 108px;
         display: flex;
         align-items: center;
         flex-direction: row;
         margin-bottom: 40px;
+        margin-right: 100px;
 
         .contact-line {
             height: 4px;
@@ -37,14 +42,19 @@
         .under-headline {
             display: flex;
             flex-direction: column;
-            width: 474px;
+            max-width: 474px;
             height: 154px;
             margin-left: 100px;
 
             .position-under-headline {
+
+                position: relative;
+                z-index: 2;
+
                 .problem {
-                    width: 474px;
-                    height: 38px;
+                    max-width: 474px;
+                    width: 100%;
+                    height: auto;
                     font-weight: 700;
                     font-size: 32px;
                     line-height: 38.4px;
@@ -66,18 +76,21 @@
             flex-direction: column;
             align-items: center;
             gap: 16px;
-            width: 595px;
+            max-width: 590px;
+            width: 100%;
             margin: auto;
+            margin-right: 100px;
 
             .name,
             .email,
             .message {
                 position: relative;
+                width: 100%;
+                max-width: 575px;
 
                 input,
                 textarea {
-                    width: 595px;
-                    height: 40px;
+                    width: 100%;
                     border: 1px solid $purple;
                     border-radius: 10px;
                     padding: 10px;
@@ -111,8 +124,8 @@
 
                 .valid-icon {
                     position: absolute;
-                    top: 10px;
-                    right: 10px;
+                    top: 6px;
+                    right: 0;
                     width: 18px;
                     height: 18px;
                     display: inline;
@@ -138,13 +151,15 @@
                 display: flex;
                 flex-direction: column;
                 align-items: flex-start;
+                max-width: 600px;
                 width: 100%;
                 gap: 4px;
                 font-weight: 400;
                 font-size: 14px;
                 line-height: 16.8px;
                 margin-bottom: 20px;
-                margin-right: 24px;
+                margin-left: 10px;
+                z-index: 1;
 
                 .checkbox-label {
                     display: flex;
@@ -185,7 +200,7 @@
 
                     a {
                         color: $purple;
-                        text-decoration: none;
+                        text-decoration: none !important;
                     }
                 }
 
@@ -197,6 +212,7 @@
             }
 
             button#submitButton {
+                z-index: 1;
                 width: 253px;
                 height: 58px;
                 background-color: $gray;
@@ -228,32 +244,37 @@
             }
         }
     }
-}
 
-.arrow-up {
-    position: absolute;
-    display: flex;
-    justify-content: flex-end;
-    left: 1522px;
-    top: 5326px;
+    .arrow-up {
+        z-index: 3;
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 100px;
+        margin-top: 50px;
 
-    img {
-        width: 39px;
-        height: 39px;
-        transition: opacity 0.125s ease;
+        img {
+            width: 39px;
+            height: 39px;
+            transition: opacity 0.125s ease;
 
-        &:hover {
-            cursor: pointer;
-            content: url('../../assets/icons/arrow_up_green.png');
+            &:hover {
+                cursor: pointer;
+                content: url('../../assets/icons/arrow_up_green.png');
+            }
         }
     }
-}
 
-.contact-form .name input,
-.contact-form .email input,
-.contact-form .message input {
-    height: 28px !important;
-    width: 595px !important;
+    .contact-shadow {
+        position: relative;
+        bottom: 280px;
+        left: -255px;
+
+        img {
+            width: 847.47px;
+            height: 902px;
+        }
+    }
 }
 
 .contact-form .valid-icon {

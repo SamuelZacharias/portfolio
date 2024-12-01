@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="pt" datatype="plaintext" original="ng2.template">
+    <body>
+      
+      <!-- About Me Section -->
+      <trans-unit id="1" datatype="html">
+        <source>About me</source>
+        <target>Sobre mim</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">5,7</context>
+        </context-group>
+        <note priority="1" from="description">Título da seção "Sobre mim"</note>
+        <note priority="1" from="meaning">headlineAboutMe</note>
+      </trans-unit>
+      <trans-unit id="2" datatype="html">
+        <source>Hi, I&apos;m a German-speaking Frontend Developer based near Hannover. Motivated by the limitless opportunities within IT, I am excited about crafting visually captivating and intuitive websites and applications.</source>
+        <target>Olá, sou um desenvolvedor frontend que fala alemão e está baseado perto de Hannover. Motivado pelas infinitas oportunidades da TI, estou entusiasmado em criar sites e aplicativos visualmente atraentes e intuitivos.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">8,10</context>
+        </context-group>
+        <note priority="1" from="description">Texto introdutório sobre o desenvolvedor</note>
+        <note priority="1" from="meaning">aboutSection</note>
+      </trans-unit>
+      <trans-unit id="3" datatype="html">
+        <source>Flexible in terms of working environments, I can work effectively around Celle to Brunswick or Hannover and remotely.</source>
+        <target>Flexível em termos de ambientes de trabalho, posso trabalhar eficazmente na região de Celle, Brunswick ou Hannover, bem como remotamente.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">15,18</context>
+        </context-group>
+        <note priority="1" from="description">Texto sobre locais de trabalho e trabalho remoto</note>
+        <note priority="1" from="meaning">aboutLocation</note>
+      </trans-unit>
+      <trans-unit id="4" datatype="html">
+        <source>I am open-minded and always looking for personal challenges to constantly improve my knowledge and skills.</source>
+        <target>Sou uma pessoa de mente aberta e estou sempre procurando desafios pessoais para melhorar constantemente meus conhecimentos e habilidades.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">23,26</context>
+        </context-group>
+        <note priority="1" from="description">Texto sobre abertura de mente e desafios pessoais</note>
+        <note priority="1" from="meaning">aboutOpenMinded</note>
+      </trans-unit>
+      <trans-unit id="5" datatype="html">
+        <source>In my profession, programming isn&apos;t just about writing code; it&apos;s a creative form of problem-solving. I take pride in my ability to distill complex technical challenges into simple, user-friendly solutions. This way, I help you achieve your goals and bring your visions to life.</source>
+        <target>Na minha profissão, programar não é apenas escrever código; é uma forma criativa de resolver problemas. Tenho orgulho de minha capacidade de transformar desafios técnicos complexos em soluções simples e fáceis de usar. Dessa forma, ajudo você a alcançar seus objetivos e a concretizar suas visões.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">31,35</context>
+        </context-group>
+        <note priority="1" from="description">Texto sobre criatividade e resolução de problemas na programação</note>
+        <note priority="1" from="meaning">aboutProblemSolving</note>
+      </trans-unit>
+
+      <!-- Navigation and Menu -->
+      <trans-unit id="6" datatype="html">
+        <source>About me</source>
+        <target>Sobre mim</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">Entrada de navegação para "Sobre mim"</note>
+        <note priority="1" from="meaning">menuAboutMe</note>
+      </trans-unit>
+      <trans-unit id="7" datatype="html">
+        <source>Skills</source>
+        <target>Habilidades</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <note priority="1" from="description">Entrada de navegação para "Habilidades"</note>
+        <note priority="1" from="meaning">menuSkills</note>
+      </trans-unit>
+      <trans-unit id="8" datatype="html">
+        <source>Portfolio</source>
+        <target>Portfólio</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <note priority="1" from="description">Entrada de navegação para "Portfólio"</note>
+        <note priority="1" from="meaning">menuPortfolio</note>
+      </trans-unit>
+
+      <!-- Hero Section -->
+      <trans-unit id="9" datatype="html">
+        <source>Samuel</source>
+        <target>Samuel</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/hero/hero.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">Nome na seção Hero</note>
+        <note priority="1" from="meaning">heroName</note>
+      </trans-unit>
+      <trans-unit id="10" datatype="html">
+        <source>I am</source>
+        <target>Eu sou</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/hero/hero.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <note priority="1" from="description">Texto: "Eu sou"</note>
+        <note priority="1" from="meaning">heroIntro</note>
+      </trans-unit>
+      <trans-unit id="11" datatype="html">
+        <source>FRONTEND DEVELOPER</source>
+        <target>DESENVOLVEDOR FRONTEND</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/hero/hero.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <note priority="1" from="description">Subtítulo na seção Hero</note>
+        <note priority="1" from="meaning">heroSubtitle</note>
+      </trans-unit>
+      <trans-unit id="12" datatype="html">
+        <source>Let&apos;s talk!</source>
+        <target>Vamos conversar!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/hero/hero.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <note priority="1" from="description">Texto do botão "Vamos conversar!"</note>
+        <note priority="1" from="meaning">heroButton</note>
+      </trans-unit>
+
+      <!-- Skills Section -->
+      <trans-unit id="13" datatype="html">
+        <source>My skills</source>
+        <target>Minhas habilidades</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/skills/skills.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <note priority="1" from="description">Título "Minhas habilidades"</note>
+        <note priority="1" from="meaning">skillsHeadline</note>
+      </trans-unit>
+      <trans-unit id="14" datatype="html">
+        <source>I have gained experience in building projects with different frontend technologies and concepts.</source>
+        <target>Adquiri experiência em desenvolver projetos com diferentes tecnologias e conceitos frontend.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/skills/skills.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <note priority="1" from="description">Texto "Adquiri experiência..."</note>
+        <note priority="1" from="meaning">skillsIntro</note>
+      </trans-unit>
+
+    </body>
+  </file>
+</xliff>

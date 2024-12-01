@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="es" datatype="plaintext" original="ng2.template">
+    <body>
+      <!-- About Me Section -->
+      <trans-unit id="1" datatype="html">
+        <source>About me</source>
+        <target>Sobre mí</target>
+        <note priority="1" from="description">Título para la sección "Sobre mí"</note>
+      </trans-unit>
+      <trans-unit id="2" datatype="html">
+        <source>Hi, I&apos;m a German-speaking Frontend Developer based near Hannover. Motivated by the limitless opportunities within IT, I am excited about crafting visually captivating and intuitive websites and applications.</source>
+        <target>Hola, soy un desarrollador frontend de habla alemana que vive cerca de Hannover. Motivado por las infinitas oportunidades que ofrece la informática, estoy entusiasmado con la creación de sitios web y aplicaciones visualmente atractivos e intuitivos.</target>
+        <note priority="1" from="description">Texto de introducción sobre el desarrollador</note>
+      </trans-unit>
+      <trans-unit id="3" datatype="html">
+        <source>Flexible in terms of working environments, I can work effectively around Celle to Brunswick or Hannover and remotely.</source>
+        <target>Flexible en cuanto a entornos de trabajo, puedo trabajar eficazmente en la región de Celle, Brunswick o Hannover, así como de forma remota.</target>
+        <note priority="1" from="description">Texto sobre las ubicaciones de trabajo y el trabajo remoto</note>
+      </trans-unit>
+      <trans-unit id="4" datatype="html">
+        <source>I am open-minded and always looking for personal challenges to constantly improve my knowledge and skills.</source>
+        <target>Soy una persona abierta y siempre estoy en busca de desafíos personales para mejorar constantemente mis conocimientos y habilidades.</target>
+        <note priority="1" from="description">Texto sobre la mentalidad abierta y los desafíos personales</note>
+      </trans-unit>
+      <trans-unit id="5" datatype="html">
+        <source>In my profession, programming isn&apos;t just about writing code; it&apos;s a creative form of problem-solving. I take pride in my ability to distill complex technical challenges into simple, user-friendly solutions. This way, I help you achieve your goals and bring your visions to life.</source>
+        <target>En mi profesión, programar no se trata solo de escribir código; es una forma creativa de resolver problemas. Me enorgullezco de mi capacidad para simplificar desafíos técnicos complejos en soluciones simples y fáciles de usar. De esta manera, te ayudo a alcanzar tus objetivos y a dar vida a tus visiones.</target>
+        <note priority="1" from="description">Texto sobre la creatividad y la resolución de problemas en la programación</note>
+      </trans-unit>
+
+      <!-- Navigation and Menu -->
+      <trans-unit id="6" datatype="html">
+        <source>About me</source>
+        <target>Sobre mí</target>
+        <note priority="1" from="description">Elemento del menú: "Sobre mí"</note>
+      </trans-unit>
+      <trans-unit id="7" datatype="html">
+        <source>Skills</source>
+        <target>Habilidades</target>
+        <note priority="1" from="description">Elemento del menú: "Habilidades"</note>
+      </trans-unit>
+      <trans-unit id="8" datatype="html">
+        <source>Portfolio</source>
+        <target>Portafolio</target>
+        <note priority="1" from="description">Elemento del menú: "Portafolio"</note>
+      </trans-unit>
+
+      <!-- Hero Section -->
+      <trans-unit id="9" datatype="html">
+        <source>Samuel</source>
+        <target>Samuel</target>
+        <note priority="1" from="description">Nombre en la sección principal</note>
+      </trans-unit>
+      <trans-unit id="10" datatype="html">
+        <source>I am</source>
+        <target>Soy</target>
+        <note priority="1" from="description">Texto: "Soy"</note>
+      </trans-unit>
+      <trans-unit id="11" datatype="html">
+        <source>FRONTEND DEVELOPER</source>
+        <target>DESARROLLADOR FRONTEND</target>
+        <note priority="1" from="description">Subtítulo en la sección principal</note>
+      </trans-unit>
+      <trans-unit id="12" datatype="html">
+        <source>Let&apos;s talk!</source>
+        <target>¡Hablemos!</target>
+        <note priority="1" from="description">Botón: "¡Hablemos!"</note>
+      </trans-unit>
+
+      <!-- Skills Section -->
+      <trans-unit id="13" datatype="html">
+        <source>My skills</source>
+        <target>Mis habilidades</target>
+        <note priority="1" from="description">Título: "Mis habilidades"</note>
+      </trans-unit>
+      <trans-unit id="14" datatype="html">
+        <source>I have gained experience in building projects with different frontend technologies and concepts.</source>
+        <target>He adquirido experiencia en la creación de proyectos con diferentes tecnologías y conceptos frontend.</target>
+        <note priority="1" from="description">Texto de introducción sobre habilidades</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

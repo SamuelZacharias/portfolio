@@ -1,37 +1,54 @@
 @import '../../styles.scss';
 
-.first-section {
+.hero-desktop {
     position: relative;
     display: flex;
     justify-content: center;
-    height: 100vh;
+    height: calc(100vh - 109.03px);
+    max-height: calc(100vh - 109.03px);
     margin-bottom: 120px;
+    overflow: hidden;
+    display: flex;
+    width: 100vw;
+    max-width: 1440px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    margin-right: -10%;
+}
+
+.hero-mobile {
+    display: block;
 }
 
 .photo-shadow {
-    position: absolute;
-    top: -220px;
-    width: 790.7px;
-    height: 971.38px;
-    left: -40px;
+    position: relative;
+    width: 790px;
     max-width: 780px;
+    margin-left: -57%;
 
     img {
-        width: 690.7px;
-        height: 771.38px;
+        width: 690px;
+        height: auto;
     }
 }
 
 .index-2 {
     position: relative;
-    width: 1440px;
+    width: 1540px;
+    height: auto;
+    z-index: 5;
+    margin-top: -5%;
 }
 
 .index {
-    position: relative;
-    width: auto;
-    height: 700px;
-    margin-left: 100px;
+    position: absolute;
+    width: 513px;
+    height: auto;
+    top: -3vh;
 }
 
 a {
@@ -39,39 +56,38 @@ a {
     cursor: auto;
 }
 
-.hero-background {
-    position: absolute;
-    top: 177.6px;
-    width: 1440px;
-    max-width: 1440px;
-}
-
+.hero-background,
 .hero-background2 {
     position: absolute;
     top: 177.6px;
-    width: 1440px;
+    width: 100vw;
     max-width: 1440px;
+    margin-left: -50px;
 }
 
+.column {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: auto;
+    margin-top: -25%;
+    margin-right: 120px;
+    z-index: 6;
+}
 
 .hero {
     background-color: $dark;
     display: flex;
     align-items: center;
     width: 1440px;
-    position: absolute;
     max-width: 1440px;
-    top: 7.7%;
 
     .hero-text {
-        position: absolute;
         display: flex;
         flex-direction: row;
         width: 718px;
         height: 170px;
         align-items: center;
-        top: 15%;
-        left: 38%;
 
         .intro {
             display: flex;
@@ -80,7 +96,6 @@ a {
             width: 152px;
             height: 63px;
             transform: rotate(270deg);
-            margin-top: 15px;
 
             p {
                 display: flex;
@@ -93,6 +108,7 @@ a {
                 line-height: 69.6px;
                 color: white;
                 margin-bottom: 32px;
+                margin-left: -14px;
             }
         }
 
@@ -104,7 +120,6 @@ a {
             .name {
                 width: 620px;
                 height: 108px;
-
 
                 h1 {
                     font-family: 'Poppins', sans-serif;
@@ -120,7 +135,6 @@ a {
                 width: 619px;
                 height: 70px;
 
-
                 span {
                     font-family: 'Poppins', sans-serif;
                     font-weight: 400;
@@ -131,8 +145,6 @@ a {
             }
         }
     }
-
-
 }
 
 button {
@@ -141,8 +153,6 @@ button {
     border-width: 0px;
     height: 58px;
     background-color: $neongreen;
-    margin: 0;
-    padding: 0;
     transition: transform 125ms ease, background-color 125ms ease;
     transform-origin: top center;
 
@@ -168,14 +178,6 @@ button {
 
 .above-talk {
     position: relative;
-    z-index: 1;
-    margin-top: 0;
-    margin-left: 170%;
-}
-
-.column {
-    display: flex;
-    flex-direction: column;
 }
 
 .mail {
@@ -188,13 +190,11 @@ button {
 }
 
 .ref {
-    position: absolute;
     display: flex;
     justify-content: space-between;
     max-width: 1340px;
     width: 600px;
     align-items: center;
-    top: 93%;
     gap: 16px;
 }
 
@@ -222,30 +222,149 @@ button {
     transform: scale(1.4);
 }
 
-
-
 .position {
     display: flex;
-    position: absolute;
-    margin-left: 63.5%;
-    top: 85%;
+    width: 220px;
+    height: 200px;
+    margin-right: -25px;
+}
+
+.ref-scroll {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -368px;
+    z-index: 10;
+    background-color: transparent;
 }
 
 .scroll {
     width: 170px;
-    height: auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     transform: rotate(90deg);
     color: white;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 23px;
     line-height: 27.6px;
+    margin-bottom: 65%;
 
     img {
         width: 32px;
         transform: rotate(-90deg);
+    }
+}
+
+.hero-background {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1440px;
+    height: auto;
+
+    .photo-shadow {
+        width: 100%;
+        height: auto;
+        max-width: 780px;
+    }
+}
+
+@media only screen and (min-width: 4096px) and (min-height: 2304px) {
+    .index-2 {
+        margin-top: -4%;
+        object-fit: cover;
+    }
+
+    .index {
+        top: -1vh;
+    }
+
+    .ref-scroll {
+        margin-top: -17vh;
+    }
+
+    .column {
+        margin-top: -20vh;
+    }
+
+    .hero-background {
+        margin-top: 1vh;
+    }
+
+    .hero-desktop {
+        height: 35vh;
+    }
+}
+
+@media only screen and (min-width: 3840px) and (min-height: 2160px) {
+    .index-2 {
+        margin-top: -4%;
+    }
+
+    .index {
+        top: -1vh;
+    }
+
+    .ref-scroll {
+        margin-top: -13vh;
+    }
+
+    .column {
+        margin-top: -20vh;
+    }
+
+    .hero-background {
+        margin-top: 1vh;
+    }
+
+    .hero-desktop {
+        height: 35vh;
+    }
+}
+
+@media only screen and (min-width: 2560px) and (min-height: 1440px) {
+    .index-2 {
+        margin-top: -4%;
+    }
+
+    .index {
+        top: -1vh;
+    }
+
+    .ref-scroll {
+        margin-top: -5vh;
+    }
+
+    .column {
+        margin-top: -20vh;
+    }
+
+    .hero-background {
+        margin-top: 1vh;
+    }
+
+    .hero-desktop {
+        height: 60vh;
+    }
+}
+
+@media only screen and (min-width: 1366px) and (min-height: 768px) {
+    .ref-scroll {
+        margin-top: -32vh;
+        z-index: 8;
+    }
+}
+
+@media (max-width: 1280px) {
+    .ref-scroll {
+        margin-top: -34vh;
+    }
+}
+
+@media (max-width: 1180px) {
+    .ref-scroll {
+        margin-top: -32vh;
     }
 }

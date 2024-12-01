@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './references.component.html',
-  styleUrl: './references.component.scss'
+  styleUrls: ['./references.component.scss', './references-responsive.component.scss']
 })
 export class ReferencesComponent {
 

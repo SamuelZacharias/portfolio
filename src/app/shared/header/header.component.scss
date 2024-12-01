@@ -3,90 +3,260 @@ $purple: #9747FF;
 $dark: #141D2F;
 
 .header {
-    position: sticky;
-    top: 0;
-    z-index: 5;
-    display: flex;
-    background-color: $dark;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1440px;
-    height: 109.03px;
-    padding: 0px 100px;
+  position: sticky;
+  top: 0;
+  z-index: 15;
+  display: flex;
+  background-color: $dark;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100vw;
+  height: 109.03px;
+  padding: 0px 100px;
 
-    .hero {
+  .hero {
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    width: 150px;
+    font-size: 34px;
+    color: white;
+    position: relative;
+    transition: visibility 0.125s ease, opacity 0.125s ease;
+
+    &::first-letter {
+      color: $toxicgreen;
+      position: relative;
+      z-index: 1;
+    }
+
+    &::before {
+      content: 'S';
+      position: absolute;
+      top: 0;
+      left: 0;
+      color: white;
+      width: 50%;
+      clip-path: inset(0 0 0 50%);
+      z-index: 2;
+    }
+  }
+
+  .hidden {
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .menu-desktop {
+    display: flex;
+    gap: 29px;
+    align-items: center;
+    color: white;
+
+    a {
+      color: white;
+      text-decoration: none;
+      font-family: 'Poppins', sans-serif;
+      font-size: 23px;
+      line-height: 27.6px;
+      font-weight: 400;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &:hover {
+        color: $toxicgreen;
+      }
+
+      &.active {
+        color: $toxicgreen;
+
+        &::after {
+          content: '';
+          position: absolute;
+          bottom: -3px;
+          left: -2px;
+          width: 53px;
+          height: 3px;
+          background-color: $purple;
+          border-top-right-radius: 2px;
+          border-bottom-right-radius: 2px;
+        }
+      }
+    }
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .menu-mobile .burger-icon {
+    transition: opacity 0.125s ease;
+    width: 30px;
+    height: 30px;
+  }
+
+
+  .menu-mobile {
+    display: none;
+
+    .burger-icon {
+      cursor: pointer;
+      width: 30px;
+      height: 30px;
+      position: relative;
+      z-index: 11;
+    }
+
+    .mobile-overlay {
+      position: fixed;
+      top: 0;
+      right: -100vw;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(20, 29, 47, 0.9);
+      z-index: 10;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transition: right 0.125s ease;
+
+      &.menu-open {
+        right: 0;
+      }
+
+      .overlay-header {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 37px;
+        padding-left: 79px;
+      }
+
+      .overlay-hero {
         font-weight: bold;
         font-family: 'Poppins', sans-serif;
-        width: 150px;
         font-size: 34px;
         color: white;
-        position: relative;
-        max-width: 1440px;
-    
-        &::first-letter {
-            color: $toxicgreen;
-            position: relative;
-            z-index: 1;
-        }
-    
-        &::before {
-            content: 'S';
-            position: absolute;
-            top: 0;
-            left: 0;
-            color: white;
-            width: 50%;
-            clip-path: inset(0 0 0 50%);
-            z-index: 2;
-        }
-    }
-    
+        font-size: 24px;
 
-    .menu {
+        &::first-letter {
+          color: $toxicgreen;
+        }
+      }
+
+      .menu-content {
         display: flex;
-        gap: 29px;
+        flex-direction: column;
         align-items: center;
-        width: 326px;
-        height: 32px;
-        color: white;
-        margin-left: 300px;
+        gap: 29px;
+        margin-top: 180.97px;
 
         a {
-            color: white;
-            text-decoration: none;
-            font-family: 'Poppins', sans-serif;
-            font-size: 23px;
-            line-height: 27.6px;
-            font-weight: 400;
-            position: relative;
-            height: 32px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+          color: white;
+          text-decoration: none;
+          font-family: 'Poppins', sans-serif;
+          font-weight: 400;
+          font-size: 23px;
+          line-height: 27.6px;
 
-            &:hover {
-                color: $toxicgreen;
-            }
-
-            &.active {
-                color: $toxicgreen;
-
-                &::after {
-                    content: '';
-                    position: absolute;
-                    bottom: -3px;
-                    left: -2px;
-                    width: 53px;
-                    height: 3px;
-                    background-color: $purple;
-                    border-top-right-radius: 2px;
-                    border-bottom-right-radius: 2px;
-                }
-            }
+          &:hover {
+            color: $toxicgreen;
+          }
         }
+      }
     }
+  }
 }
 
-a {
-    text-decoration: none;
+@media (max-width: 1300px) {
+  .header {
+    height: 90px;
+    justify-content: space-between;
+    margin-left: 0;
+    margin-right: 0;
+
+    .hero {
+      font-size: 28px;
+      width: 120px;
+      text-align: center;
+
+      &::before {
+        display: none;
+      }
+    }
+
+    .menu-desktop {
+      gap: 20px;
+
+      a {
+        font-size: 20px;
+        line-height: 24px;
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .header {
+    width: auto;
+    justify-content: space-between;
+    height: 109.03px;
+    padding: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+
+    .hero {
+      font-size: 24px;
+      text-align: center;
+    }
+
+    .menu-desktop {
+      display: none;
+    }
+
+    .menu-mobile {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding-left: 25px;
+    width: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-right: 25px;
+    justify-content: space-between;
+    height: 109.03px;
+
+    .hero {
+      font-size: 24px;
+      text-align: center;
+    }
+
+    .menu-desktop {
+      display: none;
+    }
+
+    .menu-mobile {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+}
+
+@media (max-width: 550px) {
+
+  .header {
+    padding-left: 25px;
+    width: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-right: 25px;
+  }
 }

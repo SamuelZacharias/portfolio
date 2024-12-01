@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="ko" datatype="plaintext" original="ng2.template">
+    <body>
+      
+      <!-- About Me Section -->
+      <trans-unit id="1" datatype="html">
+        <source>About me</source>
+        <target>저에 대해</target>
+        <note priority="1" from="description">"저에 대해" 섹션의 제목</note>
+      </trans-unit>
+      <trans-unit id="2" datatype="html">
+        <source>Hi, I&apos;m a German-speaking Frontend Developer based near Hannover. Motivated by the limitless opportunities within IT, I am excited about crafting visually captivating and intuitive websites and applications.</source>
+        <target>
+          안녕하세요, 저는 하노버 근처에 거주하는 독일어를 사용하는 프론트엔드 개발자입니다.
+          IT 분야의 무한한 가능성에 영감을 받아,
+          시각적으로 매력적이고 직관적인 웹사이트와 애플리케이션을 만드는 데 열정을 가지고 있습니다.
+        </target>
+        <note priority="1" from="description">개발자 소개 텍스트</note>
+      </trans-unit>
+      <trans-unit id="3" datatype="html">
+        <source>Flexible in terms of working environments, I can work effectively around Celle to Brunswick or Hannover and remotely.</source>
+        <target>작업 환경 측면에서 유연성을 가지며, 셀레, 브라운슈바이크, 하노버 지역 또는 원격에서 효율적으로 작업할 수 있습니다.</target>
+        <note priority="1" from="description">작업 위치 및 원격 작업에 대한 텍스트</note>
+      </trans-unit>
+      <trans-unit id="4" datatype="html">
+        <source>I am open-minded and always looking for personal challenges to constantly improve my knowledge and skills.</source>
+        <target>저는 개방적인 사고를 가지고 있으며, 항상 지식과 기술을 지속적으로 향상시키기 위한 개인적인 도전을 추구합니다.</target>
+        <note priority="1" from="description">개방성과 개인적인 도전에 대한 텍스트</note>
+      </trans-unit>
+      <trans-unit id="5" datatype="html">
+        <source>In my profession, programming isn&apos;t just about writing code; it&apos;s a creative form of problem-solving. I take pride in my ability to distill complex technical challenges into simple, user-friendly solutions. This way, I help you achieve your goals and bring your visions to life.</source>
+        <target>
+          제 직업에서 프로그래밍은 단순히 코드를 작성하는 것이 아니라 문제를 창의적으로 해결하는 방법입니다.
+          복잡한 기술적 과제를 간단하고 사용자 친화적인 솔루션으로 간소화하는 능력에 자부심을 느낍니다.
+          이를 통해 목표를 달성하고 비전을 실현할 수 있도록 돕습니다.
+        </target>
+        <note priority="1" from="description">프로그래밍에서 창의성과 문제 해결에 대한 텍스트</note>
+      </trans-unit>
+
+      <!-- Navigation and Menu -->
+      <trans-unit id="6" datatype="html">
+        <source>About me</source>
+        <target>저에 대해</target>
+        <note priority="1" from="description">'저에 대해' 네비게이션 항목</note>
+      </trans-unit>
+      <trans-unit id="7" datatype="html">
+        <source>Skills</source>
+        <target>기술</target>
+        <note priority="1" from="description">'기술' 네비게이션 항목</note>
+      </trans-unit>
+      <trans-unit id="8" datatype="html">
+        <source>Portfolio</source>
+        <target>포트폴리오</target>
+        <note priority="1" from="description">'포트폴리오' 네비게이션 항목</note>
+      </trans-unit>
+
+      <!-- Hero Section -->
+      <trans-unit id="9" datatype="html">
+        <source>Samuel</source>
+        <target>사무엘</target>
+        <note priority="1" from="description">Hero 섹션의 이름</note>
+      </trans-unit>
+      <trans-unit id="10" datatype="html">
+        <source>I am</source>
+        <target>저는</target>
+        <note priority="1" from="description">"I am" 텍스트</note>
+      </trans-unit>
+      <trans-unit id="11" datatype="html">
+        <source>FRONTEND DEVELOPER</source>
+        <target>프론트엔드 개발자</target>
+        <note priority="1" from="description">Hero 섹션의 부제목</note>
+      </trans-unit>
+      <trans-unit id="12" datatype="html">
+        <source>Let&apos;s talk!</source>
+        <target>얘기해보세요!</target>
+        <note priority="1" from="description">"Let&apos;s talk!" 버튼 텍스트</note>
+      </trans-unit>
+
+      <!-- Skills Section -->
+      <trans-unit id="13" datatype="html">
+        <source>My skills</source>
+        <target>저의 기술</target>
+        <note priority="1" from="description">"My skills" 섹션의 제목</note>
+      </trans-unit>
+      <trans-unit id="14" datatype="html">
+        <source>I have gained experience in building projects with different frontend technologies and concepts.</source>
+        <target>다양한 프론트엔드 기술과 개념을 활용하여 프로젝트를 구축한 경험이 있습니다.</target>
+        <note priority="1" from="description">기술 경험에 대한 텍스트</note>
+      </trans-unit>
+
+    </body>
+  </file>
+</xliff>

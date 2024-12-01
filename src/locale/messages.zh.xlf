@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="zh" datatype="plaintext" original="ng2.template">
+    <body>
+      
+      <!-- About Me Section -->
+      <trans-unit id="1" datatype="html">
+        <source>About me</source>
+        <target>关于我</target>
+        <note priority="1" from="description">“关于我”部分的标题</note>
+        <note priority="1" from="meaning">headlineAboutMe</note>
+      </trans-unit>
+
+      <trans-unit id="2" datatype="html">
+        <source>Hi, I&apos;m a German-speaking Frontend Developer based near Hannover. Motivated by the limitless opportunities within IT, I am excited about crafting visually captivating and intuitive websites and applications.</source>
+        <target>你好，我是一名会说德语的前端开发人员，居住在汉诺威附近。受IT领域无限可能性的激励，我热衷于打造视觉吸引力强且直观的网站和应用程序。</target>
+        <note priority="1" from="description">关于开发人员的简介文本</note>
+        <note priority="1" from="meaning">aboutSection</note>
+      </trans-unit>
+
+      <trans-unit id="3" datatype="html">
+        <source>Flexible in terms of working environments, I can work effectively around Celle to Brunswick or Hannover and remotely.</source>
+        <target>在工作环境方面具有灵活性，我可以在塞勒、布伦瑞克或汉诺威地区以及远程高效工作。</target>
+        <note priority="1" from="description">关于工作地点和远程工作的文本</note>
+        <note priority="1" from="meaning">aboutLocation</note>
+      </trans-unit>
+
+      <trans-unit id="4" datatype="html">
+        <source>I am open-minded and always looking for personal challenges to constantly improve my knowledge and skills.</source>
+        <target>我思想开放，始终寻求个人挑战，以不断提升我的知识和技能。</target>
+        <note priority="1" from="description">关于开放心态和个人挑战的文本</note>
+        <note priority="1" from="meaning">aboutOpenMinded</note>
+      </trans-unit>
+
+      <trans-unit id="5" datatype="html">
+        <source>In my profession, programming isn&apos;t just about writing code; it&apos;s a creative form of problem-solving. I take pride in my ability to distill complex technical challenges into simple, user-friendly solutions. This way, I help you achieve your goals and bring your visions to life.</source>
+        <target>在我的职业中，编程不仅仅是写代码；它是一种创造性的问题解决方式。我为能够将复杂的技术难题转化为简单且用户友好的解决方案而感到自豪。通过这种方式，我帮助您实现目标并将您的愿景变为现实。</target>
+        <note priority="1" from="description">关于编程中的创造力和问题解决的文本</note>
+        <note priority="1" from="meaning">aboutProblemSolving</note>
+      </trans-unit>
+
+      <!-- Navigation and Menu -->
+      <trans-unit id="6" datatype="html">
+        <source>About me</source>
+        <target>关于我</target>
+        <note priority="1" from="description">description: Navigationseintrag für 'About me'</note>
+        <note priority="1" from="meaning">menuAboutMe</note>
+      </trans-unit>
+
+      <trans-unit id="7" datatype="html">
+        <source>Skills</source>
+        <target>技能</target>
+        <note priority="1" from="description">description: Navigationseintrag für 'Skills'</note>
+        <note priority="1" from="meaning">menuSkills</note>
+      </trans-unit>
+
+      <trans-unit id="8" datatype="html">
+        <source>Portfolio</source>
+        <target>作品集</target>
+        <note priority="1" from="description">description: Navigationseintrag für 'Portfolio'</note>
+        <note priority="1" from="meaning">menuPortfolio</note>
+      </trans-unit>
+
+      <!-- Hero Section -->
+      <trans-unit id="9" datatype="html">
+        <source>Samuel</source>
+        <target>萨缪尔</target>
+        <note priority="1" from="description">description: Name im Hero-Bereich</note>
+        <note priority="1" from="meaning">heroName</note>
+      </trans-unit>
+
+      <trans-unit id="10" datatype="html">
+        <source>I am</source>
+        <target>我是</target>
+        <note priority="1" from="description">description: Text: "I am"</note>
+        <note priority="1" from="meaning">heroIntro</note>
+      </trans-unit>
+
+      <trans-unit id="11" datatype="html">
+        <source>FRONTEND DEVELOPER</source>
+        <target>前端开发人员</target>
+        <note priority="1" from="description">description: Untertitel im Hero-Bereich</note>
+        <note priority="1" from="meaning">heroSubtitle</note>
+      </trans-unit>
+
+      <trans-unit id="12" datatype="html">
+        <source>Let&apos;s talk!</source>
+        <target>让我们聊聊！</target>
+        <note priority="1" from="description">description: Buttontext "Let&apos;s talk!"</note>
+        <note priority="1" from="meaning">heroButton</note>
+      </trans-unit>
+
+      <!-- Skills Section -->
+      <trans-unit id="13" datatype="html">
+        <source>My skills</source>
+        <target>我的技能</target>
+        <note priority="1" from="description">description: Überschrift "My skills"</note>
+        <note priority="1" from="meaning">skillsHeadline</note>
+      </trans-unit>
+
+      <trans-unit id="14" datatype="html">
+        <source>I have gained experience in building projects with different frontend technologies and concepts.</source>
+        <target>我积累了使用不同前端技术和概念构建项目的经验。</target>
+        <note priority="1" from="description">description: Text "I have gained experience..."</note>
+        <note priority="1" from="meaning">skillsIntro</note>
+      </trans-unit>
+
+    </body>
+  </file>
+</xliff>

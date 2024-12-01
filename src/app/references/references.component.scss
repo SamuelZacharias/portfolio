@@ -1,28 +1,54 @@
 @import '../../styles.scss';
 
 .reference {
-    margin-left: 148px;
-    margin-top: 100px;
-    margin-bottom: 182px;
+    margin-bottom: 100px;
+    position: relative;
+    overflow: hidden;
+    max-width: 1440px;
+    width: 100%;
+}
+
+.shadow-reference {
+    position: absolute;
+    top: -50px;
+    left: 86%;
+    width: 500px;
+    height: 100%;
+    z-index: 0;
+
+    img {
+        width: 100%;
+        height: 10;
+        transform: rotate(-200deg);
+    }
 }
 
 .reference-with-icon {
+    position: relative;
+    z-index: 1;
     display: flex;
-    justify-content: end;
-    width: 1340px;
+    max-width: 1440px;
+    width: 100%;
     height: 378px;
-    padding: 0;
-    margin: 0;
-    margin-left: 82.5px;
+    margin-top: 180px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+}
+
+.div-image-line {
+    display: flex;
+    align-items: center;
+    position: relative;
 }
 
 .reference-with-image {
+    position: relative;
+    z-index: 1;
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 90%;
     height: 344px;
-    padding: 0;
-    margin: 0;
+    justify-content: space-between;
 }
 
 .line-ref {
@@ -34,7 +60,7 @@
 }
 
 .ref-up {
-    width: 659.5px;
+    max-width: 659.5px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 20px;
@@ -46,10 +72,14 @@
 }
 
 .ref-down {
+    height: auto;
     display: flex;
     align-items: center;
     flex-direction: row;
-    width: 659.5px;
+    max-width: 659.5px;
+    margin-bottom: 6px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .partner {
@@ -60,22 +90,25 @@
     color: white;
 }
 
-
 .frame {
+    z-index: 1;
     display: flex;
     flex-direction: column;
     width: 96.9px;
     height: 68.1px;
     position: relative;
-    top: -560px;
+    top: -32vh;
     left: 85px;
 }
 
 .ref-frame {
+    position: relative;
+    z-index: 1;
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 843.5px;
+    max-width: 843.5px;
+    width: 100%;
     height: 272px;
     border-radius: 32px;
     border-style: solid;
@@ -84,13 +117,12 @@
 }
 
 .ref-image {
-    width: 272px;
-    height: 272px;
+    max-width: 272px;
+    max-height: 272px;
     overflow: hidden;
     border-radius: 50%;
     position: relative;
     border: 4px solid $purple;
-    margin-left: 56px;
     z-index: 1;
 
     img {
@@ -112,16 +144,13 @@
     background-color: $purple;
 }
 
-.switch {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 184px;
-    height: 40px;
-    top: 350px;
-    left: -786px;
-}
+// .switch {
+//     position: relative;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     height: 40px;
+// }
 
 .small-dot {
     width: 8px;

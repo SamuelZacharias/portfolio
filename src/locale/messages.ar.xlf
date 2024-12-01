@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="ar" datatype="plaintext" original="ng2.template">
+    <body>
+      <!-- About Me Section -->
+      <trans-unit id="1" datatype="html">
+        <source>About me</source>
+        <target>عني</target>
+        <note priority="1" from="description">عنوان قسم "عني"</note>
+      </trans-unit>
+      <trans-unit id="2" datatype="html">
+        <source>Hi, I'm a German-speaking Frontend Developer based near Hannover. Motivated by the limitless opportunities within IT, I am excited about crafting visually captivating and intuitive websites and applications.</source>
+        <target>مرحبًا، أنا مطور واجهات أمامية يتحدث الألمانية ومقيم بالقرب من هانوفر. تحفزني الفرص اللامحدودة في مجال تكنولوجيا المعلومات، وأنا متحمس لإنشاء مواقع وتطبيقات ويب جذابة وبسيطة.</target>
+        <note priority="1" from="description">نص تمهيدي عن المطور</note>
+      </trans-unit>
+      <trans-unit id="3" datatype="html">
+        <source>Flexible in terms of working environments, I can work effectively around Celle to Brunswick or Hannover and remotely.</source>
+        <target>بفضل مرونتي في بيئات العمل، أستطيع العمل بكفاءة في مناطق مثل سيلي، براونشفايغ أو هانوفر، وأيضًا عن بعد.</target>
+        <note priority="1" from="description">نص عن مواقع العمل والعمل عن بعد</note>
+      </trans-unit>
+      <trans-unit id="4" datatype="html">
+        <source>I am open-minded and always looking for personal challenges to constantly improve my knowledge and skills.</source>
+        <target>أنا منفتح دائمًا وأبحث عن تحديات شخصية لتحسين معرفتي ومهاراتي بشكل مستمر.</target>
+        <note priority="1" from="description">نص عن الانفتاح الذهني والتحديات الشخصية</note>
+      </trans-unit>
+      <trans-unit id="5" datatype="html">
+        <source>In my profession, programming isn't just about writing code; it's a creative form of problem-solving. I take pride in my ability to distill complex technical challenges into simple, user-friendly solutions. This way, I help you achieve your goals and bring your visions to life.</source>
+        <target>في مهنتي، البرمجة ليست مجرد كتابة أكواد؛ إنها شكل إبداعي لحل المشكلات. أفتخر بقدرتي على تحويل التحديات التقنية المعقدة إلى حلول بسيطة وسهلة الاستخدام. بهذه الطريقة، أساعدك في تحقيق أهدافك وتحويل رؤاك إلى واقع.</target>
+        <note priority="1" from="description">نص عن الإبداع وحل المشكلات في البرمجة</note>
+      </trans-unit>
+      <!-- Navigation and Menu -->
+      <trans-unit id="6" datatype="html">
+        <source>About me</source>
+        <target>عني</target>
+        <note priority="1" from="description">عنوان "عني" في القائمة</note>
+      </trans-unit>
+      <trans-unit id="7" datatype="html">
+        <source>Skills</source>
+        <target>المهارات</target>
+        <note priority="1" from="description">عنصر القائمة "المهارات"</note>
+      </trans-unit>
+      <trans-unit id="8" datatype="html">
+        <source>Portfolio</source>
+        <target>الأعمال</target>
+        <note priority="1" from="description">عنصر القائمة "الأعمال"</note>
+      </trans-unit>
+      <!-- Hero Section -->
+      <trans-unit id="9" datatype="html">
+        <source>Samuel</source>
+        <target>صامويل</target>
+        <note priority="1" from="description">اسم في قسم البطل</note>
+      </trans-unit>
+      <trans-unit id="10" datatype="html">
+        <source>I am</source>
+        <target>أنا</target>
+        <note priority="1" from="description">نص "أنا"</note>
+      </trans-unit>
+      <trans-unit id="11" datatype="html">
+        <source>FRONTEND DEVELOPER</source>
+        <target>مطور واجهات أمامية</target>
+        <note priority="1" from="description">الوصف الوظيفي في قسم البطل</note>
+      </trans-unit>
+      <trans-unit id="12" datatype="html">
+        <source>Let&apos;s talk!</source>
+        <target>دعونا نتحدث!</target>
+        <note priority="1" from="description">زر "دعونا نتحدث!"</note>
+      </trans-unit>
+      <!-- Skills Section -->
+      <trans-unit id="13" datatype="html">
+        <source>My skills</source>
+        <target>مهاراتي</target>
+        <note priority="1" from="description">عنوان "مهاراتي"</note>
+      </trans-unit>
+      <trans-unit id="14" datatype="html">
+        <source>I have gained experience in building projects with different frontend technologies and concepts.</source>
+        <target>لقد اكتسبت خبرة في بناء المشاريع باستخدام تقنيات ومفاهيم واجهة أمامية متنوعة.</target>
+        <note priority="1" from="description">مقدمة عن المهارات</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
