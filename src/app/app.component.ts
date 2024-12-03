@@ -1,6 +1,7 @@
-import { Component, Inject, PLATFORM_ID } from '@angular/core';
+import { Component, Inject, PLATFORM_ID, OnInit } from '@angular/core';
 import { isPlatformBrowser, CommonModule } from '@angular/common';
 import { Location } from '@angular/common';  // Location-Service verwenden
+import * as AOS from 'aos'; // Importiere die AOS-Bibliothek
 import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { HeroComponent } from './hero/hero.component';  // HeroComponent importieren
@@ -22,42 +23,37 @@ import { ContactComponent } from './contact/contact.component';
     SkillsComponent,
     PortfolioComponent,
     ReferencesComponent,
-    ContactComponent
+    ContactComponent,
   ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'portfolio';
-  currentLang = ''; // Standard-Sprache wird beim Start erkannt
+  currentLang = '';
   isLanguageMenuOpen = false;
 
   constructor(
     @Inject(PLATFORM_ID) private platformId: Object,
-    private location: Location // Location-Service verwenden
+    private location: Location
   ) {
     if (isPlatformBrowser(this.platformId)) {
-      // Hole den Sprachpräfix aus der URL, wenn vorhanden
-      let pathLang = window.location.pathname.split('/')[1];
+      const pathLang = window.location.pathname.split('/')[1];
 
-      // Unterstützte Sprachen
       const supportedLanguages = ['en', 'de', 'fr', 'es', 'pt', 'ar', 'ru', 'it', 'ko', 'hi', 'zh', 'ja'];
 
-      console.log(`Aktuelle URL: ${window.location.pathname}`);
-      console.log(`Analysierter Sprachpräfix: ${pathLang}`);
-
-      // Überprüfe, ob das Sprachpräfix gültig ist
       if (supportedLanguages.includes(pathLang)) {
         this.currentLang = pathLang;
-        console.log(`Unterstützte Sprache erkannt: ${this.currentLang}`);
       } else {
-        this.currentLang = '';  // Keine Sprache, daher leer (kein Präfix)
-        console.log(`Keine unterstützte Sprache in der URL gefunden, kein Präfix gesetzt.`);
+        this.currentLang = '';
       }
 
-      // Setze die aktuelle Sprache im Dokument
       document.documentElement.lang = this.currentLang;
     }
+  }
+
+  ngOnInit() {
+    AOS.init(); // Initialisiere die AOS-Bibliothek
   }
 
   toggleLanguageMenu() {
@@ -66,21 +62,14 @@ export class AppComponent {
 
   switchLanguage(lang: string) {
     if (lang !== this.currentLang) {
-      console.log(`Sprache wechseln: ${this.currentLang} → ${lang}`);
-  
-      // Entferne alle existierenden Sprachpräfixe und hänge das neue Präfix an
       let newUrl = window.location.pathname.replace(/^\/(en|de|fr|es|pt|ar|ru|it|ko|hi|zh|ja)/, '');
       newUrl = `/${lang}${newUrl}`;
-  
-      console.log(`Navigiere zu neuer URL: ${newUrl}`);
-      this.location.replaceState(newUrl);  // Die URL wird ohne die Seite neu zu laden geändert
-      document.documentElement.lang = lang;  // Aktualisiere das <html> Lang-Attribut
-      this.currentLang = lang;  // Aktualisiere die aktuelle Sprache
-  
-      // Jetzt die Seite neu laden, damit der Inhalt in der neuen Sprache angezeigt wird
-      window.location.href = newUrl;  // Seite vollständig neu laden, damit die Sprache korrekt angezeigt wird
+
+      this.location.replaceState(newUrl);
+      document.documentElement.lang = lang;
+      this.currentLang = lang;
+
+      window.location.href = newUrl;
     }
   }
-  
-  
 }

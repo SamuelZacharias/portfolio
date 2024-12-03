@@ -14,12 +14,22 @@
             "outputPath": "dist/portfolio",
             "index": "src/index.html",
             "main": "src/main.ts",
-            "polyfills": ["zone.js"],
+            "polyfills": [
+              "zone.js"
+            ],
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
-            "assets": ["src/favicon.ico", "src/assets"],
-            "styles": ["src/styles.scss"],
-            "scripts": [],
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
+            "styles": [
+              "node_modules/aos/dist/aos.css",
+              "src/styles.scss"
+            ],
+            "scripts": [
+              "node_modules/aos/dist/aos.js"
+            ],
             "localize": true,
             "baseHref": "/"
           },
@@ -86,7 +96,6 @@
           "fr": "src/locale/messages.fr.xlf",
           "es": "src/locale/messages.es.xlf",
           "pt": "src/locale/messages.pt.xlf",
-          "ar": "src/locale/messages.ar.xlf",
           "ru": "src/locale/messages.ru.xlf",
           "it": "src/locale/messages.it.xlf",
           "ko": "src/locale/messages.ko.xlf",

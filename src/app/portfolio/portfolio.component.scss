@@ -1,5 +1,11 @@
 @import '../../styles.scss';
 
+.portfolio-section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 .portfolio {
     display: flex;
     height: auto;
@@ -9,7 +15,6 @@
     background-color: $dark;
     padding: 0;
     position: relative;
-    overflow: hidden;
 }
 
 a {
@@ -48,7 +53,7 @@ a {
 }
 
 .headline {
-    width: 389px;
+    width: 100%;
     height: 108px;
     gap: 10px;
     font-family: 'Poppins', sans-serif;

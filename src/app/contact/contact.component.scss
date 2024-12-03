@@ -1,5 +1,42 @@
 @import '../../styles.scss';
 
+.section-contact {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.confirmation-message {
+    position: fixed;
+    top: 50%;
+    right: 40%;
+    background-color: #4caf50;
+    /* Grün für Erfolg */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    animation: fadeOut 3s forwards;
+    /* Animation, um das Popup auszublenden */
+}
+
+/* Animation: nach 3 Sekunden verschwindet das Popup */
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+}
+
 .contact {
     font-family: 'Poppins', sans-serif;
     color: white;
@@ -7,10 +44,11 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    overflow: hidden;
+    width: 100%;
+    max-width: 1440px;
+    max-height: 1200px;
 
     .position-headline {
-        max-width: 1043px;
         height: 108px;
         display: flex;
         align-items: center;
@@ -168,8 +206,8 @@
 
                     input[type="checkbox"] {
                         appearance: none;
-                        width: 18px;
-                        height: 18px;
+                        min-width: 18px;
+                        min-height: 18px;
                         border: 2px solid $toxicgreen;
                         background-color: transparent;
                         cursor: pointer;
@@ -245,6 +283,7 @@
         }
     }
 
+
     .arrow-up {
         z-index: 3;
         position: relative;
@@ -267,8 +306,8 @@
 
     .contact-shadow {
         position: relative;
-        bottom: 280px;
-        left: -255px;
+        left: -35vh;
+        top: -52vh;
 
         img {
             width: 847.47px;

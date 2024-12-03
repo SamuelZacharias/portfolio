@@ -2,17 +2,30 @@ $toxicgreen: #39FF14;
 $purple: #9747FF;
 $dark: #141D2F;
 
+.space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1240px;
+  width: 100%;
+  height: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 15;
+}
+
 .header {
   position: sticky;
   top: 0;
   z-index: 15;
   display: flex;
-  background-color: $dark;
+  background-color: #141d2f;
   align-items: center;
-  justify-content: space-between;
-  max-width: 100vw;
+  justify-content: center;
+  max-width: 100%;
   height: 109.03px;
-  padding: 0px 100px;
+  padding-left: 5%;
+  padding-right: 5%;
 
   .hero {
     font-weight: bold;
@@ -169,6 +182,12 @@ $dark: #141D2F;
   }
 }
 
+@media (max-width: 1440px) {
+  .space-between {
+    max-width: 1440px;
+  }
+}
+
 @media (max-width: 1300px) {
   .header {
     height: 90px;
@@ -260,3 +279,5 @@ $dark: #141D2F;
     padding-right: 25px;
   }
 }
+
+@media (min-width: 1441px) {}

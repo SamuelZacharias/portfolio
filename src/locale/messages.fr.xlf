@@ -2,155 +2,169 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" target-language="fr" datatype="plaintext" original="ng2.template">
     <body>
-      
-      <!-- About Me Section -->
-      <trans-unit id="1" datatype="html">
+      <!-- Header Section -->
+      <trans-unit id="3562199946446423606" datatype="html">
         <source>About me</source>
-        <target>À propos de moi</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/about/about.component.html</context>
-          <context context-type="linenumber">5,7</context>
-        </context-group>
-        <note priority="1" from="description">description: Überschrift für About Me Abschnitt</note>
-        <note priority="1" from="meaning">headlineAboutMe</note>
+        <target> À propos de moi </target>
       </trans-unit>
-      <trans-unit id="2" datatype="html">
-        <source>Hi, I&apos;m a German-speaking Frontend Developer based near Hannover. Motivated by the limitless opportunities within IT, I am excited about crafting visually captivating and intuitive websites and applications.</source>
-        <target>Bonjour, je suis un développeur frontend germanophone basé près de Hanovre. Motivé par les possibilités infinies qu'offre l'informatique, je suis passionné par la création de sites web et d'applications captivants et intuitifs.</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/about/about.component.html</context>
-          <context context-type="linenumber">8,10</context>
-        </context-group>
-        <note priority="1" from="description">description: Introtext über den Entwickler</note>
-        <note priority="1" from="meaning">aboutSection</note>
-      </trans-unit>
-      <trans-unit id="3" datatype="html">
-        <source>Flexible in terms of working environments, I can work effectively around Celle to Brunswick or Hannover and remotely.</source>
-        <target>Flexible en termes d'environnements de travail, je peux travailler efficacement autour de Celle, Brunswick ou Hanovre, ainsi qu'à distance.</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/about/about.component.html</context>
-          <context context-type="linenumber">15,18</context>
-        </context-group>
-        <note priority="1" from="description">description: Text über Arbeitsstandorte und Remote-Arbeit</note>
-        <note priority="1" from="meaning">aboutLocation</note>
-      </trans-unit>
-      <trans-unit id="4" datatype="html">
-        <source>I am open-minded and always looking for personal challenges to constantly improve my knowledge and skills.</source>
-        <target>Je suis ouvert d'esprit et toujours à la recherche de défis personnels pour améliorer constamment mes connaissances et mes compétences.</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/about/about.component.html</context>
-          <context context-type="linenumber">23,26</context>
-        </context-group>
-        <note priority="1" from="description">description: Text über Offenheit und persönliche Herausforderungen</note>
-        <note priority="1" from="meaning">aboutOpenMinded</note>
-      </trans-unit>
-      <trans-unit id="5" datatype="html">
-        <source>In my profession, programming isn&apos;t just about writing code; it&apos;s a creative form of problem-solving. I take pride in my ability to distill complex technical challenges into simple, user-friendly solutions. This way, I help you achieve your goals and bring your visions to life.</source>
-        <target>Dans mon métier, programmer ne se résume pas à écrire du code ; c'est une forme créative de résolution de problèmes. Je suis fier de ma capacité à transformer des défis techniques complexes en solutions simples et conviviales. Ainsi, je vous aide à atteindre vos objectifs et à donner vie à vos visions.</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/about/about.component.html</context>
-          <context context-type="linenumber">31,35</context>
-        </context-group>
-        <note priority="1" from="description">description: Text über Kreativität und Problemlösung in der Programmierung</note>
-        <note priority="1" from="meaning">aboutProblemSolving</note>
-      </trans-unit>
-
-      <!-- Navigation and Menu -->
-      <trans-unit id="6" datatype="html">
-        <source>About me</source>
-        <target>À propos de moi</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/header/header.component.html</context>
-          <context context-type="linenumber">4</context>
-        </context-group>
-        <note priority="1" from="description">description: Navigationseintrag für 'About me'</note>
-        <note priority="1" from="meaning">menuAboutMe</note>
-      </trans-unit>
-      <trans-unit id="7" datatype="html">
+      <trans-unit id="4342625008558026850" datatype="html">
         <source>Skills</source>
-        <target>Compétences</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/header/header.component.html</context>
-          <context context-type="linenumber">5</context>
-        </context-group>
-        <note priority="1" from="description">description: Navigationseintrag für 'Skills'</note>
-        <note priority="1" from="meaning">menuSkills</note>
-      </trans-unit>
-      <trans-unit id="8" datatype="html">
-        <source>Portfolio</source>
-        <target>Portfolio</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/header/header.component.html</context>
-          <context context-type="linenumber">6</context>
-        </context-group>
-        <note priority="1" from="description">description: Navigationseintrag für 'Portfolio'</note>
-        <note priority="1" from="meaning">menuPortfolio</note>
+        <target> Compétences </target>
       </trans-unit>
 
       <!-- Hero Section -->
-      <trans-unit id="9" datatype="html">
-        <source>Samuel</source>
-        <target>Samuel</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/hero/hero.component.html</context>
-          <context context-type="linenumber">3</context>
-        </context-group>
-        <note priority="1" from="description">description: Name im Hero-Bereich</note>
-        <note priority="1" from="meaning">heroName</note>
-      </trans-unit>
-      <trans-unit id="10" datatype="html">
-        <source>I am</source>
-        <target>Je suis</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/hero/hero.component.html</context>
-          <context context-type="linenumber">7</context>
-        </context-group>
-        <note priority="1" from="description">description: Text: "I am"</note>
-        <note priority="1" from="meaning">heroIntro</note>
-      </trans-unit>
-      <trans-unit id="11" datatype="html">
-        <source>FRONTEND DEVELOPER</source>
-        <target>Développeur FRONTEND</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/hero/hero.component.html</context>
-          <context context-type="linenumber">9</context>
-        </context-group>
-        <note priority="1" from="description">description: Untertitel im Hero-Bereich</note>
-        <note priority="1" from="meaning">heroSubtitle</note>
-      </trans-unit>
-      <trans-unit id="12" datatype="html">
+      <trans-unit id="7801216715156743110" datatype="html">
         <source>Let&apos;s talk!</source>
-        <target>Parlons-en!</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/hero/hero.component.html</context>
-          <context context-type="linenumber">11</context>
-        </context-group>
-        <note priority="1" from="description">description: Buttontext "Let&apos;s talk!"</note>
-        <note priority="1" from="meaning">heroButton</note>
+        <target> Parlons-en ! </target>
+      </trans-unit>
+      <trans-unit id="7588775583524760078" datatype="html">
+        <source>Scroll down <x id="TAG_IMG" ctype="image" equiv-text="&lt;img src=&quot;../../assets/icons/arrow-down-line.png&quot; alt=&quot;&quot;&gt;"/></source>
+        <target> Faites défiler vers le bas <x id="TAG_IMG" ctype="image" equiv-text="&lt;img src=&quot;../../assets/icons/arrow-down-line.png&quot; alt=&quot;&quot;&gt;"/> </target>
+      </trans-unit>
+
+      <!-- About Me Section -->
+      <trans-unit id="6548293842305474251" datatype="html">
+        <source> About me </source>
+        <target> À propos de moi </target>
+      </trans-unit>
+      <trans-unit id="749693954424934658" datatype="html">
+        <source> Hi, I&apos;m a German-speaking Frontend Developer based near Hannover. Motivated by the limitless opportunities within IT, I am excited about crafting visually captivating and intuitive websites and applications. </source>
+        <target> Bonjour, je suis un développeur frontend germanophone basé près de Hanovre. Motivé par les opportunités illimitées offertes par l&apos;informatique, je suis passionné par la création de sites web et d&apos;applications visuellement captivants et intuitifs. </target>
+      </trans-unit>
+      <trans-unit id="5707342122604193782" datatype="html">
+        <source> Flexible in terms of working environments, I can work effectively around Celle to Brunswick or Hannover and remotely. </source>
+        <target> Flexible en termes d&apos;environnements de travail, je peux travailler efficacement dans les régions de Celle, Brunswick ou Hanovre, ainsi qu&apos;à distance. </target>
+      </trans-unit>
+      <trans-unit id="4497687795525306253" datatype="html">
+        <source> I am open-minded and always looking for personal challenges to constantly improve my knowledge and skills. </source>
+        <target> Je suis ouvert d&apos;esprit et toujours à la recherche de défis personnels pour améliorer constamment mes connaissances et mes compétences. </target>
+      </trans-unit>
+      <trans-unit id="8727678874459556107" datatype="html">
+        <source> In my profession, programming isn&apos;t just about writing code; it&apos;s a creative form of problem-solving. I take pride in my ability to distill complex technical challenges into simple, user-friendly solutions. This way, I help you achieve your goals and bring your visions to life. </source>
+        <target> Dans mon métier, la programmation ne consiste pas seulement à écrire du code; c&apos;est une forme créative de résolution de problèmes. Je suis fier de ma capacité à transformer des défis techniques complexes en solutions simples et conviviales. De cette façon, je vous aide à atteindre vos objectifs et à concrétiser vos visions. </target>
       </trans-unit>
 
       <!-- Skills Section -->
-      <trans-unit id="13" datatype="html">
-        <source>My skills</source>
-        <target>Mes compétences</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/skills/skills.component.html</context>
-          <context context-type="linenumber">5</context>
-        </context-group>
-        <note priority="1" from="description">description: Überschrift "My skills"</note>
-        <note priority="1" from="meaning">skillsHeadline</note>
+      <trans-unit id="4342625008558026850" datatype="html">
+        <source>Skills</source>
+        <target> Compétences </target>
       </trans-unit>
-      <trans-unit id="14" datatype="html">
-        <source>I have gained experience in building projects with different frontend technologies and concepts.</source>
-        <target>J'ai acquis de l'expérience dans la création de projets avec différentes technologies et concepts frontend.</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/skills/skills.component.html</context>
-          <context context-type="linenumber">7</context>
-        </context-group>
-        <note priority="1" from="description">description: Text "I have gained experience..."</note>
-        <note priority="1" from="meaning">skillsIntro</note>
+      <trans-unit id="2277075553543193869" datatype="html">
+        <source> I have gained experience in building projects with different frontend technologies and concepts. </source>
+        <target> J&apos;ai acquis de l&apos;expérience dans la réalisation de projets avec différentes technologies et concepts frontend. </target>
+      </trans-unit>
+      <trans-unit id="6791971267469821731" datatype="html">
+        <source>Continually learning</source>
+        <target> Apprentissage continu </target>
+      </trans-unit>
+      <trans-unit id="7738432803406510694" datatype="html">
+        <source> My skills </source>
+        <target> Mes compétences </target>
+      </trans-unit>
+      <trans-unit id="2744942023239207079" datatype="html">
+        <source> Looking for <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;highlight&quot;&gt;"/>another skill<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>? </source>
+        <target> Vous recherchez <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;highlight&quot;&gt;"/>d&apos;autres compétences<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> ? </target>
+      </trans-unit>
+      <trans-unit id="6871643271623401871" datatype="html">
+        <source> Feel free to contact me. I look forward to expanding on my previous knowledge. </source>
+        <target> N&apos;hésitez pas à me contacter. Je me réjouis d&apos;approfondir mes connaissances. </target>
+      </trans-unit>
+      <trans-unit id="2236877205125634440" datatype="html">
+        <source>Get in touch</source>
+        <target> Contactez-moi </target>
       </trans-unit>
 
+      <!-- Portfolio Section -->
+      <trans-unit id="9201103587777813545" datatype="html">
+        <source>Portfolio</source>
+        <target> Portfolio </target>
+      </trans-unit>
+      <trans-unit id="3297439684729079018" datatype="html">
+        <source>Explore a selection of my work here - Interact with projects to see my skills in action.</source>
+        <target> Découvrez ici une sélection de mes travaux - Interagissez avec les projets pour voir mes compétences en action. </target>
+      </trans-unit>
+      <trans-unit id="718819065092803560" datatype="html">
+        <source>Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.</source>
+        <target> Gestionnaire de tâches inspiré du système Kanban. Créez et organisez des tâches à l&apos;aide de fonctions de glisser-déposer, assignez des utilisateurs et des catégories. </target>
+      </trans-unit>
+      <trans-unit id="8233550206782007546" datatype="html">
+        <source>A simple Jump-and-Run game based on an object-oriented approach. Help Pepe to find coins and bottles to fight against the boss chicken.</source>
+        <target> Un simple jeu de plateforme basé sur une approche orientée objet. Aidez Pepe à trouver des pièces et des bouteilles pour combattre le boss poulet. </target>
+      </trans-unit>
+      <trans-unit id="4313102182627493968" datatype="html">
+        <source>Based on the PokéAPI a simple library that provides and catalogues pokemon information.</source>
+        <target> Basé sur la PokéAPI, une bibliothèque simple qui fournit et catalogue des informations sur les Pokémon. </target>
+      </trans-unit>
+
+      <!-- References Section -->
+      <trans-unit id="3706163873407764100" datatype="html">
+        <source> Samuel has proven to be an extremely reliable and solution-oriented colleague during our collaboration. With analytical thinking and initiative, Sam has adeptly tackled complex challenges and supported the team at critical moments. Particularly noteworthy is Samuel&apos;s ability to quickly familiarize with new topics and work systematically towards the project goal. </source>
+        <target> Samuel s&apos;est révélé être un collègue extrêmement fiable et orienté vers les solutions lors de notre collaboration. Avec un esprit analytique et une grande initiative, Sam a su relever avec habileté des défis complexes et soutenir l&apos;équipe dans des moments critiques. Ce qui est particulièrement remarquable, c&apos;est la capacité de Samuel à se familiariser rapidement avec de nouveaux sujets et à travailler systématiquement vers l&apos;objectif du projet. </target>
+      </trans-unit>
+      <trans-unit id="6937475682571950754" datatype="html">
+        <source>P. Ivan - Team Partner</source>
+        <target>P. Ivan - Partenaire d&apos;équipe</target>
+      </trans-unit>
+
+      <!-- Contact Section -->
+      <trans-unit id="7922989125096435449" datatype="html">
+        <source>Contact</source>
+        <target> Contact </target>
+      </trans-unit>
+      <trans-unit id="7822866996489761530" datatype="html">
+        <source>Got a problem to solve?</source>
+        <target> Vous avez un problème à résoudre ? </target>
+      </trans-unit>
+      <trans-unit id="3428733954044413516" datatype="html">
+        <source> Contact me through this form, I am interested in hearing from you, knowing your ideas and contributing to your projects with my work. </source>
+        <target> Contactez-moi via ce formulaire, je suis intéressé par vos idées et prêt à contribuer à vos projets avec mon travail. </target>
+      </trans-unit>
+      <trans-unit id="1782701350720348104" datatype="html">
+        <source>Need a Frontend developer? Contact me!</source>
+        <target> Besoin d&apos;un développeur frontend ? Contactez-moi ! </target>
+      </trans-unit>
+      <trans-unit id="4968369344159400023" datatype="html">
+        <source>Your name is required.</source>
+        <target> Votre nom est requis. </target>
+      </trans-unit>
+      <trans-unit id="1668944983103095224" datatype="html">
+        <source>Name must be at least 2 characters long.</source>
+        <target> Le nom doit contenir au moins 2 caractères. </target>
+      </trans-unit>
+      <trans-unit id="9029376262204972776" datatype="html">
+        <source>Your email is required.</source>
+        <target> Votre email est requis. </target>
+      </trans-unit>
+      <trans-unit id="2446227100022235850" datatype="html">
+        <source>Please enter a valid email address.</source>
+        <target> Veuillez saisir une adresse email valide. </target>
+      </trans-unit>
+      <trans-unit id="8694910652077987554" datatype="html">
+        <source>Your message is empty.</source>
+        <target> Votre message est vide. </target>
+      </trans-unit>
+      <trans-unit id="4365138378394146009" datatype="html">
+        <source>Message must be at least 10 characters long.</source>
+        <target> Le message doit contenir au moins 10 caractères. </target>
+      </trans-unit>
+      <trans-unit id="4828836707668728450" datatype="html">
+        <source> I&apos;ve read the <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;#&quot;&gt;"/>privacy policy<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> and agree to the processing of my data as outlined. </source>
+        <target> J&apos;ai lu la <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;#&quot;&gt;"/>politique de confidentialité<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> et j&apos;accepte le traitement de mes données tel que décrit. </target>
+      </trans-unit>
+      <trans-unit id="331195629831146697" datatype="html">
+        <source>You must agree to the privacy policy.</source>
+        <target> Vous devez accepter la politique de confidentialité. </target>
+      </trans-unit>
+      <trans-unit id="7207625047477288451" datatype="html">
+        <source> Send Message :) </source>
+        <target> Envoyer le message</target>
+      </trans-unit>
+
+      <!-- Footer Section -->
+      <trans-unit id="1368884853095124539" datatype="html">
+        <source>Legal Notice</source>
+        <target> Mentions légales </target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

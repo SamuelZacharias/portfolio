@@ -9,7 +9,6 @@ $red: #E61C40;
 
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 
 
@@ -29,21 +28,20 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: black;
+    background-color: #141D2F;
     display: flex;
     justify-content: center;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-    overflow-x: hidden;
     height: 100%;
 }
 
 .container {
-  max-width: 1440px;
   width: 100vw;
   background-color: #141d2f;
   padding: 0;
+  overflow: hidden;
 }
 
 .floating-language-button {

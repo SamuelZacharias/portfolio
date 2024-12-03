@@ -2,155 +2,169 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" target-language="ja" datatype="plaintext" original="ng2.template">
     <body>
-      
-      <!-- About Me Section -->
-      <trans-unit id="1" datatype="html">
+      <!-- Header Section -->
+      <trans-unit id="3562199946446423606" datatype="html">
         <source>About me</source>
-        <target>私について</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/about/about.component.html</context>
-          <context context-type="linenumber">5,7</context>
-        </context-group>
-        <note priority="1" from="description">description: "About me" セクションのタイトル</note>
-        <note priority="1" from="meaning">headlineAboutMe</note>
+        <target> 私について </target>
       </trans-unit>
-      <trans-unit id="2" datatype="html">
-        <source>Hi, I&apos;m a German-speaking Frontend Developer based near Hannover. Motivated by the limitless opportunities within IT, I am excited about crafting visually captivating and intuitive websites and applications.</source>
-        <target>こんにちは、私はハノーファー近郊に住むドイツ語を話すフロントエンド開発者です。IT分野の無限の可能性に動機づけられ、視覚的に魅力的で直感的なウェブサイトやアプリケーションの作成に情熱を持っています。</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/about/about.component.html</context>
-          <context context-type="linenumber">8,10</context>
-        </context-group>
-        <note priority="1" from="description">description: 開発者の自己紹介テキスト</note>
-        <note priority="1" from="meaning">aboutSection</note>
-      </trans-unit>
-      <trans-unit id="3" datatype="html">
-        <source>Flexible in terms of working environments, I can work effectively around Celle to Brunswick or Hannover and remotely.</source>
-        <target>働く環境に柔軟性があり、チェレ、ブラウンシュヴァイク、ハノーファー周辺、またはリモートで効率的に働くことができます。</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/about/about.component.html</context>
-          <context context-type="linenumber">15,18</context>
-        </context-group>
-        <note priority="1" from="description">description: 職場環境やリモートワークに関するテキスト</note>
-        <note priority="1" from="meaning">aboutLocation</note>
-      </trans-unit>
-      <trans-unit id="4" datatype="html">
-        <source>I am open-minded and always looking for personal challenges to constantly improve my knowledge and skills.</source>
-        <target>私は柔軟な考え方を持ち、常に知識とスキルを向上させるための個人的な挑戦を探しています。</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/about/about.component.html</context>
-          <context context-type="linenumber">23,26</context>
-        </context-group>
-        <note priority="1" from="description">description: オープンマインドと個人的な挑戦に関するテキスト</note>
-        <note priority="1" from="meaning">aboutOpenMinded</note>
-      </trans-unit>
-      <trans-unit id="5" datatype="html">
-        <source>In my profession, programming isn&apos;t just about writing code; it&apos;s a creative form of problem-solving. I take pride in my ability to distill complex technical challenges into simple, user-friendly solutions. This way, I help you achieve your goals and bring your visions to life.</source>
-        <target>私の職業では、プログラミングは単なるコードを書くことではなく、創造的な問題解決の形です。複雑な技術的課題を簡単でユーザーフレンドリーな解決策に変える能力を誇りに思っています。このようにして、私はあなたが目標を達成し、ビジョンを実現するのを支援します。</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/about/about.component.html</context>
-          <context context-type="linenumber">31,35</context>
-        </context-group>
-        <note priority="1" from="description">description: プログラミングにおける創造性と問題解決に関するテキスト</note>
-        <note priority="1" from="meaning">aboutProblemSolving</note>
-      </trans-unit>
-
-      <!-- Navigation and Menu -->
-      <trans-unit id="6" datatype="html">
-        <source>About me</source>
-        <target>私について</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/header/header.component.html</context>
-          <context context-type="linenumber">4</context>
-        </context-group>
-        <note priority="1" from="description">description: ナビゲーションメニューの「私について」項目</note>
-        <note priority="1" from="meaning">menuAboutMe</note>
-      </trans-unit>
-      <trans-unit id="7" datatype="html">
+      <trans-unit id="4342625008558026850" datatype="html">
         <source>Skills</source>
-        <target>スキル</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/header/header.component.html</context>
-          <context context-type="linenumber">5</context>
-        </context-group>
-        <note priority="1" from="description">description: ナビゲーションメニューの「スキル」項目</note>
-        <note priority="1" from="meaning">menuSkills</note>
-      </trans-unit>
-      <trans-unit id="8" datatype="html">
-        <source>Portfolio</source>
-        <target>ポートフォリオ</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/header/header.component.html</context>
-          <context context-type="linenumber">6</context>
-        </context-group>
-        <note priority="1" from="description">description: ナビゲーションメニューの「ポートフォリオ」項目</note>
-        <note priority="1" from="meaning">menuPortfolio</note>
+        <target> スキル </target>
       </trans-unit>
 
       <!-- Hero Section -->
-      <trans-unit id="9" datatype="html">
-        <source>Samuel</source>
-        <target>サミュエル</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/hero/hero.component.html</context>
-          <context context-type="linenumber">3</context>
-        </context-group>
-        <note priority="1" from="description">description: Heroセクションの名前</note>
-        <note priority="1" from="meaning">heroName</note>
-      </trans-unit>
-      <trans-unit id="10" datatype="html">
-        <source>I am</source>
-        <target>私は</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/hero/hero.component.html</context>
-          <context context-type="linenumber">7</context>
-        </context-group>
-        <note priority="1" from="description">description: "私は" のテキスト</note>
-        <note priority="1" from="meaning">heroIntro</note>
-      </trans-unit>
-      <trans-unit id="11" datatype="html">
-        <source>FRONTEND DEVELOPER</source>
-        <target>フロントエンド開発者</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/hero/hero.component.html</context>
-          <context context-type="linenumber">9</context>
-        </context-group>
-        <note priority="1" from="description">description: Heroセクションのサブタイトル</note>
-        <note priority="1" from="meaning">heroSubtitle</note>
-      </trans-unit>
-      <trans-unit id="12" datatype="html">
+      <trans-unit id="7801216715156743110" datatype="html">
         <source>Let&apos;s talk!</source>
-        <target>話しましょう！</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/hero/hero.component.html</context>
-          <context context-type="linenumber">11</context>
-        </context-group>
-        <note priority="1" from="description">description: ボタンのテキスト「話しましょう！」</note>
-        <note priority="1" from="meaning">heroButton</note>
+        <target> 話しましょう！ </target>
+      </trans-unit>
+      <trans-unit id="7588775583524760078" datatype="html">
+        <source>Scroll down <x id="TAG_IMG" ctype="image" equiv-text="&lt;img src=&quot;../../assets/icons/arrow-down-line.png&quot; alt=&quot;&quot;&gt;"/></source>
+        <target> 下にスクロール <x id="TAG_IMG" ctype="image" equiv-text="&lt;img src=&quot;../../assets/icons/arrow-down-line.png&quot; alt=&quot;&quot;&gt;"/> </target>
+      </trans-unit>
+
+      <!-- About Me Section -->
+      <trans-unit id="6548293842305474251" datatype="html">
+        <source> About me </source>
+        <target> 私について </target>
+      </trans-unit>
+      <trans-unit id="749693954424934658" datatype="html">
+        <source> Hi, I&apos;m a German-speaking Frontend Developer based near Hannover. Motivated by the limitless opportunities within IT, I am excited about crafting visually captivating and intuitive websites and applications. </source>
+        <target> こんにちは、私はハノーファー近郊に拠点を置くドイツ語を話すフロントエンド開発者です。IT分野の無限の可能性に触発され、視覚的に魅力的で直感的なウェブサイトやアプリケーションの構築に情熱を注いでいます。 </target>
+      </trans-unit>
+      <trans-unit id="5707342122604193782" datatype="html">
+        <source> Flexible in terms of working environments, I can work effectively around Celle to Brunswick or Hannover and remotely. </source>
+        <target> 働く環境に柔軟に対応でき、ツェレからブラウンシュヴァイク、ハノーファー周辺、またはリモートで効果的に作業できます。 </target>
+      </trans-unit>
+      <trans-unit id="4497687795525306253" datatype="html">
+        <source> I am open-minded and always looking for personal challenges to constantly improve my knowledge and skills. </source>
+        <target> 私は柔軟な考え方を持ち、知識とスキルを常に向上させるために個人的な挑戦を求めています。 </target>
+      </trans-unit>
+      <trans-unit id="8727678874459556107" datatype="html">
+        <source> In my profession, programming isn&apos;t just about writing code; it&apos;s a creative form of problem-solving. I take pride in my ability to distill complex technical challenges into simple, user-friendly solutions. This way, I help you achieve your goals and bring your visions to life. </source>
+        <target> 私の職業では、プログラミングは単にコードを書くことではなく、創造的な問題解決の一形態です。複雑な技術的課題をシンプルで使いやすい解決策に変える能力に誇りを持っています。このようにして、目標達成とビジョンの実現を支援します。 </target>
       </trans-unit>
 
       <!-- Skills Section -->
-      <trans-unit id="13" datatype="html">
-        <source>My skills</source>
-        <target>私のスキル</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/skills/skills.component.html</context>
-          <context context-type="linenumber">5</context>
-        </context-group>
-        <note priority="1" from="description">description: "My skills" セクションの見出し</note>
-        <note priority="1" from="meaning">skillsHeadline</note>
+      <trans-unit id="4342625008558026850" datatype="html">
+        <source>Skills</source>
+        <target> スキル </target>
       </trans-unit>
-      <trans-unit id="14" datatype="html">
-        <source>I have gained experience in building projects with different frontend technologies and concepts.</source>
-        <target>さまざまなフロントエンド技術とコンセプトを使用してプロジェクトを構築する経験を積んできました。</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/skills/skills.component.html</context>
-          <context context-type="linenumber">7</context>
-        </context-group>
-        <note priority="1" from="description">description: "I have gained experience..." のテキスト</note>
-        <note priority="1" from="meaning">skillsIntro</note>
+      <trans-unit id="2277075553543193869" datatype="html">
+        <source> I have gained experience in building projects with different frontend technologies and concepts. </source>
+        <target> さまざまなフロントエンド技術とコンセプトを用いたプロジェクト構築の経験を積んできました。 </target>
+      </trans-unit>
+      <trans-unit id="6791971267469821731" datatype="html">
+        <source>Continually learning</source>
+        <target> 継続的な学習 </target>
+      </trans-unit>
+      <trans-unit id="7738432803406510694" datatype="html">
+        <source> My skills </source>
+        <target> 私のスキル </target>
+      </trans-unit>
+      <trans-unit id="2744942023239207079" datatype="html">
+        <source> Looking for <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;highlight&quot;&gt;"/>another skill<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>? </source>
+        <target> <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;highlight&quot;&gt;"/>他のスキル<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>をお探しですか？ </target>
+      </trans-unit>
+      <trans-unit id="6871643271623401871" datatype="html">
+        <source> Feel free to contact me. I look forward to expanding on my previous knowledge. </source>
+        <target> お気軽にご連絡ください。これまでの知識をさらに広げるのを楽しみにしています。 </target>
+      </trans-unit>
+      <trans-unit id="2236877205125634440" datatype="html">
+        <source>Get in touch</source>
+        <target> 連絡する </target>
       </trans-unit>
 
+      <!-- Portfolio Section -->
+      <trans-unit id="9201103587777813545" datatype="html">
+        <source>Portfolio</source>
+        <target> ポートフォリオ </target>
+      </trans-unit>
+      <trans-unit id="3297439684729079018" datatype="html">
+        <source>Explore a selection of my work here - Interact with projects to see my skills in action.</source>
+        <target> ここで私の作品のセレクションをご覧ください - プロジェクトに触れて、私のスキルを実際に見てみてください。 </target>
+      </trans-unit>
+      <trans-unit id="718819065092803560" datatype="html">
+        <source>Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.</source>
+        <target> カンバンシステムにインスパイアされたタスク管理ツール。ドラッグ＆ドロップ機能を使用してタスクを作成・整理し、ユーザーやカテゴリを割り当てることができます。 </target>
+      </trans-unit>
+      <trans-unit id="8233550206782007546" datatype="html">
+        <source>A simple Jump-and-Run game based on an object-oriented approach. Help Pepe to find coins and bottles to fight against the boss chicken.</source>
+        <target> オブジェクト指向アプローチに基づいたシンプルなジャンプ＆ランゲーム。ペペを助けてコインやボトルを見つけ、ボスチキンと戦いましょう。 </target>
+      </trans-unit>
+      <trans-unit id="4313102182627493968" datatype="html">
+        <source>Based on the PokéAPI a simple library that provides and catalogues pokemon information.</source>
+        <target> PokéAPIに基づいた、ポケモン情報を提供しカタログ化するシンプルなライブラリ。 </target>
+      </trans-unit>
+
+      <!-- References Section -->
+      <trans-unit id="3706163873407764100" datatype="html">
+        <source> Samuel has proven to be an extremely reliable and solution-oriented colleague during our collaboration. With analytical thinking and initiative, Sam has adeptly tackled complex challenges and supported the team at critical moments. Particularly noteworthy is Samuel&apos;s ability to quickly familiarize with new topics and work systematically towards the project goal. </source>
+        <target> サミュエルは、共同作業中に非常に信頼でき、解決志向の同僚であることが証明されました。分析的な思考と積極性を持ち、サムは複雑な課題に巧みに取り組み、重要な時期にチームを支援しました。特に注目すべきは、新しいトピックに迅速に精通し、プロジェクト目標に向けて体系的に取り組む能力です。 </target>
+      </trans-unit>
+      <trans-unit id="6937475682571950754" datatype="html">
+        <source>P. Ivan - Team Partner</source>
+        <target>P. イヴァン - チームパートナー</target>
+      </trans-unit>
+
+      <!-- Contact Section -->
+      <trans-unit id="7922989125096435449" datatype="html">
+        <source>Contact</source>
+        <target> お問い合わせ </target>
+      </trans-unit>
+      <trans-unit id="7822866996489761530" datatype="html">
+        <source>Got a problem to solve?</source>
+        <target> 解決したい問題がありますか？ </target>
+      </trans-unit>
+      <trans-unit id="3428733954044413516" datatype="html">
+        <source> Contact me through this form, I am interested in hearing from you, knowing your ideas and contributing to your projects with my work. </source>
+        <target> このフォームを通じて私に連絡してください。あなたの考えを知り、私の仕事を通じてプロジェクトに貢献することに興味があります。 </target>
+      </trans-unit>
+      <trans-unit id="1782701350720348104" datatype="html">
+        <source>Need a Frontend developer? Contact me!</source>
+        <target> フロントエンド開発者が必要ですか？ 私に連絡してください！ </target>
+      </trans-unit>
+      <trans-unit id="4968369344159400023" datatype="html">
+        <source>Your name is required.</source>
+        <target> あなたの名前は必須です。 </target>
+      </trans-unit>
+      <trans-unit id="1668944983103095224" datatype="html">
+        <source>Name must be at least 2 characters long.</source>
+        <target> 名前は少なくとも2文字以上である必要があります。 </target>
+      </trans-unit>
+      <trans-unit id="9029376262204972776" datatype="html">
+        <source>Your email is required.</source>
+        <target> メールアドレスが必要です。 </target>
+      </trans-unit>
+      <trans-unit id="2446227100022235850" datatype="html">
+        <source>Please enter a valid email address.</source>
+        <target> 有効なメールアドレスを入力してください。 </target>
+      </trans-unit>
+      <trans-unit id="8694910652077987554" datatype="html">
+        <source>Your message is empty.</source>
+        <target> メッセージが空です。 </target>
+      </trans-unit>
+      <trans-unit id="4365138378394146009" datatype="html">
+        <source>Message must be at least 10 characters long.</source>
+        <target> メッセージは少なくとも10文字以上である必要があります。 </target>
+      </trans-unit>
+      <trans-unit id="4828836707668728450" datatype="html">
+        <source> I&apos;ve read the <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;#&quot;&gt;"/>privacy policy<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> and agree to the processing of my data as outlined. </source>
+        <target> <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;#&quot;&gt;"/>プライバシーポリシー<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>を読み、記載された通りにデータ処理に同意します。 </target>
+      </trans-unit>
+      <trans-unit id="331195629831146697" datatype="html">
+        <source>You must agree to the privacy policy.</source>
+        <target> プライバシーポリシーに同意する必要があります。 </target>
+      </trans-unit>
+      <trans-unit id="7207625047477288451" datatype="html">
+        <source> Send Message :) </source>
+        <target> メッセージを送る</target>
+      </trans-unit>
+
+      <!-- Footer Section -->
+      <trans-unit id="1368884853095124539" datatype="html">
+        <source>Legal Notice</source>
+        <target> 法的通知 </target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

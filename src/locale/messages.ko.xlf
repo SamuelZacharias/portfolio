@@ -2,93 +2,169 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" target-language="ko" datatype="plaintext" original="ng2.template">
     <body>
-      
-      <!-- About Me Section -->
-      <trans-unit id="1" datatype="html">
+      <!-- Header Section -->
+      <trans-unit id="3562199946446423606" datatype="html">
         <source>About me</source>
-        <target>저에 대해</target>
-        <note priority="1" from="description">"저에 대해" 섹션의 제목</note>
+        <target> 저에 대해 </target>
       </trans-unit>
-      <trans-unit id="2" datatype="html">
-        <source>Hi, I&apos;m a German-speaking Frontend Developer based near Hannover. Motivated by the limitless opportunities within IT, I am excited about crafting visually captivating and intuitive websites and applications.</source>
-        <target>
-          안녕하세요, 저는 하노버 근처에 거주하는 독일어를 사용하는 프론트엔드 개발자입니다.
-          IT 분야의 무한한 가능성에 영감을 받아,
-          시각적으로 매력적이고 직관적인 웹사이트와 애플리케이션을 만드는 데 열정을 가지고 있습니다.
-        </target>
-        <note priority="1" from="description">개발자 소개 텍스트</note>
-      </trans-unit>
-      <trans-unit id="3" datatype="html">
-        <source>Flexible in terms of working environments, I can work effectively around Celle to Brunswick or Hannover and remotely.</source>
-        <target>작업 환경 측면에서 유연성을 가지며, 셀레, 브라운슈바이크, 하노버 지역 또는 원격에서 효율적으로 작업할 수 있습니다.</target>
-        <note priority="1" from="description">작업 위치 및 원격 작업에 대한 텍스트</note>
-      </trans-unit>
-      <trans-unit id="4" datatype="html">
-        <source>I am open-minded and always looking for personal challenges to constantly improve my knowledge and skills.</source>
-        <target>저는 개방적인 사고를 가지고 있으며, 항상 지식과 기술을 지속적으로 향상시키기 위한 개인적인 도전을 추구합니다.</target>
-        <note priority="1" from="description">개방성과 개인적인 도전에 대한 텍스트</note>
-      </trans-unit>
-      <trans-unit id="5" datatype="html">
-        <source>In my profession, programming isn&apos;t just about writing code; it&apos;s a creative form of problem-solving. I take pride in my ability to distill complex technical challenges into simple, user-friendly solutions. This way, I help you achieve your goals and bring your visions to life.</source>
-        <target>
-          제 직업에서 프로그래밍은 단순히 코드를 작성하는 것이 아니라 문제를 창의적으로 해결하는 방법입니다.
-          복잡한 기술적 과제를 간단하고 사용자 친화적인 솔루션으로 간소화하는 능력에 자부심을 느낍니다.
-          이를 통해 목표를 달성하고 비전을 실현할 수 있도록 돕습니다.
-        </target>
-        <note priority="1" from="description">프로그래밍에서 창의성과 문제 해결에 대한 텍스트</note>
-      </trans-unit>
-
-      <!-- Navigation and Menu -->
-      <trans-unit id="6" datatype="html">
-        <source>About me</source>
-        <target>저에 대해</target>
-        <note priority="1" from="description">'저에 대해' 네비게이션 항목</note>
-      </trans-unit>
-      <trans-unit id="7" datatype="html">
+      <trans-unit id="4342625008558026850" datatype="html">
         <source>Skills</source>
-        <target>기술</target>
-        <note priority="1" from="description">'기술' 네비게이션 항목</note>
-      </trans-unit>
-      <trans-unit id="8" datatype="html">
-        <source>Portfolio</source>
-        <target>포트폴리오</target>
-        <note priority="1" from="description">'포트폴리오' 네비게이션 항목</note>
+        <target> 기술 </target>
       </trans-unit>
 
       <!-- Hero Section -->
-      <trans-unit id="9" datatype="html">
-        <source>Samuel</source>
-        <target>사무엘</target>
-        <note priority="1" from="description">Hero 섹션의 이름</note>
-      </trans-unit>
-      <trans-unit id="10" datatype="html">
-        <source>I am</source>
-        <target>저는</target>
-        <note priority="1" from="description">"I am" 텍스트</note>
-      </trans-unit>
-      <trans-unit id="11" datatype="html">
-        <source>FRONTEND DEVELOPER</source>
-        <target>프론트엔드 개발자</target>
-        <note priority="1" from="description">Hero 섹션의 부제목</note>
-      </trans-unit>
-      <trans-unit id="12" datatype="html">
+      <trans-unit id="7801216715156743110" datatype="html">
         <source>Let&apos;s talk!</source>
-        <target>얘기해보세요!</target>
-        <note priority="1" from="description">"Let&apos;s talk!" 버튼 텍스트</note>
+        <target> 이야기해요! </target>
+      </trans-unit>
+      <trans-unit id="7588775583524760078" datatype="html">
+        <source>Scroll down <x id="TAG_IMG" ctype="image" equiv-text="&lt;img src=&quot;../../assets/icons/arrow-down-line.png&quot; alt=&quot;&quot;&gt;"/></source>
+        <target> 아래로 스크롤하세요 <x id="TAG_IMG" ctype="image" equiv-text="&lt;img src=&quot;../../assets/icons/arrow-down-line.png&quot; alt=&quot;&quot;&gt;"/> </target>
+      </trans-unit>
+
+      <!-- About Me Section -->
+      <trans-unit id="6548293842305474251" datatype="html">
+        <source> About me </source>
+        <target> 저에 대해 </target>
+      </trans-unit>
+      <trans-unit id="749693954424934658" datatype="html">
+        <source> Hi, I&apos;m a German-speaking Frontend Developer based near Hannover. Motivated by the limitless opportunities within IT, I am excited about crafting visually captivating and intuitive websites and applications. </source>
+        <target> 안녕하세요, 저는 하노버 근처에 거주하는 독일어를 사용하는 프론트엔드 개발자입니다. IT의 무한한 가능성에 영감을 받아 시각적으로 매력적이고 직관적인 웹사이트 및 애플리케이션을 만드는 데 열정을 가지고 있습니다. </target>
+      </trans-unit>
+      <trans-unit id="5707342122604193782" datatype="html">
+        <source> Flexible in terms of working environments, I can work effectively around Celle to Brunswick or Hannover and remotely. </source>
+        <target> 작업 환경에 유연하게 적응하며, 첼레에서 브라운슈바이크 또는 하노버까지, 원격으로도 효과적으로 작업할 수 있습니다. </target>
+      </trans-unit>
+      <trans-unit id="4497687795525306253" datatype="html">
+        <source> I am open-minded and always looking for personal challenges to constantly improve my knowledge and skills. </source>
+        <target> 저는 열린 마음으로 항상 개인적인 도전을 통해 지식과 기술을 지속적으로 향상시키고자 합니다. </target>
+      </trans-unit>
+      <trans-unit id="8727678874459556107" datatype="html">
+        <source> In my profession, programming isn&apos;t just about writing code; it&apos;s a creative form of problem-solving. I take pride in my ability to distill complex technical challenges into simple, user-friendly solutions. This way, I help you achieve your goals and bring your visions to life. </source>
+        <target> 제 직업에서 프로그래밍은 단순히 코드를 작성하는 것만이 아니라 창의적인 문제 해결의 한 형태입니다. 저는 복잡한 기술적 문제를 간단하고 사용자 친화적인 솔루션으로 정리할 수 있는 능력에 자부심을 느낍니다. 이를 통해 여러분의 목표를 달성하고 비전을 실현할 수 있도록 도와드립니다. </target>
       </trans-unit>
 
       <!-- Skills Section -->
-      <trans-unit id="13" datatype="html">
-        <source>My skills</source>
-        <target>저의 기술</target>
-        <note priority="1" from="description">"My skills" 섹션의 제목</note>
+      <trans-unit id="4342625008558026850" datatype="html">
+        <source>Skills</source>
+        <target> 기술 </target>
       </trans-unit>
-      <trans-unit id="14" datatype="html">
-        <source>I have gained experience in building projects with different frontend technologies and concepts.</source>
-        <target>다양한 프론트엔드 기술과 개념을 활용하여 프로젝트를 구축한 경험이 있습니다.</target>
-        <note priority="1" from="description">기술 경험에 대한 텍스트</note>
+      <trans-unit id="2277075553543193869" datatype="html">
+        <source> I have gained experience in building projects with different frontend technologies and concepts. </source>
+        <target> 저는 다양한 프론트엔드 기술과 개념을 사용하여 프로젝트를 구축한 경험을 가지고 있습니다. </target>
+      </trans-unit>
+      <trans-unit id="6791971267469821731" datatype="html">
+        <source>Continually learning</source>
+        <target> 지속적인 학습 </target>
+      </trans-unit>
+      <trans-unit id="7738432803406510694" datatype="html">
+        <source> My skills </source>
+        <target> 나의 기술 </target>
+      </trans-unit>
+      <trans-unit id="2744942023239207079" datatype="html">
+        <source> Looking for <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;highlight&quot;&gt;"/>another skill<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>? </source>
+        <target> <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;highlight&quot;&gt;"/>다른 기술<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>을 찾고 계신가요? </target>
+      </trans-unit>
+      <trans-unit id="6871643271623401871" datatype="html">
+        <source> Feel free to contact me. I look forward to expanding on my previous knowledge. </source>
+        <target> 언제든 저에게 연락해주세요. 기존 지식을 확장하게 되길 기대합니다. </target>
+      </trans-unit>
+      <trans-unit id="2236877205125634440" datatype="html">
+        <source>Get in touch</source>
+        <target> 연락주세요 </target>
       </trans-unit>
 
+      <!-- Portfolio Section -->
+      <trans-unit id="9201103587777813545" datatype="html">
+        <source>Portfolio</source>
+        <target> 포트폴리오 </target>
+      </trans-unit>
+      <trans-unit id="3297439684729079018" datatype="html">
+        <source>Explore a selection of my work here - Interact with projects to see my skills in action.</source>
+        <target> 여기에서 제 작품 모음을 살펴보세요 - 프로젝트와 상호작용하여 저의 기술력을 직접 확인하세요. </target>
+      </trans-unit>
+      <trans-unit id="718819065092803560" datatype="html">
+        <source>Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.</source>
+        <target> 칸반 시스템에서 영감을 받은 작업 관리자입니다. 드래그 앤 드롭 기능을 사용하여 작업을 생성하고 조직화하며, 사용자와 카테고리를 지정할 수 있습니다. </target>
+      </trans-unit>
+      <trans-unit id="8233550206782007546" datatype="html">
+        <source>A simple Jump-and-Run game based on an object-oriented approach. Help Pepe to find coins and bottles to fight against the boss chicken.</source>
+        <target> 객체 지향 접근 방식을 기반으로 한 간단한 점프 앤 런 게임입니다. Pepe가 동전을 찾고 병을 모아 보스 치킨과 싸울 수 있도록 도와주세요. </target>
+      </trans-unit>
+      <trans-unit id="4313102182627493968" datatype="html">
+        <source>Based on the PokéAPI a simple library that provides and catalogues pokemon information.</source>
+        <target> PokéAPI를 기반으로 포켓몬 정보를 제공하고 카탈로그화하는 간단한 라이브러리입니다. </target>
+      </trans-unit>
+
+      <!-- References Section -->
+      <trans-unit id="3706163873407764100" datatype="html">
+        <source> Samuel has proven to be an extremely reliable and solution-oriented colleague during our collaboration. With analytical thinking and initiative, Sam has adeptly tackled complex challenges and supported the team at critical moments. Particularly noteworthy is Samuel&apos;s ability to quickly familiarize with new topics and work systematically towards the project goal. </source>
+        <target> 사무엘은 협업 기간 동안 매우 신뢰할 수 있고 해결 지향적인 동료로 입증되었습니다. 분석적인 사고와 주도권을 발휘하여 복잡한 문제를 능숙하게 해결하고 중요한 순간에 팀을 지원했습니다. 특히 주목할 점은 새로운 주제를 신속하게 익히고 프로젝트 목표를 체계적으로 향해 나아가는 사무엘의 능력입니다. </target>
+      </trans-unit>
+      <trans-unit id="6937475682571950754" datatype="html">
+        <source>P. Ivan - Team Partner</source>
+        <target>P. 이반 - 팀 파트너</target>
+      </trans-unit>
+
+      <!-- Contact Section -->
+      <trans-unit id="7922989125096435449" datatype="html">
+        <source>Contact</source>
+        <target> 연락처 </target>
+      </trans-unit>
+      <trans-unit id="7822866996489761530" datatype="html">
+        <source>Got a problem to solve?</source>
+        <target> 해결할 문제가 있나요? </target>
+      </trans-unit>
+      <trans-unit id="3428733954044413516" datatype="html">
+        <source> Contact me through this form, I am interested in hearing from you, knowing your ideas and contributing to your projects with my work. </source>
+        <target> 이 양식을 통해 저에게 연락하세요. 귀하의 아이디어를 듣고 제 작업으로 귀하의 프로젝트에 기여하는 데 관심이 있습니다. </target>
+      </trans-unit>
+      <trans-unit id="1782701350720348104" datatype="html">
+        <source>Need a Frontend developer? Contact me!</source>
+        <target> 프론트엔드 개발자가 필요하신가요? 저에게 연락하세요! </target>
+      </trans-unit>
+      <trans-unit id="4968369344159400023" datatype="html">
+        <source>Your name is required.</source>
+        <target> 이름이 필요합니다. </target>
+      </trans-unit>
+      <trans-unit id="1668944983103095224" datatype="html">
+        <source>Name must be at least 2 characters long.</source>
+        <target> 이름은 최소 2자 이상이어야 합니다. </target>
+      </trans-unit>
+      <trans-unit id="9029376262204972776" datatype="html">
+        <source>Your email is required.</source>
+        <target> 이메일이 필요합니다. </target>
+      </trans-unit>
+      <trans-unit id="2446227100022235850" datatype="html">
+        <source>Please enter a valid email address.</source>
+        <target> 유효한 이메일 주소를 입력하세요. </target>
+      </trans-unit>
+      <trans-unit id="8694910652077987554" datatype="html">
+        <source>Your message is empty.</source>
+        <target> 메시지가 비어 있습니다. </target>
+      </trans-unit>
+      <trans-unit id="4365138378394146009" datatype="html">
+        <source>Message must be at least 10 characters long.</source>
+        <target> 메시지는 최소 10자 이상이어야 합니다. </target>
+      </trans-unit>
+      <trans-unit id="4828836707668728450" datatype="html">
+        <source> I&apos;ve read the <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;#&quot;&gt;"/>privacy policy<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> and agree to the processing of my data as outlined. </source>
+        <target> <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;#&quot;&gt;"/>개인정보 보호정책<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>을 읽었으며, 명시된 대로 내 데이터 처리에 동의합니다. </target>
+      </trans-unit>
+      <trans-unit id="331195629831146697" datatype="html">
+        <source>You must agree to the privacy policy.</source>
+        <target> 개인정보 보호정책에 동의해야 합니다. </target>
+      </trans-unit>
+      <trans-unit id="7207625047477288451" datatype="html">
+        <source> Send Message :) </source>
+        <target> 메시지 보내기 </target>
+      </trans-unit>
+
+      <!-- Footer Section -->
+      <trans-unit id="1368884853095124539" datatype="html">
+        <source>Legal Notice</source>
+        <target> 법적 고지 </target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

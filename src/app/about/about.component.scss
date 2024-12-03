@@ -1,11 +1,17 @@
 @import '../../styles.scss';
 
+.about-section {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
 .about {
     display: flex;
     justify-content: center;
     width: 100vw;
     min-height: 80vh;
-    max-height: 100vh;
+    max-height: 100%;
     height: auto;
     background-color: $dark;
     font-family: 'Poppins', sans-serif;
@@ -15,7 +21,6 @@
     flex-direction: column;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     z-index: 4;
 }
 
@@ -37,7 +42,6 @@
     width: auto;
     font-weight: 400;
     font-size: clamp(14px, 1.6vw, 16px);
-    line-height: clamp(18px, 1.9vw, 19.2px);
     margin-left: 100px;
     margin-bottom: 32px;
 }
@@ -79,8 +83,9 @@
 
 .image-cut {
     max-width: 453px;
-    width: auto;
-    height: auto;
+    width: 453px;
+    height: 453px;
+    max-height: 453px;
     overflow: hidden;
     border-radius: 50%;
     position: relative;
@@ -93,7 +98,6 @@
         height: 100%;
         object-fit: cover;
         position: relative;
-        transform: translateY(32px);
     }
 }
 
@@ -112,13 +116,13 @@
 .section {
     position: relative;
     padding-top: 120px;
-    margin-top: -120px;
 }
 
 .line-to-image {
     position: relative;
     z-index: 1;
-    width: 18.54%;
+    width: 100%;
+    max-width: 11%;
     height: 4px;
     background-color: $toxicgreen;
 }
@@ -209,10 +213,32 @@
     }
 }
 
+@media (max-width: 1200px) {
+    .image-cut {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .image-cut {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 900px) {
+    .image-cut {
+        width: 200px;
+        height: 200px;
+    }
+}
+
 @media (max-width: 800px) {
 
     .about {
         margin-top: 8%;
+        align-items: center;
     }
 
     .image-cut,
@@ -237,6 +263,11 @@
 
 @media (max-width: 500px) {
 
+    .about {
+        height: 35vh;
+        margin-top: 51%;
+    }
+
     .column {
         height: calc(100vh + 129.03px);
     }
@@ -254,5 +285,11 @@
         margin-top: 10%;
         font-size: clamp(30px, 4vw, 45px);
         line-height: clamp(36px, 5vw, 54px);
+    }
+}
+
+@media (max-width: 320px) {
+    .column {
+        height: 79vh;
     }
 }

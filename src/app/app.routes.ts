@@ -5,6 +5,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ReferencesComponent } from './references/references.component';
 import { ContactComponent } from './contact/contact.component';
+import { LegalNoticeComponent } from './legal-notice/legal-notice.component'; // Legal Notice importieren
 
 export const appRoutes: Routes = [
   { path: '', component: HeroComponent },  // Hauptseite (Hero)
@@ -13,5 +14,6 @@ export const appRoutes: Routes = [
   { path: 'portfolio', component: PortfolioComponent },  // Portfolio
   { path: 'references', component: ReferencesComponent },  // Referenzen
   { path: 'contact', component: ContactComponent },  // Kontaktseite
+  { path: 'legal-notice', component: LegalNoticeComponent }, // Legal Notice Seite
   { path: '**', redirectTo: '' }, // Fallback Route
 ];

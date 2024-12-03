@@ -1,0 +1,91 @@
+@import '../../styles.scss';
+
+// Google Nexus
+@media only screen and (max-width: 2560px) and (max-height: 1600px) {
+
+    .hero-desktop {
+        height: 51vh;
+    }
+
+    .index {
+        top: -1vh;
+        width: 29%;
+        left: 2%;
+    }
+
+    .hero-background {
+        margin-top: -11vh;
+    }
+}
+
+@media only screen and (max-width: 1600px) and (max-height: 2560px) {
+
+    .hero-desktop {
+        height: 51vh;
+    }
+
+    .index {
+        top: -1vh;
+        width: 29%;
+        left: 2%;
+    }
+
+    .hero-background {
+        margin-top: -11vh;
+    }
+}
+
+// Blackberry Playbook Portrait
+
+@media only screen and (max-width: 600px) and (max-height: 1024px) {
+
+    .column {
+        margin-top: -7vh;
+    }
+
+    .index-2 {
+        margin-top: 1.2vh;
+    }
+}
+
+// Microsoft Surface Portrait
+
+@media only screen and (max-width: 768px) and (max-height: 1366px) {
+
+    .hero-desktop {
+        height: 60vh;
+    }
+
+    .column {
+        margin-top: -10vh;
+    }
+}
+
+// Microsoft Surface Pro Portrait
+
+@media only screen and (min-width: 719px) and (max-width: 720px) and (min-height: 1279px) and (max-height: 1280px) {
+
+    .hero-desktop {
+        height: 60vh;
+    }
+
+    .column {
+        margin-top: -10vh;
+    }
+}
+
+@media only screen and (min-width: 1161px) and (max-width: 1161px) and (min-height: 768px) and (max-height: 768px) {
+    .column {
+        margin-top: 10%;
+    }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 425px) and (min-height: 1127px) and (max-height: 1127px) {
+    .column {
+        margin-top: 10%;
+    }
+
+    .index-2 {
+        margin-top: 3%;
+    }
+}

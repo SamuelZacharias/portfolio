@@ -1,16 +1,21 @@
 @import '../../styles.scss';
 
+.hero-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .hero-desktop {
     position: relative;
     display: flex;
     justify-content: center;
     height: calc(100vh - 109.03px);
     max-height: calc(100vh - 109.03px);
-    margin-bottom: 120px;
-    overflow: hidden;
     display: flex;
     width: 100vw;
     max-width: 1440px;
+    flex-direction: column;
 }
 
 .button {
@@ -38,7 +43,7 @@
 
 .index-2 {
     position: relative;
-    width: 1540px;
+    width: 1440px;
     height: auto;
     z-index: 5;
     margin-top: -5%;
@@ -53,7 +58,7 @@
 
 a {
     text-decoration: none;
-    cursor: auto;
+    cursor: pointer;
 }
 
 .hero-background,
@@ -62,7 +67,6 @@ a {
     top: 177.6px;
     width: 100vw;
     max-width: 1440px;
-    margin-left: -50px;
 }
 
 .column {
@@ -70,7 +74,7 @@ a {
     flex-direction: column;
     position: relative;
     margin-left: auto;
-    margin-top: -25%;
+    margin-top: -10%;
     margin-right: 120px;
     z-index: 6;
 }
@@ -79,7 +83,7 @@ a {
     background-color: $dark;
     display: flex;
     align-items: center;
-    width: 1440px;
+    width: 100%;
     max-width: 1440px;
 
     .hero-text {
@@ -193,7 +197,6 @@ button {
     display: flex;
     justify-content: space-between;
     max-width: 1340px;
-    width: 600px;
     align-items: center;
     gap: 16px;
 }
@@ -224,22 +227,26 @@ button {
 
 .position {
     display: flex;
-    width: 220px;
-    height: 200px;
-    margin-right: -25px;
+    width: 100%;
+    max-width: 307px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .ref-scroll {
+    max-width: 1440px;
+    width: 100%;
     position: relative;
     display: flex;
     justify-content: space-between;
-    margin-top: -368px;
     z-index: 10;
     background-color: transparent;
+    margin-top: 18%;
 }
 
 .scroll {
-    width: 170px;
+    width: auto;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -249,7 +256,7 @@ button {
     font-weight: 400;
     font-size: 23px;
     line-height: 27.6px;
-    margin-bottom: 65%;
+    margin-bottom: 43%;
 
     img {
         width: 32px;
@@ -268,103 +275,5 @@ button {
         width: 100%;
         height: auto;
         max-width: 780px;
-    }
-}
-
-@media only screen and (min-width: 4096px) and (min-height: 2304px) {
-    .index-2 {
-        margin-top: -4%;
-        object-fit: cover;
-    }
-
-    .index {
-        top: -1vh;
-    }
-
-    .ref-scroll {
-        margin-top: -17vh;
-    }
-
-    .column {
-        margin-top: -20vh;
-    }
-
-    .hero-background {
-        margin-top: 1vh;
-    }
-
-    .hero-desktop {
-        height: 35vh;
-    }
-}
-
-@media only screen and (min-width: 3840px) and (min-height: 2160px) {
-    .index-2 {
-        margin-top: -4%;
-    }
-
-    .index {
-        top: -1vh;
-    }
-
-    .ref-scroll {
-        margin-top: -13vh;
-    }
-
-    .column {
-        margin-top: -20vh;
-    }
-
-    .hero-background {
-        margin-top: 1vh;
-    }
-
-    .hero-desktop {
-        height: 35vh;
-    }
-}
-
-@media only screen and (min-width: 2560px) and (min-height: 1440px) {
-    .index-2 {
-        margin-top: -4%;
-    }
-
-    .index {
-        top: -1vh;
-    }
-
-    .ref-scroll {
-        margin-top: -5vh;
-    }
-
-    .column {
-        margin-top: -20vh;
-    }
-
-    .hero-background {
-        margin-top: 1vh;
-    }
-
-    .hero-desktop {
-        height: 60vh;
-    }
-}
-
-@media only screen and (min-width: 1366px) and (min-height: 768px) {
-    .ref-scroll {
-        margin-top: -32vh;
-        z-index: 8;
-    }
-}
-
-@media (max-width: 1280px) {
-    .ref-scroll {
-        margin-top: -34vh;
-    }
-}
-
-@media (max-width: 1180px) {
-    .ref-scroll {
-        margin-top: -32vh;
     }
 }

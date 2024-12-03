@@ -1,46 +1,37 @@
 <div class="header">
-  <a href="https://samuelzacharias.com/"><div class="hero">Samuel</div></a>
+  <div class="space-between">
+    <a href="https://samuelzacharias.com/">
+      <div class="hero">Samuel</div>
+    </a>
 
-  <div class="menu-desktop">
-    <a href="#about">About me</a>
-    <a href="#skills">Skills</a>
-    <a href="#portfolio">Portfolio</a>
-  </div>
+    <div class="menu-desktop">
+      <a href="#about" i18n>About me</a>
+      <a href="#skills" i18n>Skills</a>
+      <a href="#portfolio" i18n>Portfolio</a>
+    </div>
 
-  <div class="menu-mobile">
-    <img
-      *ngIf="!menuOpen && !animatingClose"
-      src="../../../assets/icons/burger.png"
-      alt="Open Menu"
-      class="burger-icon"
-      (click)="toggleMenu()"
-    />
+    <div class="menu-mobile">
+      <img *ngIf="!menuOpen && !animatingClose" src="../../../assets/icons/burger.png" alt="Open Menu"
+        class="burger-icon" (click)="toggleMenu()" />
 
-    <img
-      *ngIf="menuOpen && !animatingClose"
-      src="../../../assets/icons/close.png"
-      alt="Close Menu"
-      class="burger-icon"
-      (click)="toggleMenu()"
-    />
+      <img *ngIf="menuOpen && !animatingClose" src="../../../assets/icons/close.png" alt="Close Menu"
+        class="burger-icon" (click)="toggleMenu()" />
 
-    <img
-      *ngIf="animatingClose"
-      [src]="closeAnimationStage === 1 ? '../../../assets/icons/close1.png' : '../../../assets/icons/close2.png'"
-      alt="Close Animation"
-      class="burger-icon"
-    />
+      <img *ngIf="animatingClose"
+        [src]="closeAnimationStage === 1 ? '../../../assets/icons/close1.png' : '../../../assets/icons/close2.png'"
+        alt="Close Animation" class="burger-icon" />
 
-    <div class="mobile-overlay" [class.menu-open]="menuOpen">
-      <div class="overlay-header">
-        <div class="overlay-hero">Samuel</div>
+      <div class="mobile-overlay" [class.menu-open]="menuOpen">
+        <div class="overlay-header">
+          <div class="overlay-hero">Samuel</div>
+        </div>
+        <nav class="menu-content">
+          <a href="#about" (click)="toggleMenu()" i18n>About me</a>
+          <a href="#skills" (click)="toggleMenu()" i18n>Skills</a>
+          <a href="#portfolio" (click)="toggleMenu()" i18n>Portfolio</a>
+          <a href="#contact" (click)="toggleMenu()" i18n>Contact</a>
+        </nav>
       </div>
-      <nav class="menu-content">
-        <a href="#about" (click)="toggleMenu()">About me</a>
-        <a href="#skills" (click)="toggleMenu()">Skills</a>
-        <a href="#portfolio" (click)="toggleMenu()">Portfolio</a>
-        <a href="#contact" (click)="toggleMenu()">Contact</a>
-      </nav>
     </div>
   </div>
 </div>
