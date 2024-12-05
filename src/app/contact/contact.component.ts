@@ -1,40 +1,70 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ReactiveFormsModule, FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { strictEmailValidator } from './validators'; // Importiere den Validator
+import { ReactiveFormsModule, FormBuilder, FormGroup, Validators, NgForm } from '@angular/forms';
+import { strictEmailValidator } from './validators';
+import { HttpClientModule } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
+
+
 
 @Component({
   selector: 'app-contact',
   standalone: true,
-  imports: [ReactiveFormsModule, CommonModule],
+  imports: [ReactiveFormsModule, CommonModule, HttpClientModule],
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.scss', './contact-responsive.component.scss']
 })
 export class ContactComponent {
   contactForm: FormGroup;
-  showConfirmation: boolean = false; // Zustand des Popups
+  showConfirmation: boolean = false;
+  mailTest = true;
+  http = inject(HttpClient)
+
+  post = {
+    endPoint: 'https://samuelzacharias.com/sendMail.php',
+    body: (payload: any) => JSON.stringify(payload),
+    options: {
+      headers: {
+        'Content-Type': 'text/plain',
+        responseType: 'text',
+      },
+    },
+  };
 
   constructor(private fb: FormBuilder) {
     this.contactForm = this.fb.group({
       name: ['', [Validators.required, Validators.minLength(2)]],
-      email: ['', [Validators.required, Validators.email, strictEmailValidator]],
+      email: ['', [Validators.required, Validators.email]],
       message: ['', [Validators.required, Validators.minLength(10)]],
       consent: [false, Validators.requiredTrue]
     });
-  }
+  }  
+  
 
   onSubmit(): void {
     if (this.contactForm.valid) {
-      // Nachricht anzeigen
-      this.showConfirmation = true;
-
-      // Nach 3 Sekunden das Popup ausblenden
-      setTimeout(() => {
-        this.showConfirmation = false;
-      }, 3000);
-
-      // Formular zurücksetzen
-      this.contactForm.reset();
+      // HTTP-Post-Anfrage senden mit contactForm.value
+      this.http.post<any>(this.post.endPoint, this.post.body(this.contactForm.value))
+        .subscribe({
+          next: (response: any) => {
+            console.info('HTTP-Post erfolgreich:', response);
+  
+            // Bestätigungsmeldung anzeigen
+            this.showConfirmation = true;
+  
+            // Nach 3 Sekunden die Bestätigungsmeldung ausblenden
+            setTimeout(() => {
+              this.showConfirmation = false;
+            }, 3000);
+  
+            // Formular zurücksetzen
+            this.contactForm.reset();
+          },
+          error: (error: any) => {
+            console.error('Fehler beim Senden der HTTP-Post-Anfrage:', error);
+          },
+          complete: () => console.info('HTTP-Post abgeschlossen'),
+        });
     }
   }
 
