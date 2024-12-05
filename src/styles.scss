@@ -5,10 +5,9 @@ $neongreen: #70E61C;
 $gray: #B6B6B6;
 $red: #E61C40;
 
-
-
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 
@@ -33,21 +32,21 @@ body {
     justify-content: center;
     margin: 0;
     padding: 0;
-    scroll-behavior: smooth;
     height: 100%;
 }
 
 .container {
   width: 100vw;
-  background-color: #141d2f;
-  padding: 0;
-  overflow: hidden;
+  height: 100%;
+  clip-path: inset(0 0 0 0);
 }
+
 
 .floating-language-button {
   position: fixed;
   z-index: 1000;
   cursor: grab;
+  top: 90%;
 }
 
 .floating-language-button:active {

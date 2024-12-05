@@ -33,7 +33,8 @@
     position: relative;
     width: 790px;
     max-width: 780px;
-    margin-left: -57%;
+    margin-left: -70%;
+    margin-top: -14vh;
 
     img {
         width: 690px;
@@ -42,11 +43,12 @@
 }
 
 .index-2 {
+    margin-left: -22vw;
     position: relative;
-    width: 1440px;
+    width: 144vw;
     height: auto;
     z-index: 5;
-    margin-top: -5%;
+    margin-top: -30%;
 }
 
 .index {
@@ -74,13 +76,12 @@ a {
     flex-direction: column;
     position: relative;
     margin-left: auto;
-    margin-top: -10%;
+    margin-top: 0;
     margin-right: 120px;
     z-index: 6;
 }
 
 .hero {
-    background-color: $dark;
     display: flex;
     align-items: center;
     width: 100%;
@@ -203,7 +204,8 @@ button {
 
 .line {
     display: flex;
-    width: 100px;
+    width: 25vw;
+    margin-left: -20vw;
     height: 4px;
     background-color: $purple;
 }
@@ -242,7 +244,7 @@ button {
     justify-content: space-between;
     z-index: 10;
     background-color: transparent;
-    margin-top: 18%;
+    margin-top: 30%;
 }
 
 .scroll {

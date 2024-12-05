@@ -1,0 +1,32 @@
+@import '../../styles.scss';
+
+@media only screen and (min-width: 4096px) and (min-height: 2304px)  {
+    .left-headline {
+        width: 144vw;
+        z-index: 13;
+        margin-left: -56vw;
+    }
+
+    .right-headline {
+        width: 119vw;
+        margin-right: -37vw;
+    }
+}
+
+@media only screen and (min-width: 3840px) and (min-height: 2160px)  {
+    .left-headline {
+        width: 144vw;
+        margin-left: -38vw;
+    }
+
+    .right-headline {
+        width: 120vw;
+        margin-right: -36vw;
+    }
+}
+
+@media only screen and (max-width: 2560px) and (max-height: 1440px)  {
+    .left-headline {
+        margin-left: -51vw;
+    }
+}

@@ -76,6 +76,12 @@
     }
 }
 
+@media (max-width: 900px) {
+    .shadow-reference {
+        top: 0;
+    }
+}
+
 @media (max-width: 800px) {
     .ref-frame {
         height: auto;
@@ -173,7 +179,7 @@
     }
 
     .reference {
-        height: 90vh;
+        height: auto;
     }
 }
 
@@ -213,5 +219,12 @@
 
     .frame {
         top: 22vh;
+    }
+}
+
+@media (min-width: 3097px) and (max-width: 4096px) and (min-height: 1305px) and (max-height: 2304px) {
+    .line-to-image {
+        width: 40vw;
+        margin-right: -38vw;
     }
 }

@@ -1,10 +1,10 @@
 import { Component, Inject, PLATFORM_ID, OnInit } from '@angular/core';
 import { isPlatformBrowser, CommonModule } from '@angular/common';
-import { Location } from '@angular/common';  // Location-Service verwenden
-import * as AOS from 'aos'; // Importiere die AOS-Bibliothek
+import { Location } from '@angular/common';
+import * as AOS from 'aos';
 import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
-import { HeroComponent } from './hero/hero.component';  // HeroComponent importieren
+import { HeroComponent } from './hero/hero.component';
 import { AboutComponent } from './about/about.component';
 import { SkillsComponent } from './skills/skills.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
@@ -53,7 +53,13 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit() {
-    AOS.init(); // Initialisiere die AOS-Bibliothek
+    AOS.init({
+        duration: 1200,
+        easing: 'ease-out-back',
+        once: false,
+        mirror: true,
+        delay: 100
+    });
   }
 
   toggleLanguageMenu() {

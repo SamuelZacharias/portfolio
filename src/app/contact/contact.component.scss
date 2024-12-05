@@ -4,6 +4,9 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    height: 100%;
+    margin-top: 100px;
+    padding-top: 100px;
 }
 
 .confirmation-message {
@@ -47,6 +50,7 @@
     width: 100%;
     max-width: 1440px;
     max-height: 1200px;
+    overflow-y: clip;
 
     .position-headline {
         height: 108px;
@@ -58,7 +62,8 @@
 
         .contact-line {
             height: 4px;
-            width: 535px;
+            width: 52vw;
+            margin-left: -24vw;
             background-color: $purple;
             margin-right: 32px;
         }
@@ -76,6 +81,8 @@
         align-items: flex-start;
         gap: 32px;
         padding: 0 24px;
+        position: relative;
+        z-index: 15;
 
         .under-headline {
             display: flex;
@@ -307,7 +314,7 @@
     .contact-shadow {
         position: relative;
         left: -35vh;
-        top: -52vh;
+        top: -28vh;
 
         img {
             width: 847.47px;

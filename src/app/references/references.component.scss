@@ -142,9 +142,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 104px;
+    width: 20vw;
     height: 4px;
     background-color: $purple;
+    margin-right: -20vw;
 }
 
 .small-dot {
@@ -180,4 +181,14 @@
 .arrow-right:hover {
     cursor: pointer;
     content: url("../../assets/icons/arrow_forward2.png");
+}
+
+@media (max-width: 1440px) {
+    .section-references {
+        overflow: hidden;
+    }
+
+    .line-to-image {
+        margin-right: 0vw;
+    }
 }

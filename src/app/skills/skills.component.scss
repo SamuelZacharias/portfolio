@@ -4,18 +4,18 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    height: 86vh;
+    max-height: 1400px;
 }
 
 .my-skills {
     max-width: 1440px;
     display: flex;
     flex-direction: row;
-    background-color: $dark;
-    height: 82vh;
+    height: 100vh;
     position: relative;
     justify-content: space-between;
     margin-top: 10%;
-    max-height: 1200px;
 }
 
 a {
@@ -32,6 +32,7 @@ a {
 
 .headline-my-skills {
     max-width: 495px;
+    min-width: 495px;
     width: 100%;
     height: auto;
     font-weight: 700;
@@ -45,7 +46,7 @@ a {
 }
 
 .line-in-skills {
-    width: 68px;
+    width: 100vw;
     height: 4px;
     background-color: $purple;
 }
@@ -63,7 +64,7 @@ a {
     color: white;
     justify-items: center;
     position: relative;
-    z-index: 2;
+    z-index: 7;
 }
 
 .icons {
@@ -172,7 +173,7 @@ button {
     width: auto;
     margin-left: auto;
     position: relative;
-    z-index: 1;
+    z-index: 7;
 }
 
 .under-text-skills {
@@ -244,6 +245,7 @@ button {
     left: -600px;
     width: 100%;
     height: auto;
+    z-index: 6;
 
     img {
         width: 740px;
@@ -255,4 +257,11 @@ button {
 
 .responsive-container {
     display: none;
+}
+
+@media (max-width: 1440px) {
+    .skill-section {
+        overflow: hidden;
+        height: auto;
+    }
 }

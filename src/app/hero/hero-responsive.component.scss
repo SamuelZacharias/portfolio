@@ -1,11 +1,5 @@
 @import '../../styles.scss';
 
-@media (max-width: 1200px) {
-    .column {
-        margin-top: -30%;
-    }
-}
-
 @media (max-width: 1100px) {
 
     .index {
@@ -14,12 +8,12 @@
     }
 
     .index-2 {
-        margin-top: -7%;
+        margin-top: 4%;
     }
 
     .column {
         margin-right: 50px;
-        margin-top: -42%;
+        margin-top: 6%;
     }
 
     .hero-text {
@@ -76,11 +70,15 @@
     }
 
     .index-2 {
-        margin-top: -21%;
+        margin-top: 3%;
     }
 }
 
 @media (max-width: 800px) {
+    .hero-section {
+        overflow: hidden;
+    }
+
     .first-section {
         height: calc(100vh - 109.03px);
     }
@@ -90,7 +88,7 @@
     }
 
     .column {
-        margin-top: -5vh;
+        margin-top: -10vh;
         display: flex;
     }
 
@@ -121,8 +119,7 @@
 
     .hero-background2 {
         top: 68px;
-        width: 600px;
-        margin-left: -100px;
+        width: 100%;
     }
 
     .index {
@@ -139,13 +136,12 @@
         position: relative;
         width: 100vw;
         justify-content: center !important;
-        top: -100px;
-        margin-left: 2%;
+        top: -40px;
     }
 
     .index-2 {
         margin-left: -100px;
-        margin-top: 2%;
+        margin-top: 23%;
     }
 
     .hero-text {
@@ -202,12 +198,13 @@
 
     .ref {
         position: relative !important;
-        margin-right: 25%;
+        margin-right: 11%;
         width: 100%;
     }
 
     .ref-scroll {
         display: flex;
+        margin-top: 0;
     }
 
     .button {
@@ -293,8 +290,12 @@
 @media (min-width: 400px) and (max-width: 480px) {
 
     .index {
-        margin-top: -19%;
-        width: 438px;
+        margin-top: 0%;
+        width: 350px;
+    }
+
+    .index-2 {
+        margin-top: 58%;
     }
 
     .button {
@@ -321,7 +322,7 @@
 
     .column {
         margin-left: 1%;
-        margin-top: 1vh;
+        margin-top: -6vh;
     }
 
     .hero-background {
@@ -332,12 +333,17 @@
 }
 
 @media (min-width: 361px) and (max-width: 399px) {
+
+    .index {
+        top: -4vh;
+    }
+
     .hero-text {
         margin-left: 0;
     }
 
     .column {
-        margin-top: -4vh;
+        margin-top: -12vh;
     }
 
     .hero-background {
@@ -346,7 +352,7 @@
     }
 
     .index-2 {
-        margin-top: 10%;
+        margin-top: 80%;
     }
 }
 
@@ -379,7 +385,7 @@
 
 @media (max-width: 320px) {
     .index {
-        top: 4vh;
+        top: -2vh;
         width: 347px;
     }
 
@@ -396,6 +402,6 @@
     }
 
     .column {
-        margin-top: 7vh;
+        margin-top: -5vh;
     }
 }

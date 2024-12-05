@@ -2,30 +2,28 @@ $toxicgreen: #39FF14;
 $purple: #9747FF;
 $dark: #141D2F;
 
-.space-between {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1240px;
-  width: 100%;
-  height: 100%;
-  position: sticky;
-  top: 0;
-  z-index: 15;
-}
-
 .header {
   position: sticky;
   top: 0;
-  z-index: 15;
+  z-index: 9999;
   display: flex;
   background-color: #141d2f;
   align-items: center;
   justify-content: center;
   max-width: 100%;
   height: 109.03px;
+  max-height: 100%;
   padding-left: 5%;
   padding-right: 5%;
+
+  .space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1240px;
+    width: 100%;
+    height: 100%;
+  }
 
   .hero {
     font-weight: bold;

@@ -13,15 +13,20 @@
     .my-skills[_ngcontent-ng-c3422546089] {
         height: 30vh;
     }
+
+    .line-in-skills {
+        width: 50vw;
+        margin-right: -48vw;
+    }
 }
 
-@media only screen and (min-width: 3840px) and (min-height: 2160px) {
+@media only screen and (max-width: 3840px) and (max-height: 2160px) {
     .my-skills {
         height: 27vh;
     }
 }
 
-@media only screen and (min-width: 2560px) and (min-height: 1440px) {
+@media only screen and (max-width: 2560px) and (max-height: 1440px) {
     .my-skills {
         height: 40vh;
     }
@@ -31,9 +36,9 @@
     }
 }
 
-@media only screen and (min-width: 1920px) and (min-height: 1200px) {
+@media only screen and (max-width: 1920px) and (max-height: 1200px) {
     .shadow {
-        top: -113vh;
+        top: -14vh;
     }
 
     .my-skills {
@@ -41,7 +46,7 @@
     }
 }
 
-@media only screen and (min-width: 1366px) and (min-height: 768px) {
+@media only screen and (max-width: 1366px) and (max-height: 768px) {
     .shadow {
         top: -10vh;
     }

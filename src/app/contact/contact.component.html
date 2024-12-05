@@ -1,12 +1,12 @@
-<div class="section-contact">
-    <div class="contact" id="contact">
+<div class="section-contact" id="contact">
+    <div class="contact">
         <div class="position-headline">
             <div class="contact-line"></div>
             <div class="contact-headline" i18n>Contact</div>
         </div>
         <div class="under-headline-container">
             <div class="under-headline">
-                <div class="position-under-headline">
+                <div class="position-under-headline" data-aos="slide-right">
                     <div i18n class="problem">Got a problem to solve?</div>
                     <div i18n class="under-problem">
                         Contact me through this form, I am interested in hearing from you, knowing your ideas and
@@ -15,7 +15,7 @@
                     <div i18n>Need a Frontend developer? Contact me!</div>
                 </div>
             </div>
-            <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" class="contact-form">
+            <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" class="contact-form" data-aos="zoom-in-up">
                 <div class="name">
                     <input type="text" placeholder="Your Name" formControlName="name"
                         [ngClass]="{'valid-border': name?.valid && name?.touched, 'error-border': name?.invalid && name?.touched}"
@@ -63,7 +63,7 @@
                     <div class="checkbox-label">
                         <input type="checkbox" id="consentCheckbox" formControlName="consent" />
                         <label for="consentCheckbox" i18n>
-                            I've read the <a href="#">privacy policy</a> and agree to the processing of my data as
+                            I've read the <a href="/privacy-policy.html">privacy policy</a> and agree to the processing of my data as
                             outlined.
                         </label>
                     </div>
@@ -71,7 +71,7 @@
                         <small i18n>You must agree to the privacy policy.</small>
                     </div>
                 </div>
-                <button id="submitButton" [disabled]="contactForm.invalid" [ngClass]="{'active': contactForm.valid}"
+                <button data-aos-delay="2000" data-aos="fade-up" id="submitButton" [disabled]="contactForm.invalid" [ngClass]="{'active': contactForm.valid}"
                     i18n>
                     Send Message :)
                 </button>
