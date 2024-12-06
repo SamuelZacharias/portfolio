@@ -1,278 +1,116 @@
-<!DOCTYPE html>
-<html lang="en">
+<div class="content-legal-notice">
+    <div class="headline">
+        <h1><span class="highlight">L</span>egal Notice</h1>
+        <a class="topBack" routerLink="/">
+            <img src="./assets/icons/arrow_back.png" alt="" class="normal-image">
+            <img src="./assets/icons/arrow_back2.png" alt="" class="hover-image">
+        </a>
+    </div>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Legal Notice for Samuel Zacharias' Portfolio.">
-    <meta name="author" content="Samuel Zacharias">
-    <link rel="icon" href="./star.png">
-    <title>Legal Notice</title>
-    <style>
-        @font-face {
-            font-family: 'Poppins';
-            src: url('/assets/fonts/Poppins-Regular.ttf') format('truetype');
-            font-weight: 400;
-            font-style: normal;
-        }
-
-        body {
-            font-family: 'Poppins', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #141D2F;
-            color: #333;
-            line-height: 1.6;
-        }
-
-        .last-div {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        a {
-            position: relative;
-            display: inline-block;
-            width: 32px;
-            height: 32px;
-        }
-
-        img {
-            width: 100%;
-            height: 100%;
-            transition: opacity 0.3s ease-in-out;
-            position: absolute;
-            top: 0;
-            left: 0;
-        }
-
-        .hover-image {
-            opacity: 0;
-        }
-
-        a:hover .hover-image {
-            opacity: 1;
-        }
-
-        a:hover .normal-image {
-            opacity: 0;
-        }
-
-        .content-legal-notice {
-            color: white;
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
-
-        .headline {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            margin-bottom: 20px;
-        }
-
-        .headline h1 {
-            font-size: 2rem;
-            margin: 0;
-        }
-
-        .imprint h2 {
-            margin-top: 20px;
-        }
-
-        .imprint {
-            margin-bottom: 5%;
-        }
-
-        ul,
-        li {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        ul li {
-            margin-bottom: 5px;
-        }
-
-        .end {
-            margin-left: 5%;
-        }
-
-        .start {
-            margin-right: 5%;
-        }
-
-        span {
-            display: block;
-            margin-bottom: 6%;
-            margin-top: 10px;
-        }
-
-        /* Flex Container für h2 und Divider */
-        .flex-container {
-            display: flex;
-            align-items: center;
-            margin-top: 20px;
-            margin-bottom: 10px;
-        }
-
-        /* h2 linksbündig */
-        .flex-container:nth-child(odd) {
-            flex-direction: row;
-        }
-
-        /* h2 rechtsbündig */
-        .flex-container:nth-child(even) {
-            flex-direction: row-reverse;
-        }
-
-        .flex-container h2 {
-            margin: 0;
-            white-space: nowrap;
-        }
-
-        .divider {
-            height: 4px;
-            background-color: #9747ff;
-            flex-grow: 1;
-        }
-
-        .highlight {
-            color: #39FF14;
-            display: inline;
-            margin: 0;
-            padding: 0;
-        }
-
-        .right {
-            text-align: right;
-            margin-bottom: 5%;
-        }
-    </style>
-</head>
-
-<body>
-    <div class="content-legal-notice">
-        <div class="headline">
-            <h1><span class="highlight">L</span>egal Notice</h1>
-            <a class="topBack" href="/">
-                <img src="./assets/icons/arrow_back.png" alt="" class="normal-image">
-                <img src="./assets/icons/arrow_back2.png" alt="" class="hover-image">
-            </a>
+    <div>
+        <div class="imprint">
+            <h2>Imprint</h2>
+            <ul>
+                <li>Samuel Zacharias</li>
+                <li>Hauptstraße 12</li>
+                <li>29362 Hohne</li>
+            </ul>
         </div>
-
         <div>
-            <div class="imprint">
-                <h2>Imprint</h2>
-                <ul>
-                    <li>Samuel Zacharias</li>
-                    <li>Hauptstraße 12</li>
-                    <li>29362 Hohne</li>
-                </ul>
+            <div class="flex-container">
+                <h2>Acceptance of terms</h2>
+                <div class="divider end"></div>
             </div>
-            <div>
-                <div class="flex-container">
-                    <h2>Acceptance of terms</h2>
-                    <div class="divider end"></div>
-                </div>
+            <span>
+                By accessing and using this Portfolio (the "Product"), you
+                acknowledge and agree to the following terms and conditions, and any
+                policies, guidelines, or amendments thereto that may be presented to
+                you from time to time. I, Samuel Zacharias, may update or change
+                the terms and conditions from time to time without notice.
+            </span>
+
+            <div class="flex-container">
+                <div class="divider start"></div>
+                <h2>Scope and ownership of the product</h2>
+            </div>
+            <div class="right">
                 <span>
-                    By accessing and using this Portfolio (the "Product"), you
-                    acknowledge and agree to the following terms and conditions, and any
-                    policies, guidelines, or amendments thereto that may be presented to
-                    you from time to time. I, Samuel Zacharias, may update or change
-                    the terms and conditions from time to time without notice.
+                    This Portfolio was developed as part of a personal project during a
+                    web development bootcamp at the Developer Akademie GmbH. It serves an educational purpose
+                    and is not intended for extensive personal or business use. As such, I cannot guarantee
+                    consistent availability, reliability, accuracy, or any other aspect
+                    of quality regarding this Product. <br><br> The design of this Portfolio is owned by
+                    the Developer Akademie GmbH. Unauthorized use, reproduction,
+                    modification, distribution, or replication of the design is strictly
+                    prohibited.
                 </span>
+            </div>
+            <div class="flex-container">
+                <h2>Proprietary rights</h2>
+                <div class="divider end"></div>
+            </div>
+            <span>
+                Aside from the design owned by the Developer Akademie GmbH, I retain all
+                proprietary rights in this Portfolio, including any associated copyrighted
+                material, trademarks, and other proprietary information.
+            </span>
 
-                <div class="flex-container">
-                    <div class="divider start"></div>
-                    <h2>Scope and ownership of the product</h2>
-                </div>
-                <div class="right">
-                    <span>
-                        This Portfolio was developed as part of a personal project during a
-                        web development bootcamp at the Developer Akademie GmbH. It serves an educational purpose
-                        and is not intended for extensive personal or business use. As such, I cannot guarantee
-                        consistent availability, reliability, accuracy, or any other aspect
-                        of quality regarding this Product. <br><br> The design of this Portfolio is owned by
-                        the Developer Akademie GmbH. Unauthorized use, reproduction,
-                        modification, distribution, or replication of the design is strictly
-                        prohibited.
-                    </span>
-                </div>
-                <div class="flex-container">
-                    <h2>Proprietary rights</h2>
-                    <div class="divider end"></div>
-                </div>
+            <div class="flex-container">
+                <div class="divider start"></div>
+                <h2>Use of the product</h2>
+            </div>
+            <div class="right">
                 <span>
-                    Aside from the design owned by the Developer Akademie GmbH, I retain all
-                    proprietary rights in this Portfolio, including any associated copyrighted
-                    material, trademarks, and other proprietary information.
+                    This Portfolio is intended to be used for lawful purposes only, in
+                    accordance with all applicable laws and regulations. Any use of this Portfolio
+                    for illegal activities, or to harass, harm, threaten, or intimidate
+                    another person, is strictly prohibited. You are solely responsible
+                    for your interactions with other users of this Portfolio.
                 </span>
+            </div>
 
-                <div class="flex-container">
-                    <div class="divider start"></div>
-                    <h2>Use of the product</h2>
-                </div>
-                <div class="right">
-                    <span>
-                        This Portfolio is intended to be used for lawful purposes only, in
-                        accordance with all applicable laws and regulations. Any use of this Portfolio
-                        for illegal activities, or to harass, harm, threaten, or intimidate
-                        another person, is strictly prohibited. You are solely responsible
-                        for your interactions with other users of this Portfolio.
-                    </span>
-                </div>
+            <div class="flex-container">
+                <h2>Disclaimer of warranties and limitation of liability</h2>
+                <div class="divider end"></div>
+            </div>
+            <span>
+                This Portfolio is provided "as is"
+                without warranty of any kind, whether express or implied, including
+                but not limited to the implied warranties of merchantability,
+                fitness for a particular purpose, and non-infringement. In no event
+                will I, Samuel Zacharias, or the Developer Akademie, be liable
+                for any direct, indirect, incidental, special, consequential or
+                exemplary damages, including but not limited to, damages for loss of
+                profits, goodwill, use, data, or other intangible losses, even if I
+                have been advised of the possibility of such damages, arising out of
+                or in connection with the use or performance of this Portfolio.
+            </span>
 
-                <div class="flex-container">
-                    <h2>Disclaimer of warranties and limitation of liability</h2>
-                    <div class="divider end"></div>
+            <div class="flex-container">
+                <div class="divider start">
                 </div>
+                <h2>Indemnity</h2>
+            </div>
+            <div class="right">
                 <span>
-                    This Portfolio is provided "as is"
-                    without warranty of any kind, whether express or implied, including
-                    but not limited to the implied warranties of merchantability,
-                    fitness for a particular purpose, and non-infringement. In no event
-                    will I, Samuel Zacharias, or the Developer Akademie, be liable
-                    for any direct, indirect, incidental, special, consequential or
-                    exemplary damages, including but not limited to, damages for loss of
-                    profits, goodwill, use, data, or other intangible losses, even if I
-                    have been advised of the possibility of such damages, arising out of
-                    or in connection with the use or performance of this Portfolio.
+                    You agree to indemnify, defend and hold harmless me, Samuel Zacharias, the Developer
+                    Akademie,
+                    and its affiliates, partners, officers, directors, agents, and employees,
+                    from and against any claim, demand, loss, damage, cost, or liability (including
+                    reasonable legal fees) arising out of or relating to your use of
+                    this Portfolio and/or your breach of this Legal Notice.
                 </span>
-
-                <div class="flex-container">
-                    <div class="divider start">
-                    </div>
-                    <h2>Indemnity</h2>
-                </div>
-                <div class="right">
-                    <span>
-                        You agree to indemnify, defend and hold harmless me, Samuel Zacharias, the Developer
-                        Akademie,
-                        and its affiliates, partners, officers, directors, agents, and employees,
-                        from and against any claim, demand, loss, damage, cost, or liability (including
-                        reasonable legal fees) arising out of or relating to your use of
-                        this Portfolio and/or your breach of this Legal Notice.
-                    </span>
-                </div>
-                <br>
-                <span>For any questions or notices, please contact me at info&#64;samuelzacharias.com.</span>
-                <br>
-                <div class="last-div">
-                    <span>Date: December 02, 2024</span>
-                    <a class="downBack" href="/">
-                        <img src="./assets/icons/arrow_back.png" alt="" class="normal-image">
-                        <img src="./assets/icons/arrow_back2.png" alt="" class="hover-image">
-                    </a>
-                </div>
+            </div>
+            <br>
+            <span>For any questions or notices, please contact me at info&#64;samuelzacharias.com.</span>
+            <br>
+            <div class="last-div">
+                <span>Date: December 02, 2024</span>
+                <a class="downBack" routerLink="/">
+                    <img src="./assets/icons/arrow_back.png" alt="" class="normal-image">
+                    <img src="./assets/icons/arrow_back2.png" alt="" class="hover-image">
+                </a>
             </div>
         </div>
     </div>
-</body>
-
-</html>
+</div>

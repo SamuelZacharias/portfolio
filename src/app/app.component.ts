@@ -4,12 +4,7 @@ import { Location } from '@angular/common';
 import * as AOS from 'aos';
 import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
-import { HeroComponent } from './hero/hero.component';
-import { AboutComponent } from './about/about.component';
-import { SkillsComponent } from './skills/skills.component';
-import { PortfolioComponent } from './portfolio/portfolio.component';
-import { ReferencesComponent } from './references/references.component';
-import { ContactComponent } from './contact/contact.component';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -18,12 +13,7 @@ import { ContactComponent } from './contact/contact.component';
     CommonModule,
     HeaderComponent,
     FooterComponent,
-    HeroComponent,
-    AboutComponent,
-    SkillsComponent,
-    PortfolioComponent,
-    ReferencesComponent,
-    ContactComponent,
+    RouterModule
   ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
