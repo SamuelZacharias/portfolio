@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { RouterModule } from '@angular/router';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-legal-notice',
   standalone: true,
-  imports: [RouterModule],
+  imports: [RouterLink],
   templateUrl: './legal-notice.component.html',
   styleUrl: './legal-notice.component.scss'
 })

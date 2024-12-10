@@ -1,16 +1,17 @@
 import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ReactiveFormsModule, FormBuilder, FormGroup, Validators, NgForm } from '@angular/forms';
+import { ReactiveFormsModule, FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { strictEmailValidator } from './validators';
 import { HttpClientModule } from '@angular/common/http';
 import { HttpClient } from '@angular/common/http';
+import { RouterLink } from '@angular/router';
 
 
 
 @Component({
   selector: 'app-contact',
   standalone: true,
-  imports: [ReactiveFormsModule, CommonModule, HttpClientModule],
+  imports: [ReactiveFormsModule, CommonModule, HttpClientModule, RouterLink],
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.scss', './contact-responsive.component.scss']
 })
@@ -33,12 +34,13 @@ export class ContactComponent {
 
   constructor(private fb: FormBuilder) {
     this.contactForm = this.fb.group({
-      name: ['', [Validators.required, Validators.minLength(2)]],
-      email: ['', [Validators.required, Validators.email]],
-      message: ['', [Validators.required, Validators.minLength(10)]],
-      consent: [false, Validators.requiredTrue]
+      name: ['', [Validators.required, Validators.minLength(2), Validators.maxLength(40)]],
+      email: ['', [Validators.required, Validators.email, strictEmailValidator, Validators.maxLength(40)]],
+      message: ['', [Validators.required, Validators.minLength(10), Validators.maxLength(500)]],
+      consent: [false, Validators.requiredTrue],
     });
-  }  
+  }
+  
   
 
   onSubmit(): void {
@@ -66,6 +68,10 @@ export class ContactComponent {
           complete: () => console.info('HTTP-Post abgeschlossen'),
         });
     }
+  }
+
+  scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
   get name() { return this.contactForm.get('name'); }

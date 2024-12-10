@@ -77,15 +77,8 @@
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
             "outputPath": "src/locale",
-            "format": "xlf"
-          },
-          "configurations": {
-            "production": {
-              "buildTarget": "portfolio:build:production"
-            },
-            "development": {
-              "buildTarget": "portfolio:build:development"
-            }
+            "format": "xlf",
+            "buildTarget": "portfolio:build"
           }
         }
       },

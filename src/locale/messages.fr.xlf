@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" target-language="fr" datatype="plaintext" original="ng2.template">
+
     <body>
       <!-- Header Section -->
       <trans-unit id="3562199946446423606" datatype="html">
@@ -18,8 +19,12 @@
         <target> Parlons-en ! </target>
       </trans-unit>
       <trans-unit id="7588775583524760078" datatype="html">
-        <source>Scroll down <x id="TAG_IMG" ctype="image" equiv-text="&lt;img src=&quot;../../assets/icons/arrow-down-line.png&quot; alt=&quot;&quot;&gt;"/></source>
-        <target> Faites défiler vers le bas <x id="TAG_IMG" ctype="image" equiv-text="&lt;img src=&quot;../../assets/icons/arrow-down-line.png&quot; alt=&quot;&quot;&gt;"/> </target>
+        <source>Scroll down <x id="TAG_IMG" ctype="image"
+            equiv-text="&lt;img src=&quot;../../assets/icons/arrow-down-line.png&quot; alt=&quot;&quot;&gt;" />
+        </source>
+        <target> Faites défiler vers le bas <x id="TAG_IMG" ctype="image"
+            equiv-text="&lt;img src=&quot;../../assets/icons/arrow-down-line.png&quot; alt=&quot;&quot;&gt;" />
+        </target>
       </trans-unit>
 
       <!-- About Me Section -->
@@ -28,20 +33,48 @@
         <target> À propos de moi </target>
       </trans-unit>
       <trans-unit id="749693954424934658" datatype="html">
-        <source> Hi, I&apos;m a German-speaking Frontend Developer based near Hannover. Motivated by the limitless opportunities within IT, I am excited about crafting visually captivating and intuitive websites and applications. </source>
-        <target> Bonjour, je suis un développeur frontend germanophone basé près de Hanovre. Motivé par les opportunités illimitées offertes par l&apos;informatique, je suis passionné par la création de sites web et d&apos;applications visuellement captivants et intuitifs. </target>
+        <source> Hi, I&apos;m a German-speaking Frontend Developer based near Hannover. Motivated by
+          the
+          limitless opportunities within IT, I am excited about crafting visually captivating and
+          intuitive
+          websites and applications. </source>
+        <target> Bonjour, je suis un développeur frontend germanophone basé près de Hanovre. Motivé
+          par les
+          opportunités illimitées offertes par l&apos;informatique, je suis passionné par la
+          création de sites
+          web et d&apos;applications visuellement captivants et intuitifs. </target>
       </trans-unit>
       <trans-unit id="5707342122604193782" datatype="html">
-        <source> Flexible in terms of working environments, I can work effectively around Celle to Brunswick or Hannover and remotely. </source>
-        <target> Flexible en termes d&apos;environnements de travail, je peux travailler efficacement dans les régions de Celle, Brunswick ou Hanovre, ainsi qu&apos;à distance. </target>
+        <source> Flexible in terms of working environments, I can work effectively around Celle to
+          Brunswick or
+          Hannover and remotely. </source>
+        <target> Flexible en termes d&apos;environnements de travail, je peux travailler
+          efficacement dans les
+          régions de Celle, Brunswick ou Hanovre, ainsi qu&apos;à distance. </target>
       </trans-unit>
       <trans-unit id="4497687795525306253" datatype="html">
-        <source> I am open-minded and always looking for personal challenges to constantly improve my knowledge and skills. </source>
-        <target> Je suis ouvert d&apos;esprit et toujours à la recherche de défis personnels pour améliorer constamment mes connaissances et mes compétences. </target>
+        <source> I am open-minded and always looking for personal challenges to constantly improve
+          my knowledge
+          and skills. </source>
+        <target> Je suis ouvert d&apos;esprit et toujours à la recherche de défis personnels pour
+          améliorer
+          constamment mes connaissances et mes compétences. </target>
       </trans-unit>
       <trans-unit id="8727678874459556107" datatype="html">
-        <source> In my profession, programming isn&apos;t just about writing code; it&apos;s a creative form of problem-solving. I take pride in my ability to distill complex technical challenges into simple, user-friendly solutions. This way, I help you achieve your goals and bring your visions to life. </source>
-        <target> Dans mon métier, la programmation ne consiste pas seulement à écrire du code; c&apos;est une forme créative de résolution de problèmes. Je suis fier de ma capacité à transformer des défis techniques complexes en solutions simples et conviviales. De cette façon, je vous aide à atteindre vos objectifs et à concrétiser vos visions. </target>
+        <source> In my profession, programming isn&apos;t just about writing code; it&apos;s a
+          creative form of
+          problem-solving. I take pride in my ability to distill complex technical challenges into
+          simple,
+          user-friendly solutions. This way, I help you achieve your goals and bring your visions to
+          life.
+        </source>
+        <target> Dans mon métier, la programmation ne consiste pas seulement à écrire du code;
+          c&apos;est une
+          forme créative de résolution de problèmes. Je suis fier de ma capacité à transformer des
+          défis
+          techniques complexes en solutions simples et conviviales. De cette façon, je vous aide à
+          atteindre
+          vos objectifs et à concrétiser vos visions. </target>
       </trans-unit>
 
       <!-- Skills Section -->
@@ -50,8 +83,12 @@
         <target> Compétences </target>
       </trans-unit>
       <trans-unit id="2277075553543193869" datatype="html">
-        <source> I have gained experience in building projects with different frontend technologies and concepts. </source>
-        <target> J&apos;ai acquis de l&apos;expérience dans la réalisation de projets avec différentes technologies et concepts frontend. </target>
+        <source> I have gained experience in building projects with different frontend technologies
+          and
+          concepts. </source>
+        <target> J&apos;ai acquis de l&apos;expérience dans la réalisation de projets avec
+          différentes
+          technologies et concepts frontend. </target>
       </trans-unit>
       <trans-unit id="6791971267469821731" datatype="html">
         <source>Continually learning</source>
@@ -62,12 +99,18 @@
         <target> Mes compétences </target>
       </trans-unit>
       <trans-unit id="2744942023239207079" datatype="html">
-        <source> Looking for <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;highlight&quot;&gt;"/>another skill<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>? </source>
-        <target> Vous recherchez <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;highlight&quot;&gt;"/>d&apos;autres compétences<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> ? </target>
+        <source> Looking for <x id="START_TAG_SPAN" ctype="x-span"
+            equiv-text="&lt;span class=&quot;highlight&quot;&gt;" />another skill <x
+            id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />? </source>
+        <target> Vous recherchez <x id="START_TAG_SPAN" ctype="x-span"
+            equiv-text="&lt;span class=&quot;highlight&quot;&gt;" /> d&apos;autres compétences <x
+            id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" /> ? </target>
       </trans-unit>
       <trans-unit id="6871643271623401871" datatype="html">
         <source> Feel free to contact me. I look forward to expanding on my previous knowledge. </source>
-        <target> N&apos;hésitez pas à me contacter. Je me réjouis d&apos;approfondir mes connaissances. </target>
+        <target> N&apos;hésitez pas à me contacter. Je me réjouis d&apos;approfondir mes
+          connaissances.
+        </target>
       </trans-unit>
       <trans-unit id="2236877205125634440" datatype="html">
         <source>Get in touch</source>
@@ -80,26 +123,55 @@
         <target> Portfolio </target>
       </trans-unit>
       <trans-unit id="3297439684729079018" datatype="html">
-        <source>Explore a selection of my work here - Interact with projects to see my skills in action.</source>
-        <target> Découvrez ici une sélection de mes travaux - Interagissez avec les projets pour voir mes compétences en action. </target>
+        <source>Explore a selection of my work here - Interact with projects to see my skills in
+          action.
+        </source>
+        <target> Découvrez ici une sélection de mes travaux - Interagissez avec les projets pour
+          voir mes
+          compétences en action. </target>
       </trans-unit>
       <trans-unit id="718819065092803560" datatype="html">
-        <source>Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.</source>
-        <target> Gestionnaire de tâches inspiré du système Kanban. Créez et organisez des tâches à l&apos;aide de fonctions de glisser-déposer, assignez des utilisateurs et des catégories. </target>
+        <source>Task manager inspired by the Kanban System. Create and organize tasks using drag and
+          drop
+          functions, assign users and categories.</source>
+        <target> Gestionnaire de tâches inspiré du système Kanban. Créez et organisez des tâches à
+          l&apos;aide
+          de fonctions de glisser-déposer, assignez des utilisateurs et des catégories. </target>
       </trans-unit>
       <trans-unit id="8233550206782007546" datatype="html">
-        <source>A simple Jump-and-Run game based on an object-oriented approach. Help Pepe to find coins and bottles to fight against the boss chicken.</source>
-        <target> Un simple jeu de plateforme basé sur une approche orientée objet. Aidez Pepe à trouver des pièces et des bouteilles pour combattre le boss poulet. </target>
+        <source>A simple Jump-and-Run game based on an object-oriented approach. Help Pepe to find
+          coins and
+          bottles to fight against the boss chicken.</source>
+        <target> Un simple jeu de plateforme basé sur une approche orientée objet. Aidez Pepe à
+          trouver des
+          pièces et des bouteilles pour combattre le boss poulet. </target>
       </trans-unit>
       <trans-unit id="4313102182627493968" datatype="html">
-        <source>Based on the PokéAPI a simple library that provides and catalogues pokemon information.</source>
-        <target> Basé sur la PokéAPI, une bibliothèque simple qui fournit et catalogue des informations sur les Pokémon. </target>
+        <source>Based on the PokéAPI a simple library that provides and catalogues pokemon
+          information.</source>
+        <target> Basé sur la PokéAPI, une bibliothèque simple qui fournit et catalogue des
+          informations sur les
+          Pokémon. </target>
       </trans-unit>
 
       <!-- References Section -->
       <trans-unit id="3706163873407764100" datatype="html">
-        <source> Samuel has proven to be an extremely reliable and solution-oriented colleague during our collaboration. With analytical thinking and initiative, Sam has adeptly tackled complex challenges and supported the team at critical moments. Particularly noteworthy is Samuel&apos;s ability to quickly familiarize with new topics and work systematically towards the project goal. </source>
-        <target> Samuel s&apos;est révélé être un collègue extrêmement fiable et orienté vers les solutions lors de notre collaboration. Avec un esprit analytique et une grande initiative, Sam a su relever avec habileté des défis complexes et soutenir l&apos;équipe dans des moments critiques. Ce qui est particulièrement remarquable, c&apos;est la capacité de Samuel à se familiariser rapidement avec de nouveaux sujets et à travailler systématiquement vers l&apos;objectif du projet. </target>
+        <source> Samuel has proven to be an extremely reliable and solution-oriented colleague
+          during our
+          collaboration. With analytical thinking and initiative, Sam has adeptly tackled complex
+          challenges and
+          supported the team at critical moments. Particularly noteworthy is Samuel&apos;s ability
+          to quickly
+          familiarize with new topics and work systematically towards the project goal. </source>
+        <target> Samuel s&apos;est révélé être un collègue extrêmement fiable et orienté vers les
+          solutions lors
+          de notre collaboration. Avec un esprit analytique et une grande initiative, Sam a su
+          relever avec
+          habileté des défis complexes et soutenir l&apos;équipe dans des moments critiques. Ce qui
+          est
+          particulièrement remarquable, c&apos;est la capacité de Samuel à se familiariser
+          rapidement avec de
+          nouveaux sujets et à travailler systématiquement vers l&apos;objectif du projet. </target>
       </trans-unit>
       <trans-unit id="6937475682571950754" datatype="html">
         <source>P. Ivan - Team Partner</source>
@@ -116,8 +188,12 @@
         <target> Vous avez un problème à résoudre ? </target>
       </trans-unit>
       <trans-unit id="3428733954044413516" datatype="html">
-        <source> Contact me through this form, I am interested in hearing from you, knowing your ideas and contributing to your projects with my work. </source>
-        <target> Contactez-moi via ce formulaire, je suis intéressé par vos idées et prêt à contribuer à vos projets avec mon travail. </target>
+        <source> Contact me through this form, I am interested in hearing from you, knowing your
+          ideas and
+          contributing to your projects with my work. </source>
+        <target> Contactez-moi via ce formulaire, je suis intéressé par vos idées et prêt à
+          contribuer à vos
+          projets avec mon travail. </target>
       </trans-unit>
       <trans-unit id="1782701350720348104" datatype="html">
         <source>Need a Frontend developer? Contact me!</source>
@@ -148,8 +224,14 @@
         <target> Le message doit contenir au moins 10 caractères. </target>
       </trans-unit>
       <trans-unit id="4828836707668728450" datatype="html">
-        <source> I&apos;ve read the <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;#&quot;&gt;"/>privacy policy<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> and agree to the processing of my data as outlined. </source>
-        <target> J&apos;ai lu la <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;#&quot;&gt;"/>politique de confidentialité<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> et j&apos;accepte le traitement de mes données tel que décrit. </target>
+        <source> I&apos;ve read the <x id="START_LINK" ctype="x-a"
+            equiv-text="&lt;a href=&quot;#&quot;&gt;" />privacy policy <x id="CLOSE_LINK"
+            ctype="x-a" equiv-text="&lt;/a&gt;" /> and agree to the processing of my data as
+          outlined. </source>
+        <target> J&apos;ai lu la <x id="START_LINK" ctype="x-a"
+            equiv-text="&lt;a href=&quot;#&quot;&gt;" />politique de confidentialité <x
+            id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;" /> et j&apos;accepte le traitement
+          de mes données tel que décrit. </target>
       </trans-unit>
       <trans-unit id="331195629831146697" datatype="html">
         <source>You must agree to the privacy policy.</source>
@@ -164,6 +246,381 @@
       <trans-unit id="1368884853095124539" datatype="html">
         <source>Legal Notice</source>
         <target> Mentions légales </target>
+      </trans-unit>
+
+      <trans-unit id="6145028775681896845" datatype="html">
+        <source>
+          <x id="START_TAG_SPAN" ctype="x-span"
+            equiv-text="&lt;span class=&quot;highlight&quot;&gt;" />L <x id="CLOSE_TAG_SPAN"
+            ctype="x-span" equiv-text="&lt;/span&gt;" />egal Notice </source>
+        <target>
+          <x id="START_TAG_SPAN" ctype="x-span"
+            equiv-text="&lt;span class=&quot;highlight&quot;&gt;" />A <x id="CLOSE_TAG_SPAN"
+            ctype="x-span" equiv-text="&lt;/span&gt;" />vis Légal </target>
+      </trans-unit>
+      <trans-unit id="5891707175321515013" datatype="html">
+        <source>Imprint</source>
+        <target>Empreinte</target>
+      </trans-unit>
+      <trans-unit id="7657248194407215804" datatype="html">
+        <source>Samuel Zacharias</source>
+        <target>Samuel Zacharias</target>
+      </trans-unit>
+      <trans-unit id="5783763022385702064" datatype="html">
+        <source>Hauptstraße 12</source>
+        <target>Hauptstraße 12</target>
+      </trans-unit>
+      <trans-unit id="6628449891664082222" datatype="html">
+        <source>29362 Hohne</source>
+        <target>29362 Hohne</target>
+      </trans-unit>
+      <trans-unit id="4916906451137847729" datatype="html">
+        <source>Acceptance of terms</source>
+        <target>Acceptation des termes</target>
+      </trans-unit>
+      <trans-unit id="3417382886795622754" datatype="html">
+        <source>By accessing and using this Portfolio (the &quot;Product&quot;), you acknowledge and
+          agree to
+          the following terms and conditions, and any policies, guidelines, or amendments thereto
+          that may be
+          presented to you from time to time. I, Samuel Zacharias, may update or change the terms
+          and conditions
+          from time to time without notice.</source>
+        <target>En accédant et en utilisant ce Portefeuille (le &quot;Produit&quot;), vous
+          reconnaissez et
+          acceptez
+          les termes et conditions suivants, ainsi que toute politique, directive ou modification
+          qui pourrait
+          vous être présentée de temps à autre. Moi, Samuel Zacharias, peux mettre à jour ou
+          modifier les
+          termes
+          et conditions à tout moment sans préavis.</target>
+      </trans-unit>
+      <trans-unit id="8330630566060394630" datatype="html">
+        <source>Scope and ownership of the product</source>
+        <target>Champ d'application et propriété du produit</target>
+      </trans-unit>
+      <trans-unit id="9138008180866083254" datatype="html">
+        <source>This Portfolio was developed as part of a personal project during a web development
+          bootcamp at the Developer Akademie GmbH. It serves an educational purpose and is not
+          intended for extensive personal or business use. As such, I cannot guarantee consistent
+          availability, reliability, accuracy, or any other aspect of quality regarding this
+          Product. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;" />
+                <x id="LINE_BREAK"
+            ctype="lb" equiv-text="&lt;br&gt;" />The design of this Portfolio is owned by the
+          Developer Akademie GmbH. Unauthorized use, reproduction, modification, distribution, or
+          replication of the design is strictly prohibited.</source>
+        <target>Ce Portefeuille a été développé dans le cadre d'un projet personnel lors d'un
+          bootcamp de développement web chez Developer Akademie GmbH. Il a un but éducatif et n'est
+          pas destiné à une utilisation personnelle ou commerciale étendue. Par conséquent, je ne
+          peux garantir une disponibilité constante, une fiabilité, une précision ou tout autre
+          aspect de qualité concernant ce Produit. <x id="LINE_BREAK" ctype="lb"
+            equiv-text="&lt;br&gt;" />
+                    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;" />Le
+          design de ce Portefeuille appartient à Developer Akademie GmbH. Toute utilisation,
+          reproduction, modification, distribution ou réplication non autorisée du design est
+          strictement interdite. </target>
+      </trans-unit>
+
+      <trans-unit id="8440128775129354214" datatype="html">
+        <source>Privacy</source>
+        <target>Confidentialité</target>
+      </trans-unit>
+      <trans-unit id="1690636272435370777" datatype="html">
+        <source>Policy</source>
+        <target>Politique</target>
+      </trans-unit>
+      <trans-unit id="7892907350737998819" datatype="html">
+        <source>Your Data, Your Control</source>
+        <target>Vos données, votre contrôle</target>
+      </trans-unit>
+      <trans-unit id="8439955599488894226" datatype="html">
+        <source>Privacy Policy</source>
+        <target>Politique de confidentialité</target>
+      </trans-unit>
+      <trans-unit id="1058947147379225215" datatype="html">
+        <source>Last updated: July 20, 2024</source>
+        <target>Dernière mise à jour : 20 juillet 2024</target>
+      </trans-unit>
+      <trans-unit id="160296638808475815" datatype="html">
+        <source>This Privacy Policy describes our policies and procedures on the collection, use,
+          and disclosure
+          of your information when you use our service. It also informs you about your privacy
+          rights and how the
+          law protects you.</source>
+        <target>Cette Politique de Confidentialité décrit nos politiques et procédures concernant la
+          collecte,
+          l'utilisation
+          et la divulgation de vos informations lorsque vous utilisez notre service. Elle vous
+          informe
+          également de vos droits
+          en matière de confidentialité et de la manière dont la loi vous protège.</target>
+      </trans-unit>
+      <trans-unit id="3166471123054885396" datatype="html">
+        <source>We use your personal data to provide and improve the service. By using the service,
+          you agree to
+          the collection and use of information in accordance with this Privacy Policy.</source>
+        <target>Nous utilisons vos données personnelles pour fournir et améliorer le service. En
+          utilisant le
+          service, vous acceptez
+          la collecte et l'utilisation des informations conformément à cette Politique de
+          Confidentialité.
+        </target>
+      </trans-unit>
+      <trans-unit id="6037305472787551637" datatype="html">
+        <source>Definitions</source>
+        <target>Définitions</target>
+      </trans-unit>
+      <trans-unit id="7714978943758084120" datatype="html">
+        <source>For the purposes of this Privacy Policy:</source>
+        <target>Aux fins de cette Politique de Confidentialité :</target>
+      </trans-unit>
+      <trans-unit id="3662840511928332754" datatype="html">
+        <source>Collecting and Using Your Personal Data</source>
+        <target>Collecte et utilisation de vos données personnelles</target>
+      </trans-unit>
+      <trans-unit id="45108260724649939" datatype="html">
+        <source>Types of Data Collected</source>
+        <target>Types de données collectées</target>
+      </trans-unit>
+      <trans-unit id="3967269098753656610" datatype="html">
+        <source>Email address</source>
+        <target>Adresse e-mail</target>
+      </trans-unit>
+      <trans-unit id="7827488502173159495" datatype="html">
+        <source>First and last name</source>
+        <target>Prénom et nom</target>
+      </trans-unit>
+      <trans-unit id="4962299228890522608" datatype="html">
+        <source>Usage data, including browser type, device details, and interaction with the service</source>
+        <target>Données d'utilisation, y compris le type de navigateur, les détails de l'appareil et
+          l'interaction avec le service</target>
+      </trans-unit>
+      <trans-unit id="1812299514380101714" datatype="html">
+        <source>Use of Your Personal Data</source>
+        <target>Utilisation de vos données personnelles</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2072288689348142549" datatype="html">
+        <source>To provide and maintain our service</source>
+        <target>Pour fournir et maintenir notre service</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3761870558895594421" datatype="html">
+        <source>To manage your account</source>
+        <target>Pour gérer votre compte</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8456712465666397231" datatype="html">
+        <source>To contact you regarding updates or changes</source>
+        <target>Pour vous contacter concernant des mises à jour ou des modifications</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2723515454411694583" datatype="html">
+        <source>To analyze how our service is used</source>
+        <target>Pour analyser comment notre service est utilisé</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3250923108297722652" datatype="html">
+        <source>Retention of Your Personal Data</source>
+        <target>Conservation de vos données personnelles</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3187516457503784702" datatype="html">
+        <source>We will retain your data only as long as necessary for the purposes outlined in this
+          policy or
+          to comply with legal obligations.</source>
+        <target>Nous conserverons vos données uniquement aussi longtemps que nécessaire aux fins
+          décrites dans
+          cette politique ou pour respecter les obligations légales.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">52,55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="585119335172214083" datatype="html">
+        <source>Children&apos;s Privacy</source>
+        <target>Confidentialité des enfants</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1140487753121743903" datatype="html">
+        <source>Our service does not address anyone under the age of 13. If you believe your child
+          has provided
+          personal data, please contact us.</source>
+        <target>Notre service ne s&apos;adresse à personne de moins de 13 ans. Si vous pensez que
+          votre enfant a
+          fourni des données personnelles, veuillez nous contacter.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">58,61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="759687838251957893" datatype="html">
+        <source>Contact Us</source>
+        <target>Contactez-nous</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4669656916924236044" datatype="html">
+        <source>If you have any questions about this Privacy Policy, you can contact us at <x
+            id="START_LINK" ctype="x-a"
+            equiv-text="&lt;a href=&quot;mailto:support&amp;#64;portfolio.com&quot;&gt;" />
+          info@samuelzacharias.com <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;" />.</source>
+        <target>Si vous avez des questions sur cette politique de confidentialité, vous pouvez nous
+          contacter à <x id="START_LINK" ctype="x-a"
+            equiv-text="&lt;a href=&quot;mailto:support&amp;#64;portfolio.com&quot;&gt;" />
+          info@samuelzacharias.com <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;" />. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">64,67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6458515158610880899" datatype="html">
+        <source>Proprietary rights</source>
+        <target>Droits de propriété</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/legal-notice/legal-notice.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+        <note priority="1" from="description">rights.title</note>
+      </trans-unit>
+      <trans-unit id="1121651590859774920" datatype="html">
+        <source> Aside from the design owned by the Developer Akademie GmbH, I retain all
+          proprietary rights in this Portfolio, including any associated copyrighted material,
+          trademarks, and other proprietary information. </source>
+        <target> À part le design appartenant à Developer Akademie GmbH, je conserve tous les droits
+          de propriété sur ce portfolio, y compris tout matériel protégé par des droits d'auteur,
+          des marques déposées et d'autres informations propriétaires. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/legal-notice/legal-notice.component.html</context>
+          <context context-type="linenumber">52,56</context>
+        </context-group>
+        <note priority="1" from="description">rights.description</note>
+      </trans-unit>
+      <trans-unit id="3663536414765399634" datatype="html">
+        <source>Use of the product</source>
+        <target>Utilisation du produit</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/legal-notice/legal-notice.component.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+        <note priority="1" from="description">use.title</note>
+      </trans-unit>
+      <trans-unit id="5774485802959540152" datatype="html">
+        <source> This Portfolio is intended to be used for lawful purposes only, in accordance with
+          all applicable laws and regulations. Any use of this Portfolio for illegal activities, or
+          to harass, harm, threaten, or intimidate another person, is strictly prohibited. You are
+          solely responsible for your interactions with other users of this Portfolio. </source>
+        <target> Ce portfolio est destiné à être utilisé uniquement à des fins légales, conformément
+          à toutes les lois et réglementations applicables. Toute utilisation de ce portfolio pour
+          des activités illégales, ou pour harceler, nuire, menacer ou intimider une autre personne,
+          est strictement interdite. Vous êtes seul responsable de vos interactions avec d'autres
+          utilisateurs de ce portfolio. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/legal-notice/legal-notice.component.html</context>
+          <context context-type="linenumber">63,69</context>
+        </context-group>
+        <note priority="1" from="description">use.description</note>
+      </trans-unit>
+      <trans-unit id="1897487720508688864" datatype="html">
+        <source>Disclaimer of warranties and limitation of liability</source>
+        <target>Clause de non-responsabilité et limitation de responsabilité</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/legal-notice/legal-notice.component.html</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+        <note priority="1" from="description">disclaimer.title</note>
+      </trans-unit>
+      <trans-unit id="7350411647238319013" datatype="html">
+        <source> This Portfolio is provided &quot;as is&quot; without warranty of any kind, whether
+          express or implied, including but not limited to the implied warranties of
+          merchantability, fitness for a particular purpose, and non-infringement. In no event will
+          I, Samuel Zacharias, or the Developer Akademie, be liable for any direct, indirect,
+          incidental, special, consequential or exemplary damages, including but not limited to,
+          damages for loss of profits, goodwill, use, data, or other intangible losses, even if I
+          have been advised of the possibility of such damages, arising out of or in connection with
+          the use or performance of this Portfolio. </source>
+        <target> Ce portfolio est fourni "tel quel" sans garantie d'aucune sorte, expresse ou
+          implicite, y compris mais sans s'y limiter les garanties implicites de qualité marchande,
+          d'adéquation à un usage particulier et de non-contrefaçon. En aucun cas, moi, Samuel
+          Zacharias, ou Developer Akademie, ne serons responsables des dommages directs, indirects,
+          accessoires, spéciaux, consécutifs ou exemplaires, y compris mais sans s'y limiter, les
+          dommages pour perte de bénéfices, de bonne volonté, d'utilisation, de données ou d'autres
+          pertes intangibles, même si nous avons été informés de la possibilité de tels dommages,
+          résultant de ou en lien avec l'utilisation ou la performance de ce portfolio. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/legal-notice/legal-notice.component.html</context>
+          <context context-type="linenumber">76,87</context>
+        </context-group>
+        <note priority="1" from="description">disclaimer.description</note>
+      </trans-unit>
+      <trans-unit id="4704511327394108874" datatype="html">
+        <source>Indemnity</source>
+        <target>Indemnisation</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/legal-notice/legal-notice.component.html</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+        <note priority="1" from="description">indemnity.title</note>
+      </trans-unit>
+      <trans-unit id="1080837896534142875" datatype="html">
+        <source> You agree to indemnify, defend and hold harmless me, Samuel Zacharias, the
+          Developer Akademie, and its affiliates, partners, officers, directors, agents, and
+          employees, from and against any claim, demand, loss, damage, cost, or liability (including
+          reasonable legal fees) arising out of or relating to your use of this Portfolio and/or
+          your breach of this Legal Notice. </source>
+        <target> Vous acceptez de dégager, défendre et tenir indemne moi, Samuel Zacharias,
+          Developer Akademie, ainsi que ses affiliés, partenaires, dirigeants, administrateurs,
+          agents et employés, de toute réclamation, demande, perte, dommage, coût ou responsabilité
+          (y compris les frais juridiques raisonnables) découlant de ou liés à votre utilisation de
+          ce portfolio et/ou à votre violation de cet avis juridique. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/legal-notice/legal-notice.component.html</context>
+          <context context-type="linenumber">95,102</context>
+        </context-group>
+        <note priority="1" from="description">indemnity.description</note>
+      </trans-unit>
+      <trans-unit id="481963584413896464" datatype="html">
+        <source>For any questions or notices, please contact me at info@samuelzacharias.com.</source>
+        <target>Pour toute question ou notification, veuillez me contacter à
+          info@samuelzacharias.com.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/legal-notice/legal-notice.component.html</context>
+          <context context-type="linenumber">105</context>
+        </context-group>
+        <note priority="1" from="description">contact.notice</note>
+      </trans-unit>
+      <trans-unit id="8925260018034373954" datatype="html">
+        <source>Date: December 02, 2024</source>
+        <target>Date : 02 décembre 2024</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/legal-notice/legal-notice.component.html</context>
+          <context context-type="linenumber">108</context>
+        </context-group>
+        <note priority="1" from="description">date</note>
       </trans-unit>
     </body>
   </file>

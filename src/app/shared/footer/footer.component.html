@@ -1,11 +1,11 @@
 <div class="section-footer">
     <div class="footer">
         <div class="hero-legal">
-            <a href="https://samuelzacharias.com">
+            <a routerLink="/" (click)="scrollToTop()">
                 <div class="hero">Samuel</div>
             </a>
             <div class="legal">
-                <a routerLink="/legal-notice" i18n>Legal Notice</a>
+                <a routerLink="/legal-notice" (click)="scrollToTop()" i18n>Legal Notice</a>
             </div>
         </div>
         <div class="brand">© Samuel Zacharias 2024</div>
@@ -21,7 +21,7 @@
             </a>
         </div>
         <div class="legal2">
-            <a routerLink="/legal-notice" i18n>Legal Notice</a>
+            <a routerLink="/legal-notice" (click)="scrollToTop()" i18n>Legal Notice</a>
         </div>
     </div>
 </div>

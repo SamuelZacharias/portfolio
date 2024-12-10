@@ -26,6 +26,7 @@
                     <div *ngIf="name?.invalid && name?.touched" class="error">
                         <small *ngIf="name?.errors?.['required']" i18n>Your name is required.</small>
                         <small *ngIf="name?.errors?.['minlength']" i18n>Name must be at least 2 characters long.</small>
+                        <small *ngIf="name?.errors?.['maxlength']" i18n>Name must be at most 40 characters long.</small>
                     </div>
                 </div>
 
@@ -39,8 +40,8 @@
                     <div *ngIf="email?.invalid && email?.touched" class="error">
                         <small *ngIf="email?.errors?.['required']" i18n>Your email is required.</small>
                         <small *ngIf="email?.errors?.['email']" i18n>Please enter a valid email address.</small>
-                        <small *ngIf="email?.errors?.['strictEmail']" i18n>Please enter a complete email
-                            address.</small>
+                        <small *ngIf="email?.errors?.['strictEmail']" i18n>Please enter a complete email address.</small>
+                        <small *ngIf="email?.errors?.['maxlength']" i18n>Email must be at most 40 characters long.</small>
                     </div>
                 </div>
 
@@ -53,17 +54,17 @@
                         alt="Validation Icon" class="valid-icon">
                     <div *ngIf="message?.invalid && message?.touched" class="error">
                         <small *ngIf="message?.errors?.['required']" i18n>Your message is empty.</small>
-                        <small *ngIf="message?.errors?.['minlength']" i18n>Message must be at least 10 characters
-                            long.</small>
+                        <small *ngIf="message?.errors?.['minlength']" i18n>Message must be at least 10 characters long.</small>
+                        <small *ngIf="message?.errors?.['maxlength']" i18n>Message must be at most 500 characters long.</small>
                     </div>
                 </div>
-
 
                 <div class="consent-container">
                     <div class="checkbox-label">
                         <input type="checkbox" id="consentCheckbox" formControlName="consent" />
                         <label for="consentCheckbox" i18n>
-                            I've read the <a routerLink="/privacy-policy">privacy policy</a> and agree to the processing of my data as
+                            I've read the <a class="router" routerLink="/privacy-policy" (click)="scrollToTop()">privacy policy</a> and
+                            agree to the processing of my data as
                             outlined.
                         </label>
                     </div>
@@ -71,8 +72,8 @@
                         <small i18n>You must agree to the privacy policy.</small>
                     </div>
                 </div>
-                <button data-aos-delay="2000" data-aos="fade-up" id="submitButton" [disabled]="contactForm.invalid" [ngClass]="{'active': contactForm.valid}"
-                    i18n>
+                <button data-aos-delay="2000" data-aos="fade-up" id="submitButton" [disabled]="contactForm.invalid"
+                    [ngClass]="{'active': contactForm.valid}" i18n>
                     Send Message :)
                 </button>
             </form>

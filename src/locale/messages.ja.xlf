@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" target-language="ja" datatype="plaintext" original="ng2.template">
+
     <body>
       <!-- Header Section -->
       <trans-unit id="3562199946446423606" datatype="html">
@@ -18,8 +19,12 @@
         <target> 話しましょう！ </target>
       </trans-unit>
       <trans-unit id="7588775583524760078" datatype="html">
-        <source>Scroll down <x id="TAG_IMG" ctype="image" equiv-text="&lt;img src=&quot;../../assets/icons/arrow-down-line.png&quot; alt=&quot;&quot;&gt;"/></source>
-        <target> 下にスクロール <x id="TAG_IMG" ctype="image" equiv-text="&lt;img src=&quot;../../assets/icons/arrow-down-line.png&quot; alt=&quot;&quot;&gt;"/> </target>
+        <source>Scroll down <x id="TAG_IMG" ctype="image"
+            equiv-text="&lt;img src=&quot;../../assets/icons/arrow-down-line.png&quot; alt=&quot;&quot;&gt;" />
+        </source>
+        <target> 下にスクロール <x id="TAG_IMG" ctype="image"
+            equiv-text="&lt;img src=&quot;../../assets/icons/arrow-down-line.png&quot; alt=&quot;&quot;&gt;" />
+        </target>
       </trans-unit>
 
       <!-- About Me Section -->
@@ -28,20 +33,38 @@
         <target> 私について </target>
       </trans-unit>
       <trans-unit id="749693954424934658" datatype="html">
-        <source> Hi, I&apos;m a German-speaking Frontend Developer based near Hannover. Motivated by the limitless opportunities within IT, I am excited about crafting visually captivating and intuitive websites and applications. </source>
-        <target> こんにちは、私はハノーファー近郊に拠点を置くドイツ語を話すフロントエンド開発者です。IT分野の無限の可能性に触発され、視覚的に魅力的で直感的なウェブサイトやアプリケーションの構築に情熱を注いでいます。 </target>
+        <source> Hi, I&apos;m a German-speaking Frontend Developer based near Hannover. Motivated by
+          the
+          limitless opportunities within IT, I am excited about crafting visually captivating and
+          intuitive
+          websites and applications. </source>
+        <target>
+          こんにちは、私はハノーファー近郊に拠点を置くドイツ語を話すフロントエンド開発者です。IT分野の無限の可能性に触発され、視覚的に魅力的で直感的なウェブサイトやアプリケーションの構築に情熱を注いでいます。
+        </target>
       </trans-unit>
       <trans-unit id="5707342122604193782" datatype="html">
-        <source> Flexible in terms of working environments, I can work effectively around Celle to Brunswick or Hannover and remotely. </source>
+        <source> Flexible in terms of working environments, I can work effectively around Celle to
+          Brunswick or
+          Hannover and remotely. </source>
         <target> 働く環境に柔軟に対応でき、ツェレからブラウンシュヴァイク、ハノーファー周辺、またはリモートで効果的に作業できます。 </target>
       </trans-unit>
       <trans-unit id="4497687795525306253" datatype="html">
-        <source> I am open-minded and always looking for personal challenges to constantly improve my knowledge and skills. </source>
+        <source> I am open-minded and always looking for personal challenges to constantly improve
+          my knowledge
+          and skills. </source>
         <target> 私は柔軟な考え方を持ち、知識とスキルを常に向上させるために個人的な挑戦を求めています。 </target>
       </trans-unit>
       <trans-unit id="8727678874459556107" datatype="html">
-        <source> In my profession, programming isn&apos;t just about writing code; it&apos;s a creative form of problem-solving. I take pride in my ability to distill complex technical challenges into simple, user-friendly solutions. This way, I help you achieve your goals and bring your visions to life. </source>
-        <target> 私の職業では、プログラミングは単にコードを書くことではなく、創造的な問題解決の一形態です。複雑な技術的課題をシンプルで使いやすい解決策に変える能力に誇りを持っています。このようにして、目標達成とビジョンの実現を支援します。 </target>
+        <source> In my profession, programming isn&apos;t just about writing code; it&apos;s a
+          creative form of
+          problem-solving. I take pride in my ability to distill complex technical challenges into
+          simple,
+          user-friendly solutions. This way, I help you achieve your goals and bring your visions to
+          life.
+        </source>
+        <target>
+          私の職業では、プログラミングは単にコードを書くことではなく、創造的な問題解決の一形態です。複雑な技術的課題をシンプルで使いやすい解決策に変える能力に誇りを持っています。このようにして、目標達成とビジョンの実現を支援します。
+        </target>
       </trans-unit>
 
       <!-- Skills Section -->
@@ -50,7 +73,9 @@
         <target> スキル </target>
       </trans-unit>
       <trans-unit id="2277075553543193869" datatype="html">
-        <source> I have gained experience in building projects with different frontend technologies and concepts. </source>
+        <source> I have gained experience in building projects with different frontend technologies
+          and
+          concepts. </source>
         <target> さまざまなフロントエンド技術とコンセプトを用いたプロジェクト構築の経験を積んできました。 </target>
       </trans-unit>
       <trans-unit id="6791971267469821731" datatype="html">
@@ -62,8 +87,13 @@
         <target> 私のスキル </target>
       </trans-unit>
       <trans-unit id="2744942023239207079" datatype="html">
-        <source> Looking for <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;highlight&quot;&gt;"/>another skill<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>? </source>
-        <target> <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;highlight&quot;&gt;"/>他のスキル<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>をお探しですか？ </target>
+        <source> Looking for <x id="START_TAG_SPAN" ctype="x-span"
+            equiv-text="&lt;span class=&quot;highlight&quot;&gt;" />another skill <x
+            id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />? </source>
+        <target>
+          <x id="START_TAG_SPAN" ctype="x-span"
+            equiv-text="&lt;span class=&quot;highlight&quot;&gt;" />他のスキル <x id="CLOSE_TAG_SPAN"
+            ctype="x-span" equiv-text="&lt;/span&gt;" />をお探しですか？ </target>
       </trans-unit>
       <trans-unit id="6871643271623401871" datatype="html">
         <source> Feel free to contact me. I look forward to expanding on my previous knowledge. </source>
@@ -80,26 +110,41 @@
         <target> ポートフォリオ </target>
       </trans-unit>
       <trans-unit id="3297439684729079018" datatype="html">
-        <source>Explore a selection of my work here - Interact with projects to see my skills in action.</source>
+        <source>Explore a selection of my work here - Interact with projects to see my skills in
+          action.
+        </source>
         <target> ここで私の作品のセレクションをご覧ください - プロジェクトに触れて、私のスキルを実際に見てみてください。 </target>
       </trans-unit>
       <trans-unit id="718819065092803560" datatype="html">
-        <source>Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.</source>
+        <source>Task manager inspired by the Kanban System. Create and organize tasks using drag and
+          drop
+          functions, assign users and categories.</source>
         <target> カンバンシステムにインスパイアされたタスク管理ツール。ドラッグ＆ドロップ機能を使用してタスクを作成・整理し、ユーザーやカテゴリを割り当てることができます。 </target>
       </trans-unit>
       <trans-unit id="8233550206782007546" datatype="html">
-        <source>A simple Jump-and-Run game based on an object-oriented approach. Help Pepe to find coins and bottles to fight against the boss chicken.</source>
+        <source>A simple Jump-and-Run game based on an object-oriented approach. Help Pepe to find
+          coins and
+          bottles to fight against the boss chicken.</source>
         <target> オブジェクト指向アプローチに基づいたシンプルなジャンプ＆ランゲーム。ペペを助けてコインやボトルを見つけ、ボスチキンと戦いましょう。 </target>
       </trans-unit>
       <trans-unit id="4313102182627493968" datatype="html">
-        <source>Based on the PokéAPI a simple library that provides and catalogues pokemon information.</source>
+        <source>Based on the PokéAPI a simple library that provides and catalogues pokemon
+          information.</source>
         <target> PokéAPIに基づいた、ポケモン情報を提供しカタログ化するシンプルなライブラリ。 </target>
       </trans-unit>
 
       <!-- References Section -->
       <trans-unit id="3706163873407764100" datatype="html">
-        <source> Samuel has proven to be an extremely reliable and solution-oriented colleague during our collaboration. With analytical thinking and initiative, Sam has adeptly tackled complex challenges and supported the team at critical moments. Particularly noteworthy is Samuel&apos;s ability to quickly familiarize with new topics and work systematically towards the project goal. </source>
-        <target> サミュエルは、共同作業中に非常に信頼でき、解決志向の同僚であることが証明されました。分析的な思考と積極性を持ち、サムは複雑な課題に巧みに取り組み、重要な時期にチームを支援しました。特に注目すべきは、新しいトピックに迅速に精通し、プロジェクト目標に向けて体系的に取り組む能力です。 </target>
+        <source> Samuel has proven to be an extremely reliable and solution-oriented colleague
+          during our
+          collaboration. With analytical thinking and initiative, Sam has adeptly tackled complex
+          challenges and
+          supported the team at critical moments. Particularly noteworthy is Samuel&apos;s ability
+          to quickly
+          familiarize with new topics and work systematically towards the project goal. </source>
+        <target>
+          サミュエルは、共同作業中に非常に信頼でき、解決志向の同僚であることが証明されました。分析的な思考と積極性を持ち、サムは複雑な課題に巧みに取り組み、重要な時期にチームを支援しました。特に注目すべきは、新しいトピックに迅速に精通し、プロジェクト目標に向けて体系的に取り組む能力です。
+        </target>
       </trans-unit>
       <trans-unit id="6937475682571950754" datatype="html">
         <source>P. Ivan - Team Partner</source>
@@ -116,7 +161,9 @@
         <target> 解決したい問題がありますか？ </target>
       </trans-unit>
       <trans-unit id="3428733954044413516" datatype="html">
-        <source> Contact me through this form, I am interested in hearing from you, knowing your ideas and contributing to your projects with my work. </source>
+        <source> Contact me through this form, I am interested in hearing from you, knowing your
+          ideas and
+          contributing to your projects with my work. </source>
         <target> このフォームを通じて私に連絡してください。あなたの考えを知り、私の仕事を通じてプロジェクトに貢献することに興味があります。 </target>
       </trans-unit>
       <trans-unit id="1782701350720348104" datatype="html">
@@ -148,8 +195,13 @@
         <target> メッセージは少なくとも10文字以上である必要があります。 </target>
       </trans-unit>
       <trans-unit id="4828836707668728450" datatype="html">
-        <source> I&apos;ve read the <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;#&quot;&gt;"/>privacy policy<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> and agree to the processing of my data as outlined. </source>
-        <target> <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;#&quot;&gt;"/>プライバシーポリシー<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>を読み、記載された通りにデータ処理に同意します。 </target>
+        <source> I&apos;ve read the <x id="START_LINK" ctype="x-a"
+            equiv-text="&lt;a href=&quot;#&quot;&gt;" />privacy policy <x id="CLOSE_LINK"
+            ctype="x-a" equiv-text="&lt;/a&gt;" /> and agree to the processing of my data as
+          outlined. </source>
+        <target>
+          <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;#&quot;&gt;" />プライバシーポリシー <x
+            id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;" />を読み、記載された通りにデータ処理に同意します。 </target>
       </trans-unit>
       <trans-unit id="331195629831146697" datatype="html">
         <source>You must agree to the privacy policy.</source>
@@ -164,6 +216,343 @@
       <trans-unit id="1368884853095124539" datatype="html">
         <source>Legal Notice</source>
         <target> 法的通知 </target>
+      </trans-unit>
+      <trans-unit id="6145028775681896845" datatype="html">
+        <source>
+          <x id="START_TAG_SPAN" ctype="x-span"
+            equiv-text="&lt;span class=&quot;highlight&quot;&gt;" />L <x id="CLOSE_TAG_SPAN"
+            ctype="x-span" equiv-text="&lt;/span&gt;" />egal Notice </source>
+        <target>
+          <x id="START_TAG_SPAN" ctype="x-span"
+            equiv-text="&lt;span class=&quot;highlight&quot;&gt;" />法 <x id="CLOSE_TAG_SPAN"
+            ctype="x-span" equiv-text="&lt;/span&gt;" />的通知 </target>
+      </trans-unit>
+      <trans-unit id="5891707175321515013" datatype="html">
+        <source>Imprint</source>
+        <target>インプリント</target>
+      </trans-unit>
+      <trans-unit id="7657248194407215804" datatype="html">
+        <source>Samuel Zacharias</source>
+        <target>サミュエル・ザカリアス</target>
+      </trans-unit>
+      <trans-unit id="5783763022385702064" datatype="html">
+        <source>Hauptstraße 12</source>
+        <target>ハウプト通り12</target>
+      </trans-unit>
+      <trans-unit id="6628449891664082222" datatype="html">
+        <source>29362 Hohne</source>
+        <target>29362 ホーネ</target>
+      </trans-unit>
+      <trans-unit id="4916906451137847729" datatype="html">
+        <source>Acceptance of terms</source>
+        <target>利用規約の承諾</target>
+      </trans-unit>
+      <trans-unit id="3417382886795622754" datatype="html">
+        <source>By accessing and using this Portfolio (the &quot;Product&quot;), you acknowledge and
+          agree to
+          the following terms and conditions, and any policies, guidelines, or amendments thereto
+          that may be
+          presented to you from time to time. I, Samuel Zacharias, may update or change the terms
+          and conditions
+          from time to time without notice.</source>
+        <target>
+          このポートフォリオ（以下「本製品」）にアクセスし使用することで、以下の利用規約および随時提示される方針、ガイドライン、または改訂内容を承諾し、同意したものとみなされます。私、サミュエル・ザカリアスは、予告なく利用規約を更新または変更する場合があります。
+        </target>
+      </trans-unit>
+      <trans-unit id="8330630566060394630" datatype="html">
+        <source>Scope and ownership of the product</source>
+        <target>製品の範囲と所有権</target>
+      </trans-unit>
+      <trans-unit id="9138008180866083254" datatype="html">
+        <source>This Portfolio was developed as part of a personal project during a web development
+          bootcamp at the Developer Akademie GmbH. It serves an educational purpose and is not
+          intended for extensive personal or business use. As such, I cannot guarantee consistent
+          availability, reliability, accuracy, or any other aspect of quality regarding this
+          Product. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;" />
+                <x id="LINE_BREAK"
+            ctype="lb" equiv-text="&lt;br&gt;" />The design of this Portfolio is owned by the
+          Developer Akademie GmbH. Unauthorized use, reproduction, modification, distribution, or
+          replication of the design is strictly prohibited.</source>
+        <target> このポートフォリオは、Developer Akademie
+          GmbHでのウェブ開発ブートキャンプ中の個人プロジェクトの一環として開発されました。教育目的で使用されており、広範な個人的または商業的利用を意図したものではありません。そのため、この製品の一貫した利用可能性、信頼性、正確性、または品質の他の側面を保証することはできません。
+          <x
+            id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;" />
+                    <x id="LINE_BREAK" ctype="lb"
+            equiv-text="&lt;br&gt;" />このポートフォリオのデザインはDeveloper Akademie
+          GmbHが所有しています。デザインの無断使用、複製、改変、配布、または複製は固く禁じられています。 </target>
+      </trans-unit>
+
+      <trans-unit id="8440128775129354214" datatype="html">
+        <source>Privacy</source>
+        <target>プライバシー</target>
+      </trans-unit>
+      <trans-unit id="1690636272435370777" datatype="html">
+        <source>Policy</source>
+        <target>ポリシー</target>
+      </trans-unit>
+      <trans-unit id="7892907350737998819" datatype="html">
+        <source>Your Data, Your Control</source>
+        <target>あなたのデータ、あなたのコントロール</target>
+      </trans-unit>
+      <trans-unit id="8439955599488894226" datatype="html">
+        <source>Privacy Policy</source>
+        <target>プライバシーポリシー</target>
+      </trans-unit>
+      <trans-unit id="1058947147379225215" datatype="html">
+        <source>Last updated: July 20, 2024</source>
+        <target>最終更新日: 2024年7月20日</target>
+      </trans-unit>
+      <trans-unit id="160296638808475815" datatype="html">
+        <source>This Privacy Policy describes our policies and procedures on the collection, use,
+          and disclosure
+          of your information when you use our service. It also informs you about your privacy
+          rights and how the
+          law protects you.</source>
+        <target>
+          このプライバシーポリシーは、当サービスの利用に際しての情報収集、利用、開示に関する方針と手続きを説明します。また、プライバシー権利や法律がどのように保護するかについても説明します。
+        </target>
+      </trans-unit>
+      <trans-unit id="3166471123054885396" datatype="html">
+        <source>We use your personal data to provide and improve the service. By using the service,
+          you agree to
+          the collection and use of information in accordance with this Privacy Policy.</source>
+        <target>
+          当サービスを提供および改善するために、個人データを使用します。サービスを利用することで、このプライバシーポリシーに従って情報が収集および使用されることに同意したものとみなされます。
+        </target>
+      </trans-unit>
+      <trans-unit id="6037305472787551637" datatype="html">
+        <source>Definitions</source>
+        <target>定義</target>
+      </trans-unit>
+      <trans-unit id="7714978943758084120" datatype="html">
+        <source>For the purposes of this Privacy Policy:</source>
+        <target>このプライバシーポリシーの目的のために:</target>
+      </trans-unit>
+      <trans-unit id="3662840511928332754" datatype="html">
+        <source>Collecting and Using Your Personal Data</source>
+        <target>個人データの収集と利用</target>
+      </trans-unit>
+      <trans-unit id="45108260724649939" datatype="html">
+        <source>Types of Data Collected</source>
+        <target>収集されるデータの種類</target>
+      </trans-unit>
+      <trans-unit id="3967269098753656610" datatype="html">
+        <source>Email address</source>
+        <target>メールアドレス</target>
+      </trans-unit>
+      <trans-unit id="7827488502173159495" datatype="html">
+        <source>First and last name</source>
+        <target>名前と苗字</target>
+      </trans-unit>
+      <trans-unit id="4962299228890522608" datatype="html">
+        <source>Usage data, including browser type, device details, and interaction with the service</source>
+        <target>使用データ（ブラウザの種類、デバイスの詳細、サービスとのインタラクションを含む）</target>
+      </trans-unit>
+      <trans-unit id="1812299514380101714" datatype="html">
+        <source>Use of Your Personal Data</source>
+        <target>개인 데이터의 사용</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2072288689348142549" datatype="html">
+        <source>To provide and maintain our service</source>
+        <target>서비스를 제공하고 유지하기 위해</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3761870558895594421" datatype="html">
+        <source>To manage your account</source>
+        <target>계정을 관리하기 위해</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8456712465666397231" datatype="html">
+        <source>To contact you regarding updates or changes</source>
+        <target>업데이트 또는 변경 사항에 대해 연락하기 위해</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2723515454411694583" datatype="html">
+        <source>To analyze how our service is used</source>
+        <target>서비스 사용 방식을 분석하기 위해</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3250923108297722652" datatype="html">
+        <source>Retention of Your Personal Data</source>
+        <target>개인 데이터의 보유</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3187516457503784702" datatype="html">
+        <source>We will retain your data only as long as necessary for the purposes outlined in this
+          policy or to comply with legal obligations.</source>
+        <target>이 정책에 명시된 목적 또는 법적 의무를 준수하기 위해 필요한 기간 동안만 귀하의 데이터를 보유합니다.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">52,55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="585119335172214083" datatype="html">
+        <source>Children&apos;s Privacy</source>
+        <target>어린이 개인정보 보호</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1140487753121743903" datatype="html">
+        <source>Our service does not address anyone under the age of 13. If you believe your child
+          has provided personal data, please contact us.</source>
+        <target>저희 서비스는 13세 미만을 대상으로 하지 않습니다. 귀하의 자녀가 개인 데이터를 제공했다고 생각되면 저희에게 연락해 주십시오.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">58,61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="759687838251957893" datatype="html">
+        <source>Contact Us</source>
+        <target>문의하기</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4669656916924236044" datatype="html">
+        <source>If you have any questions about this Privacy Policy, you can contact us at <x
+            id="START_LINK" ctype="x-a"
+            equiv-text="&lt;a href=&quot;mailto:support&amp;#64;portfolio.com&quot;&gt;" />
+          info@samuelzacharias.com<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;" />.</source>
+        <target>이 개인정보 보호정책에 대한 질문이 있으시면 <x id="START_LINK" ctype="x-a"
+            equiv-text="&lt;a href=&quot;mailto:support&amp;#64;portfolio.com&quot;&gt;" />
+          info@samuelzacharias.com<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;" />로 문의하십시오.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">64,67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6458515158610880899" datatype="html">
+        <source>Proprietary rights</source>
+        <target>所有権</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/legal-notice/legal-notice.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+        <note priority="1" from="description">rights.title</note>
+      </trans-unit>
+      <trans-unit id="1121651590859774920" datatype="html">
+        <source> Aside from the design owned by the Developer Akademie GmbH, I retain all
+          proprietary rights in this Portfolio, including any associated copyrighted material,
+          trademarks, and other proprietary information. </source>
+        <target> Developer Akademie
+          GmbHが所有するデザインを除き、このポートフォリオに関するすべての所有権（関連する著作権資料、商標、その他の所有権情報を含む）を保持します。</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/legal-notice/legal-notice.component.html</context>
+          <context context-type="linenumber">52,56</context>
+        </context-group>
+        <note priority="1" from="description">rights.description</note>
+      </trans-unit>
+      <trans-unit id="3663536414765399634" datatype="html">
+        <source>Use of the product</source>
+        <target>製品の使用</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/legal-notice/legal-notice.component.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+        <note priority="1" from="description">use.title</note>
+      </trans-unit>
+      <trans-unit id="5774485802959540152" datatype="html">
+        <source> This Portfolio is intended to be used for lawful purposes only, in accordance with
+          all applicable laws and regulations. Any use of this Portfolio for illegal activities, or
+          to harass, harm, threaten, or intimidate another person, is strictly prohibited. You are
+          solely responsible for your interactions with other users of this Portfolio. </source>
+        <target>
+          このポートフォリオは、適用されるすべての法律および規制に従って合法的な目的でのみ使用されることを意図しています。このポートフォリオを違法な活動に使用したり、他の人を嫌がらせ、傷つけ、脅したり、威圧したりすることは禁止されています。ポートフォリオの他のユーザーとのやり取りについては、すべての責任を負うものとします。</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/legal-notice/legal-notice.component.html</context>
+          <context context-type="linenumber">63,69</context>
+        </context-group>
+        <note priority="1" from="description">use.description</note>
+      </trans-unit>
+      <trans-unit id="1897487720508688864" datatype="html">
+        <source>Disclaimer of warranties and limitation of liability</source>
+        <target>保証の否認と責任の制限</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/legal-notice/legal-notice.component.html</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+        <note priority="1" from="description">disclaimer.title</note>
+      </trans-unit>
+      <trans-unit id="7350411647238319013" datatype="html">
+        <source> This Portfolio is provided &quot;as is&quot; without warranty of any kind, whether
+          express or implied, including but not limited to the implied warranties of
+          merchantability, fitness for a particular purpose, and non-infringement. In no event will
+          I, Samuel Zacharias, or the Developer Akademie, be liable for any direct, indirect,
+          incidental, special, consequential or exemplary damages, including but not limited to,
+          damages for loss of profits, goodwill, use, data, or other intangible losses, even if I
+          have been advised of the possibility of such damages, arising out of or in connection with
+          the use or performance of this Portfolio. </source>
+        <target>
+          このポートフォリオは、「現状のまま」で提供されており、いかなる種類の保証もありません。これには明示的または暗示的な商業的適合性、特定の目的への適合性、非侵害を含みますが、それに限りません。いかなる場合でも、私はサミュエル・ザカリアスやDeveloper
+          Akademieは、このポートフォリオの使用またはパフォーマンスに起因するまたは関連するいかなる直接的、間接的、偶発的、特別、結果的または模範的損害についても責任を負いません。これには、利益、商譽、使用、データ、またはその他の無形の損失に対する損害を含みますが、これに限りません。これらの損害の可能性について通知された場合でも同様です。</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/legal-notice/legal-notice.component.html</context>
+          <context context-type="linenumber">76,87</context>
+        </context-group>
+        <note priority="1" from="description">disclaimer.description</note>
+      </trans-unit>
+      <trans-unit id="4704511327394108874" datatype="html">
+        <source>Indemnity</source>
+        <target>補償</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/legal-notice/legal-notice.component.html</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+        <note priority="1" from="description">indemnity.title</note>
+      </trans-unit>
+      <trans-unit id="1080837896534142875" datatype="html">
+        <source> You agree to indemnify, defend and hold harmless me, Samuel Zacharias, the
+          Developer Akademie, and its affiliates, partners, officers, directors, agents, and
+          employees, from and against any claim, demand, loss, damage, cost, or liability (including
+          reasonable legal fees) arising out of or relating to your use of this Portfolio and/or
+          your breach of this Legal Notice. </source>
+        <target> あなたは、サミュエル・ザカリアス、Developer
+          Akademie、およびその関連会社、パートナー、役員、取締役、代理人、従業員が、あなたのこのポートフォリオの使用および/またはこの法的通知の違反に起因または関連するいかなる請求、要求、損失、損害、費用、または責任（合理的な法的費用を含む）から私を補償し、防御し、免責することに同意します。</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/legal-notice/legal-notice.component.html</context>
+          <context context-type="linenumber">95,102</context>
+        </context-group>
+        <note priority="1" from="description">indemnity.description</note>
+      </trans-unit>
+      <trans-unit id="481963584413896464" datatype="html">
+        <source>For any questions or notices, please contact me at info@samuelzacharias.com.</source>
+        <target>ご質問や通知については、info@samuelzacharias.comまでご連絡ください。</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/legal-notice/legal-notice.component.html</context>
+          <context context-type="linenumber">105</context>
+        </context-group>
+        <note priority="1" from="description">contact.notice</note>
+      </trans-unit>
+      <trans-unit id="8925260018034373954" datatype="html">
+        <source>Date: December 02, 2024</source>
+        <target>日付: 2024年12月2日</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/legal-notice/legal-notice.component.html</context>
+          <context context-type="linenumber">108</context>
+        </context-group>
+        <note priority="1" from="description">date</note>
       </trans-unit>
     </body>
   </file>

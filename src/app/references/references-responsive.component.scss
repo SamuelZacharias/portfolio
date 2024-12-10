@@ -1,6 +1,5 @@
 @import '../../styles.scss';
 
-
 @media (max-width: 1375px) {
     .ref-frame {
         width: 100%;
@@ -226,5 +225,16 @@
     .line-to-image {
         width: 40vw;
         margin-right: -38vw;
+    }
+}
+
+@media (min-width: 2000px) {
+    .shadow-reference {
+        top: 11%;
+    }
+
+    .line-to-image {
+        width: 24vw;
+        margin-right: -22vw;
     }
 }
